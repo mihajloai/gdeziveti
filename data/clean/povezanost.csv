@@ -1,0 +1,162 @@
+naziv,lat,lon,centar,min_centar,min_autoput,aerodrom,min_aerodrom
+Barajevo,44.57803,20.41605,Beograd,43,24,Aerodrom Beograd,43
+Voždovac,44.778,20.48,Beograd,8,3,Aerodrom Beograd,25
+Vračar,44.799,20.478,Beograd,5,5,Aerodrom Beograd,25
+Grocka,44.67092,20.71702,Beograd,37,19,Aerodrom Beograd,51
+Zvezdara,44.796,20.505,Beograd,8,7,Aerodrom Beograd,28
+Zemun,44.843,20.401,Beograd,13,6,Aerodrom Beograd,19
+Lazarevac,44.38152,20.26103,Beograd,69,24,Aerodrom Beograd,65
+Mladenovac,44.44012,20.69415,Beograd,47,19,Aerodrom Beograd,62
+Novi Beograd,44.815,20.421,Beograd,6,1,Aerodrom Beograd,17
+Obrenovac,44.65483,20.20143,Beograd,39,14,Aerodrom Beograd,30
+Palilula (Beograd),44.818,20.485,Beograd,5,8,Aerodrom Beograd,26
+Rakovica,44.743,20.441,Beograd,16,13,Aerodrom Beograd,31
+Savski venac,44.796,20.452,Beograd,6,2,Aerodrom Beograd,22
+Sopot,44.51993,20.57535,Beograd,47,18,Aerodrom Beograd,61
+Stari grad,44.8176,20.4569,Beograd,2,7,Aerodrom Beograd,25
+Surčin,44.79104,20.27017,Beograd,23,3,Aerodrom Beograd,14
+Čukarica,44.783,20.416,Beograd,10,7,Aerodrom Beograd,25
+Sombor,45.77274,19.1147,Novi Sad,104,65,Aerodrom Beograd,142
+Apatin,45.67125,18.98179,Novi Sad,119,80,Aerodrom Beograd,157
+Kula,45.61015,19.53012,Novi Sad,56,29,Aerodrom Beograd,93
+Odžaci,45.50587,19.25974,Novi Sad,76,62,Aerodrom Beograd,121
+Pančevo,44.87057,20.63996,Beograd,24,9,Aerodrom Beograd,46
+Alibunar,45.08004,20.96652,Beograd,64,48,Aerodrom Beograd,86
+Bela Crkva,44.90012,21.423,Beograd,112,78,Aerodrom Beograd,134
+Vršac,45.12001,21.29879,Beograd,95,80,Aerodrom Beograd,117
+Kovačica,45.11187,20.62016,Beograd,57,41,Aerodrom Beograd,73
+Kovin,44.74124,20.97814,Beograd,61,25,Aerodrom Beograd,81
+Opovo,45.05185,20.42545,Beograd,42,44,Aerodrom Beograd,49
+Plandište,45.22952,21.12252,Beograd,100,85,Aerodrom Beograd,122
+Novi Sad,45.25513,19.84518,Novi Sad,0,6,Aerodrom Beograd,60
+Bač,45.39168,19.2368,Novi Sad,74,70,Aerodrom Beograd,118
+Bačka Palanka,45.22395,19.37511,Novi Sad,62,35,Aerodrom Beograd,85
+Bački Petrovac,45.36006,19.59143,Novi Sad,35,30,Aerodrom Beograd,85
+Beočin,45.20805,19.72235,Novi Sad,25,19,Aerodrom Beograd,80
+Bečej,45.61537,20.04901,Novi Sad,60,38,Aerodrom Beograd,101
+Vrbas,45.56803,19.64701,Novi Sad,41,11,Aerodrom Beograd,78
+Žabalj,45.37295,20.06339,Novi Sad,28,23,Aerodrom Beograd,63
+Srbobran,45.54515,19.7911,Novi Sad,41,11,Aerodrom Beograd,78
+Sremski Karlovci,45.20305,19.93383,Novi Sad,17,11,Aerodrom Beograd,56
+Temerin,45.40739,19.88765,Novi Sad,28,18,Aerodrom Beograd,71
+Titel,45.20439,20.30604,Novi Sad,49,34,Aerodrom Beograd,69
+Kikinda,45.83001,20.46531,Novi Sad,108,85,Aerodrom Beograd,143
+Ada,45.79675,20.1331,Novi Sad,88,64,Aerodrom Beograd,128
+Kanjiža,46.06571,20.05794,Novi Sad,99,22,Aerodrom Beograd,137
+Novi Kneževac,46.04477,20.09291,Novi Sad,104,26,Aerodrom Beograd,141
+Senta,45.93124,20.09016,Novi Sad,97,45,Aerodrom Beograd,134
+Čoka,45.94112,20.13994,Novi Sad,103,39,Aerodrom Beograd,141
+Subotica,46.10021,19.66533,Novi Sad,80,15,Aerodrom Beograd,117
+Bačka Topola,45.81217,19.63047,Novi Sad,57,9,Aerodrom Beograd,94
+Mali Iđoš,45.7067,19.66612,Novi Sad,49,12,Aerodrom Beograd,87
+Zrenjanin,45.38027,20.39076,Novi Sad,54,49,Aerodrom Beograd,89
+Žitište,45.4834,20.552,Novi Sad,70,65,Aerodrom Beograd,105
+Nova Crnja,45.66783,20.60705,Novi Sad,99,94,Aerodrom Beograd,134
+Novi Bečej,45.59557,20.13345,Novi Sad,68,48,Aerodrom Beograd,109
+Sečanj,45.36637,20.77238,Novi Sad,87,82,Aerodrom Beograd,114
+Sremska Mitrovica,44.96856,19.60839,Beograd,58,11,Aerodrom Beograd,49
+Inđija,45.04786,20.08073,Novi Sad,41,13,Aerodrom Beograd,39
+Irig,45.09952,19.86105,Novi Sad,30,23,Aerodrom Beograd,53
+Pećinci,44.90908,19.96721,Beograd,39,5,Aerodrom Beograd,30
+Ruma,45.00783,19.81878,Novi Sad,45,10,Aerodrom Beograd,41
+Stara Pazova,44.98461,20.15888,Beograd,38,8,Aerodrom Beograd,29
+Šid,45.12811,19.22641,Novi Sad,79,15,Aerodrom Beograd,75
+Užice,43.8565,19.84027,Kragujevac,119,40,Aerodrom Morava (Kraljevo),84
+Arilje,43.75055,20.10031,Kragujevac,98,19,Aerodrom Morava (Kraljevo),64
+Bajina Bašta,43.97122,19.56601,Kragujevac,163,84,Aerodrom Morava (Kraljevo),128
+Kosjerić,43.99716,19.90712,Kragujevac,124,45,Aerodrom Morava (Kraljevo),89
+Nova Varoš,43.46037,19.81163,Kragujevac,201,122,Aerodrom Morava (Kraljevo),166
+Požega,43.84598,20.03569,Kragujevac,95,16,Aerodrom Morava (Kraljevo),60
+Priboj,43.58285,19.52582,Kragujevac,217,138,Aerodrom Morava (Kraljevo),182
+Prijepolje,43.38921,19.64935,Kragujevac,235,156,Aerodrom Morava (Kraljevo),200
+Sjenica,43.27293,19.99917,Kragujevac,200,122,Aerodrom Morava (Kraljevo),163
+Čajetina,43.75048,19.71654,Kragujevac,143,64,Aerodrom Morava (Kraljevo),108
+Valjevo,44.27087,19.88633,Beograd,82,15,Aerodrom Beograd,73
+Lajkovac,44.36986,20.16582,Beograd,66,14,Aerodrom Beograd,58
+Ljig,44.22533,20.23994,Beograd,71,4,Aerodrom Morava (Kraljevo),60
+Mionica,44.25271,20.0828,Beograd,76,17,Aerodrom Beograd,68
+Osečina,44.37278,19.60073,Beograd,122,61,Aerodrom Beograd,113
+Ub,44.45619,20.074,Beograd,57,12,Aerodrom Beograd,48
+Šabac,44.75715,19.6954,Beograd,64,11,Aerodrom Beograd,55
+Bogatić,44.8343,19.47952,Beograd,84,19,Aerodrom Beograd,75
+Vladimirci,44.61583,19.7851,Beograd,86,34,Aerodrom Beograd,77
+Koceljeva,44.46799,19.82035,Beograd,83,38,Aerodrom Beograd,75
+Krupanj,44.36563,19.36284,Beograd,134,56,Aerodrom Beograd,125
+Loznica,44.53092,19.22375,Beograd,102,24,Aerodrom Beograd,93
+Ljubovija,44.18805,19.3761,Beograd,154,87,Aerodrom Beograd,145
+Mali Zvornik,44.37363,19.10693,Beograd,128,50,Aerodrom Beograd,119
+Čačak,43.89143,20.34916,Kragujevac,67,20,Aerodrom Morava (Kraljevo),32
+Gornji Milanovac,44.02432,20.46004,Kragujevac,48,18,Aerodrom Morava (Kraljevo),43
+Ivanjica,43.58167,20.23045,Kragujevac,130,53,Aerodrom Morava (Kraljevo),95
+Lučani,43.86023,20.13654,Kragujevac,92,18,Aerodrom Morava (Kraljevo),57
+Jagodina,43.97943,21.26077,Kragujevac,46,12,Aerodrom Niš,78
+Despotovac,44.09547,21.43661,Kragujevac,73,31,Aerodrom Niš,94
+Paraćin,43.86363,21.40996,Niš,56,8,Aerodrom Niš,63
+Rekovac,43.86256,21.0946,Kragujevac,39,46,Aerodrom Morava (Kraljevo),89
+Svilajnac,44.23362,21.19594,Kragujevac,45,13,Aerodrom Beograd,94
+Ćuprija,43.93356,21.37124,Kragujevac,51,5,Aerodrom Niš,68
+Kruševac,43.58264,21.32648,Niš,64,7,Aerodrom Morava (Kraljevo),67
+Aleksandrovac,43.45861,21.04659,Niš,100,41,Aerodrom Morava (Kraljevo),90
+Brus,43.38435,21.03139,Niš,98,46,Aerodrom Morava (Kraljevo),96
+Varvarin,43.72535,21.36817,Niš,55,10,Aerodrom Niš,62
+Trstenik,43.62021,20.99844,Kragujevac,73,12,Aerodrom Morava (Kraljevo),53
+Ćićevac,43.72028,21.44103,Niš,52,6,Aerodrom Niš,59
+Kraljevo,43.72345,20.68708,Kragujevac,64,15,Aerodrom Morava (Kraljevo),22
+Vrnjačka Banja,43.62218,20.89294,Kragujevac,71,16,Aerodrom Morava (Kraljevo),50
+Novi Pazar,43.14069,20.51806,Kragujevac,180,131,Aerodrom Morava (Kraljevo),135
+Raška,43.28696,20.61413,Kragujevac,158,108,Aerodrom Morava (Kraljevo),112
+Tutin,42.99038,20.33669,Niš,231,185,Aerodrom Morava (Kraljevo),189
+Kragujevac,44.01318,20.91964,Kragujevac,2,8,Aerodrom Morava (Kraljevo),53
+Aranđelovac,44.30715,20.55771,Kragujevac,65,49,Aerodrom Beograd,89
+Batočina,44.15455,21.08013,Kragujevac,24,5,Aerodrom Morava (Kraljevo),74
+Knić,43.92656,20.71984,Kragujevac,25,34,Aerodrom Morava (Kraljevo),27
+Lapovo,44.18543,21.10479,Kragujevac,30,3,Aerodrom Morava (Kraljevo),80
+Rača,44.22534,20.98015,Kragujevac,40,19,Aerodrom Morava (Kraljevo),90
+Topola,44.25448,20.67972,Kragujevac,49,47,Aerodrom Beograd,88
+Bor,44.07785,22.09918,Niš,144,100,Aerodrom Niš,151
+Kladovo,44.61147,22.60955,Niš,220,204,Aerodrom Niš,232
+Majdanpek,44.42246,21.93592,Beograd,171,144,Aerodrom Beograd,185
+Negotin,44.22712,22.53089,Niš,172,156,Aerodrom Niš,184
+Požarevac,44.61999,21.1854,Beograd,63,21,Aerodrom Beograd,77
+Veliko Gradište,44.76292,21.51619,Beograd,88,45,Aerodrom Beograd,102
+Golubac,44.65311,21.63052,Beograd,101,59,Aerodrom Beograd,115
+Žabari,44.35654,21.21417,Kragujevac,55,16,Aerodrom Beograd,91
+Žagubica,44.19767,21.78513,Kragujevac,135,104,Aerodrom Niš,166
+Kučevo,44.47822,21.6693,Beograd,116,84,Aerodrom Beograd,130
+Malo Crniće,44.56026,21.29057,Beograd,74,32,Aerodrom Beograd,88
+Petrovac na Mlavi,44.37826,21.41707,Kragujevac,88,50,Aerodrom Beograd,119
+Zaječar,43.90311,22.27855,Niš,117,120,Aerodrom Niš,130
+Boljevac,43.83048,21.95874,Niš,101,67,Aerodrom Niš,107
+Knjaževac,43.56752,22.25565,Niš,72,69,Aerodrom Niš,84
+Sokobanja,43.64442,21.87302,Niš,64,42,Aerodrom Niš,71
+Leskovac,42.99513,21.94643,Niš,43,20,Aerodrom Niš,46
+Bojnik,43.01276,21.72142,Niš,51,30,Aerodrom Niš,53
+Vlasotince,42.96523,22.12811,Niš,49,16,Aerodrom Niš,51
+Lebane,42.91802,21.73747,Niš,66,46,Aerodrom Niš,69
+Medveđa,42.84342,21.58487,Niš,97,80,Aerodrom Niš,100
+Crna Trava,42.80952,22.29903,Niš,94,50,Aerodrom Niš,97
+Niš,43.32113,21.89592,Niš,0,12,Aerodrom Niš,14
+Aleksinac,43.54052,21.70884,Niš,27,5,Aerodrom Niš,34
+Gadžin Han,43.22353,22.03243,Niš,26,30,Aerodrom Niš,40
+Doljevac,43.1981,21.83328,Niš,24,7,Aerodrom Niš,27
+Merošina,43.28282,21.72038,Niš,22,4,Aerodrom Niš,25
+Ražanj,43.67241,21.54899,Niš,40,9,Aerodrom Niš,47
+Svrljig,43.41404,22.12305,Niš,36,27,Aerodrom Niš,49
+Pirot,43.15473,22.5865,Niš,54,9,Aerodrom Niš,66
+Babušnica,43.06796,22.41151,Niš,59,31,Aerodrom Niš,71
+Bela Palanka,43.21795,22.31127,Niš,35,9,Aerodrom Niš,47
+Dimitrovgrad,43.01574,22.7782,Niš,68,5,Aerodrom Niš,81
+Smederevo,44.6651,20.92711,Beograd,55,15,Aerodrom Beograd,69
+Velika Plana,44.33246,21.07579,Kragujevac,43,4,Aerodrom Beograd,78
+Smederevska Palanka,44.36582,20.95798,Kragujevac,59,21,Aerodrom Beograd,86
+Vranje,42.55435,21.8979,Niš,83,6,Aerodrom Niš,85
+Bosilegrad,42.49966,22.47327,Niš,158,96,Aerodrom Niš,160
+Bujanovac,42.45985,21.76713,Niš,91,6,Aerodrom Niš,94
+Vladičin Han,42.70715,22.05908,Niš,69,7,Aerodrom Niš,71
+Preševo,42.31014,21.64743,Niš,109,14,Aerodrom Niš,111
+Surdulica,42.69101,22.17136,Niš,80,18,Aerodrom Niš,82
+Trgovište,42.364,22.08313,Niš,129,52,Aerodrom Niš,131
+Prokuplje,43.23435,21.58844,Niš,38,19,Aerodrom Niš,41
+Blace,43.29552,21.2866,Niš,67,60,Aerodrom Niš,71
+Žitorađa,43.18897,21.71114,Niš,35,20,Aerodrom Niš,38
+Kuršumlija,43.13805,21.27178,Niš,76,58,Aerodrom Niš,79

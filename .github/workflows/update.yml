@@ -1,0 +1,41 @@
+name: Mesečno ažuriranje podataka
+
+# Svakog 12. u mesecu preuzima nove podatke i čuva ih u repozitorijumu.
+# Cloudflare Pages primećuje novu verziju i sam ponovo objavi sajt.
+on:
+  schedule:
+    - cron: "0 6 12 * *"   # 12. u mesecu u 06:00 UTC
+  workflow_dispatch:        # ručno pokretanje: Actions → Mesečno ažuriranje podataka → Run workflow
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalacija alata
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+          pip install -q -r requirements.txt openpyxl
+      - name: Preuzimanje novih podataka
+        run: |
+          python scripts/fetch_eur.py || true
+          python scripts/fetch_rzs.py || echo "::warning::RZS nije ažuriran"
+          python scripts/fetch_nsz.py || echo "::warning::NSZ nije ažuriran"
+          python scripts/fetch_rgz.py || echo "::warning::RGZ nije ažuriran"
+          python scripts/fetch_rzs2.py || echo "::warning::RZS (faza 2) nije ažuriran"
+          python scripts/fetch_batut.py || echo "::warning::Batut (voda) nije ažuriran"
+      - name: Provera da se sajt i dalje pravi bez greške
+        run: python scripts/build.py
+      - name: Čuvanje novih podataka
+        run: |
+          date -u +"%Y-%m-%d %H:%M UTC" > data/clean/poslednja_provera.txt
+          git config user.name "gdeziveti-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/clean
+          git commit -m "Automatsko ažuriranje podataka $(date +%F)" && git push

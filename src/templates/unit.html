@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block title %}{{ u.name }} — plate, cene stanova, voda, vazduh, vrtići | Gde živeti{% endblock %}
+{% block desc %}{{ u.name }}: prosečna plata{% if u.v.neto %} {{ u.v.neto|n(metrics.neto) }}{% endif %}{% if u.v.cena_m2 %}, kvadrat stana {{ u.v.cena_m2|n(metrics.cena_m2) }}{% endif %}{% if u.v.povezanost is not none %}, povezanost {{ u.v.povezanost }}/100{% endif %}. Uporedi sa ostalim opštinama Srbije.{% endblock %}
+{% block main %}
+<p class="crumbs"><a href="{{ base }}{{ ix }}">Srbija</a> › {{ regions[u.region] }} › {{ u.district }}{% if u.district != 'Grad Beograd' %} okrug{% endif %}</p>
+<h1>{{ u.name }}</h1>
+<p class="lead ink2">{% if u.population %}<span class="num">{{ u.population|n }}</span> stanovnika (popis 2022.) · {% endif %}{{ regions[u.region] }}</p>
+<p><a class="btn btn-ghost" href="{{ base }}uporedi/{{ ix }}?o={{ u.slug }}">Uporedi {{ u.name }} sa drugim mestom →</a></p>
+
+{% for g, gname in data.groups.items() %}
+  {% set ks = [] %}{% for k in data.order if metrics[k].group == g %}{% set _ = ks.append(k) %}{% endfor %}
+  {% if ks %}
+  <div class="group-title"><h2>{{ gname }}</h2></div>
+  <section class="tiles" style="margin-top:0">
+  {% for k in ks %}{% set m = metrics[k] %}
+    <div class="tile">
+      <div class="label">{{ m.label }}</div>
+      {% if m.type == 'cat' %}
+        {% set lv = level_of(m, u.c.get(k)) %}
+        <div class="cat"><span class="dot" style="background:{{ lv.color if lv else 'var(--nodata)' }}"></span>{{ lv.label if lv else (m.nodata_label or 'nema podataka') }}</div>
+      {% else %}
+        {% set v = u.v.get(k) %}
+        <div class="value num{% if m.diverging and v is not none %}{{ ' delta-down' if v < 0 else ' delta-up' }}{% endif %}">{{ v|n(m) }}</div>
+        <div class="sub">{% if v is not none %}{% if m.better != 'neutral' %}{{ ranks[k][u.slug] }}. od {{ ranks[k]._n }} · {% endif %}medijana Srbije {{ data.serbia[k]|n(m) }}{% else %}{% if k in ('cena_m2', 'godine_stan') %}RGZ ne objavljuje cenu – premalo prodaja{% else %}nema podataka{% endif %}{% endif %}</div>
+      {% endif %}
+      {% set det = detail(k, u) %}{% if det %}<div class="det">{{ det }}</div>{% endif %}
+      <div class="per{% if m.stale %} stale{% endif %}">{{ m.period }}{% if m.stale %} · ⚠ stariji podaci (noviji nisu objavljeni){% endif %}</div>
+    </div>
+  {% endfor %}
+  </section>
+  {% endif %}
+{% endfor %}
+
+<section class="grid-2" style="margin-top:28px">
+  <div class="card">
+    <h2>Ukratko</h2>
+    <ul class="facts">
+    {% set m = metrics.neto %}{% if u.v.neto %}
+      {% set dd = ((u.v.neto / data.serbia.neto - 1) * 100)|round|int %}
+      <li>Prosečna plata je <b class="num">{{ u.v.neto|n(m) }}</b> — {% if dd > 0 %}<span class="delta-up">{{ dd }}% iznad</span>{% elif dd < 0 %}<span class="delta-down">{{ -dd }}% ispod</span>{% else %}na nivou{% endif %} medijane opština u Srbiji.</li>
+    {% endif %}
+    {% if u.v.godine_stan %}
+      <li>Za stan od 50 m² potrebno je oko <b class="num">{{ u.v.godine_stan|n(metrics.godine_stan) }}</b> cele prosečne plate.</li>
+    {% endif %}
+    {% if u.d.povezanost %}
+      <li>Do najbližeg velikog grada ({{ u.d.povezanost.centar }}) ima oko <b class="num">{{ u.d.povezanost.min_centar|n }} min</b> vožnje, do auto-puta <b class="num">{{ u.d.povezanost.min_autoput|n }} min</b>.</li>
+    {% endif %}
+    {% if u.v.pop_promena is not none %}
+      <li>Broj stanovnika se od 2011. do 2022. {% if u.v.pop_promena < 0 %}<span class="delta-down">smanjio za {{ (-u.v.pop_promena)|n(metrics.nezaposlenost) }}</span>{% else %}<span class="delta-up">povećao za {{ u.v.pop_promena|n(metrics.nezaposlenost) }}</span>{% endif %}.</li>
+    {% endif %}
+    </ul>
+  </div>
+  <div class="card">
+    <h2>Slična mesta</h2>
+    <p class="ink2" style="font-size:14px">Opštine sa najsličnijim platama, cenama, starošću, priraštajem i povezanošću.</p>
+    <div class="similar">{% for s in similar %}<a href="{{ base }}opstina/{{ s.slug }}/{{ ix }}">{{ s.name }}</a>{% endfor %}</div>
+  </div>
+</section>
+<p class="muted" style="font-size:13px">Detaljno o izvorima i periodima: <a href="{{ base }}o-podacima/{{ ix }}">O podacima</a>.</p>
+{% endblock %}

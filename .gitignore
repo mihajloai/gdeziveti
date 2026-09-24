@@ -1,0 +1,9 @@
+dist/
+data/raw/
+__pycache__/
+.DS_Store
+_downloads/
+data/geo/bg_*.json
+data/geo/gb_*.geojson
+data/geo/xkx_*.geojson
+data/geo/kosovo.json

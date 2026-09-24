@@ -1,0 +1,55 @@
+{
+ "neto": {
+  "period": "prosek jul 2025 – jun 2026.",
+  "verified": true,
+  "note": "prema opštini prebivališta zaposlenih",
+  "serbia": 115614
+ },
+ "pop_promena": {
+  "period": "popisi 2011. i 2022.",
+  "verified": true
+ },
+ "population": {
+  "period": "procena 2025.",
+  "verified": true
+ },
+ "nezaposlenost": {
+  "period": "avgust 2026.",
+  "verified": true
+ },
+ "cena_m2": {
+  "period": "prvo polugodište 2026.",
+  "verified": true,
+  "note": "medijana, stanovi, samo gradovi sa 30+ prodaja"
+ },
+ "starost": {
+  "period": "procena 2025.",
+  "year": 2025,
+  "verified": true
+ },
+ "prirastaj": {
+  "period": "2025. godina",
+  "year": 2025,
+  "verified": true
+ },
+ "vrtici": {
+  "period": "2025. godina",
+  "year": 2025,
+  "verified": true
+ },
+ "turizam": {
+  "period": "avgust 2025 – jul 2026.",
+  "year": 2026,
+  "verified": true
+ },
+ "kriminal": {
+  "period": "2024. godina",
+  "year": 2024,
+  "verified": true
+ },
+ "voda": {
+  "period": "2022. godina",
+  "year": 2022,
+  "verified": true
+ }
+}

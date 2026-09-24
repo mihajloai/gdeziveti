@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Kosovo i Metohija — Gde živeti{% endblock %}
+{% block desc %}Zašto nema uporedivih podataka za AP Kosovo i Metohija i koje zvanične podatke ipak imamo: broj nezaposlenih na evidenciji NSZ po opštinama.{% endblock %}
+{% set okrug = {"Kosovska": "Kosovski okrug", "Pećka": "Pećki okrug", "Prizrenska": "Prizrenski okrug", "Kosovsko-mitrovačka": "Kosovskomitrovački okrug", "Kosovsko-pomoravska": "Kosovskopomoravski okrug"} %}
+{% block main %}
+<p class="crumbs"><a href="{{ base }}{{ ix }}">Srbija</a> › Kosovo i Metohija</p>
+<h1>AP Kosovo i Metohija</h1>
+<p class="lead ink2" style="max-width:760px">Republički zavod za statistiku od 1999. godine ne raspolaže podacima za AP Kosovo i Metohija. Zato za ovu pokrajinu nema zvaničnih podataka o platama, cenama stanova, broju stanovnika i stopi nezaposlenosti koji bi se mogli porediti sa ostatkom Srbije.</p>
+
+<section class="grid-2">
+  <div class="card">
+    <h2>Šta ipak imamo</h2>
+    <p>Nacionalna služba za zapošljavanje objavljuje broj nezaposlenih lica na evidenciji za svih 29 opština na Kosovu i Metohiji. To su podaci iz evidencije filijale Kosovska Mitrovica, pa obuhvataju samo osobe koje su se prijavile u NSZ, a ne sve nezaposlene stanovnike pokrajine.</p>
+    <p>Pošto ne postoji zvanična procena broja stanovnika, ovi brojevi se <b>ne mogu pretvoriti u stopu</b> nezaposlenosti niti porediti sa drugim opštinama. Prikazujemo ih kao informaciju, a ne kao rang.</p>
+    <div class="tiles" style="margin-top:12px">
+      <div class="tile"><div class="label">Nezaposleni na evidenciji NSZ</div><div class="value num">{{ kim_total|n }}</div><div class="sub">{{ kim_period }}</div></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2>Zašto ne koristimo druge izvore?</h2>
+    <p>Podatke za ovu teritoriju objavljuju i institucije u Prištini, ali po drugačijoj metodologiji, sa drugačijom teritorijalnom podelom (38 opština umesto 29) i bez podataka koji odgovaraju onima koje koristimo za ostatak Srbije (na primer, plate po opštini prebivališta ili cene iz stvarnih kupoprodajnih ugovora).</p>
+    <p>Da bi poređenje bilo pošteno, na sajtu koristimo isključivo podatke zvaničnih institucija Republike Srbije. Pokrajina je na mapi prikazana sivom bojom kao deo Srbije za koji trenutno nema uporedivih podataka.</p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>Nezaposleni na evidenciji NSZ po opštinama</h2>
+  <p class="ink2" style="font-size:14px">Izvor: Nacionalna služba za zapošljavanje, Statistički bilten ({{ kim_period }}), evidencija filijale Kosovska Mitrovica. Podela na okruge i opštine prema propisima Republike Srbije.</p>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Opština</th><th>Okrug</th><th class="r">Nezaposleni</th><th class="r">od toga žene</th></tr></thead>
+    <tbody>
+    {% for r in kim|sort(attribute='nezaposleni', reverse=True) %}
+      <tr><td><b>{{ r.opstina }}</b></td><td class="ink2">{{ okrug.get(r.okrug, r.okrug) }}</td><td class="r num">{{ r.nezaposleni|n }}</td><td class="r num">{{ r.zene|n }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+{% endblock %}

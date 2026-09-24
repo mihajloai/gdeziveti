@@ -1,0 +1,157 @@
+naziv,kategorija,fizicko_hemijska_pct,mikrobioloska_pct
+Ada,hemijski,100.0,
+Aleksandrovac,ispravna,1.0,1.0
+Aleksinac,ispravna,5.7,0.3
+Alibunar,hemijski,75.0,
+Apatin,ispravna,3.6,1.4
+Aranđelovac,ispravna,2.0,0.0
+Arilje,ispravna,0.8,4.5
+Babušnica,mikrobioloski,,5.2
+Bajina Bašta,ispravna,0.4,1.2
+Batočina,ispravna,0.0,0.0
+Bač,oba,100.0,61.3
+Bačka Palanka,ispravna,1.9,0.0
+Bačka Topola,hemijski,63.4,
+Bački Petrovac,oba,100.0,22.9
+Bela Crkva,hemijski,30.6,
+Bela Palanka,ispravna,1.4,2.7
+Beočin,ispravna,8.9,0.0
+Bečej,ispravna,0.0,1.4
+Blace,ispravna,18.1,0.4
+Bogatić,ispravna,1.1,3.1
+Bojnik,ispravna,0.0,1.4
+Boljevac,hemijski,22.5,
+Bor,ispravna,9.7,2.8
+Bosilegrad,ispravna,0.0,0.0
+Brus,ispravna,0.0,0.8
+Bujanovac,ispravna,0.0,0.0
+Crna Trava,mikrobioloski,,5.4
+Despotovac,ispravna,0.8,2.4
+Dimitrovgrad,mikrobioloski,,6.2
+Doljevac,ispravna,0.0,0.0
+Gadžin Han,ispravna,0.0,2.0
+Golubac,ispravna,0.0,0.0
+Gornji Milanovac,ispravna,1.2,0.4
+Grocka,hemijski,74.7,
+Inđija,mikrobioloski,,10.7
+Ivanjica,ispravna,0.0,0.0
+Jagodina,ispravna,0.0,0.0
+Kanjiža,hemijski,89.8,
+Kikinda,oba,100.0,11.9
+Kladovo,ispravna,0.4,0.7
+Knić,ispravna,0.0,0.0
+Knjaževac,ispravna,0.5,0.5
+Koceljeva,hemijski,32.0,
+Kosjerić,mikrobioloski,,7.4
+Kovačica,mikrobioloski,,11.1
+Kovin,ispravna,7.2,1.1
+Kragujevac,ispravna,0.2,0.0
+Kraljevo,ispravna,0.0,0.2
+Krupanj,ispravna,0.6,1.6
+Kruševac,ispravna,0.2,0.2
+Kula,oba,47.6,9.4
+Kuršumlija,ispravna,0.0,2.2
+Kučevo,ispravna,0.9,4.5
+Lajkovac,hemijski,84.0,
+Lapovo,hemijski,52.1,
+Lazarevac,ispravna,5.8,1.1
+Lebane,ispravna,0.0,1.1
+Leskovac,ispravna,0.1,0.1
+Ljig,ispravna,0.0,0.0
+Ljubovija,ispravna,0.0,0.9
+Loznica,ispravna,0.0,0.3
+Lučani,ispravna,0.8,0.0
+Majdanpek,hemijski,27.6,
+Mali Iđoš,oba,92.0,19.3
+Mali Zvornik,ispravna,0.0,0.7
+Medveđa,ispravna,0.0,0.0
+Merošina,ispravna,0.0,2.8
+Mionica,ispravna,0.0,0.9
+Mladenovac,oba,84.5,13.6
+Negotin,ispravna,1.0,0.0
+Niš,ispravna,0.6,0.0
+Nova Crnja,oba,95.5,20.5
+Nova Varoš,mikrobioloski,,8.1
+Novi Beograd,ispravna,1.3,1.4
+Novi Bečej,oba,97.8,8.8
+Novi Kneževac,oba,52.1,11.0
+Novi Pazar,ispravna,0.6,0.9
+Novi Sad,ispravna,0.4,0.6
+Obrenovac,ispravna,1.1,0.7
+Odžaci,oba,36.3,5.4
+Opovo,oba,28.6,7.1
+Osečina,ispravna,0.0,0.8
+Palilula (Beograd),ispravna,1.3,1.4
+Pančevo,mikrobioloski,,5.6
+Paraćin,ispravna,0.3,0.2
+Petrovac na Mlavi,ispravna,0.0,3.0
+Pirot,ispravna,0.1,2.2
+Plandište,oba,100.0,16.7
+Požarevac,ispravna,0.5,1.4
+Požega,ispravna,0.9,1.4
+Preševo,ispravna,0.0,0.0
+Priboj,ispravna,1.4,2.3
+Prijepolje,ispravna,0.0,1.7
+Prokuplje,ispravna,0.8,0.0
+Rakovica,ispravna,1.3,1.4
+Rača,ispravna,0.0,0.0
+Raška,ispravna,0.0,0.6
+Ražanj,ispravna,8.3,0.0
+Rekovac,ispravna,0.0,0.0
+Ruma,ispravna,1.9,3.5
+Savski venac,ispravna,1.3,1.4
+Senta,hemijski,100.0,
+Sečanj,hemijski,100.0,
+Sjenica,ispravna,0.0,1.4
+Smederevo,ispravna,9.0,3.1
+Smederevska Palanka,ispravna,1.6,0.0
+Sokobanja,ispravna,0.5,0.5
+Sombor,ispravna,1.1,3.2
+Sopot,mikrobioloski,,8.0
+Srbobran,oba,98.3,6.8
+Sremska Mitrovica,mikrobioloski,,7.7
+Stara Pazova,oba,80.1,6.5
+Stari grad,ispravna,1.3,1.4
+Subotica,oba,16.2,18.3
+Surdulica,ispravna,0.0,0.0
+Surčin,ispravna,1.3,1.4
+Svilajnac,ispravna,0.0,2.3
+Svrljig,ispravna,0.0,2.1
+Temerin,hemijski,100.0,
+Titel,oba,100.0,34.4
+Topola,ispravna,0.0,0.0
+Trgovište,ispravna,0.0,0.6
+Trstenik,ispravna,1.6,2.5
+Tutin,ispravna,4.0,0.0
+Ub,ispravna,0.0,0.0
+Užice,ispravna,1.9,2.0
+Valjevo,ispravna,0.0,0.0
+Varvarin,ispravna,0.0,0.5
+Velika Plana,ispravna,9.0,0.6
+Veliko Gradište,ispravna,5.6,2.5
+Vladimirci,ispravna,1.6,1.6
+Vladičin Han,ispravna,3.3,0.5
+Vlasotince,ispravna,0.0,0.0
+Voždovac,ispravna,1.3,1.4
+Vranje,ispravna,0.0,0.0
+Vračar,ispravna,1.3,1.4
+Vrbas,ispravna,4.2,4.2
+Vrnjačka Banja,ispravna,1.4,0.4
+Vršac,mikrobioloski,,6.3
+Zaječar,ispravna,0.0,0.5
+Zemun,ispravna,1.3,1.4
+Zrenjanin,hemijski,93.6,
+Zvezdara,ispravna,1.3,1.4
+Ćićevac,ispravna,0.6,0.0
+Ćuprija,ispravna,10.4,2.6
+Čajetina,mikrobioloski,,6.5
+Čačak,ispravna,0.0,0.0
+Čoka,hemijski,100.0,
+Čukarica,ispravna,1.3,1.4
+Šabac,ispravna,0.0,0.3
+Šid,oba,90.7,5.9
+Žabalj,oba,100.0,16.9
+Žabari,oba,81.8,5.9
+Žagubica,mikrobioloski,,8.3
+Žitište,hemijski,100.0,
+Žitorađa,ispravna,8.3,0.0

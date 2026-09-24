@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}Gde da živim? Kviz — Gde živeti{% endblock %}
+{% block desc %}Odgovori na 4 kratka pitanja i dobij listu opština u Srbiji koje najbolje odgovaraju tvojim prioritetima.{% endblock %}
+{% block main %}
+<div class="hero">
+  <h1>Gde da živim?</h1>
+  <p class="lead">Četiri kratka koraka. Na kraju dobijaš 10 opština koje najbolje odgovaraju onome što je tebi važno.</p>
+</div>
+<section class="card quiz">
+  <div class="progress"><i style="width:25%"></i></div>
+
+  <div class="quiz-step" data-step="weights">
+    <h2>1. Šta ti je važno?</h2>
+    <p class="ink2">Označi koliko ti je svaka stvar bitna. Ono što te ne zanima ostavi na „Nebitno“ ili „Malo“.</p>
+    <div id="q-weights"></div>
+    <div class="cta-row" style="margin-top:18px"><button class="btn btn-primary" data-next>Dalje →</button></div>
+  </div>
+
+  <div class="quiz-step" data-step="size">
+    <h2>2. Kakvo mesto tražiš?</h2>
+    <div class="q-options" data-single="size">
+      <button class="q-opt" data-v="big" aria-pressed="false"><b>Veliki grad</b><span>preko 100.000 stanovnika</span></button>
+      <button class="q-opt" data-v="mid" aria-pressed="false"><b>Srednji grad</b><span>30.000–100.000 stanovnika</span></button>
+      <button class="q-opt" data-v="small" aria-pressed="false"><b>Manje mesto</b><span>ispod 30.000 stanovnika</span></button>
+      <button class="q-opt" data-v="any" aria-pressed="true"><b>Svejedno</b><span>nije mi bitno</span></button>
+    </div>
+    <div class="cta-row"><button class="btn btn-ghost" data-prev>← Nazad</button><button class="btn btn-primary" data-next>Dalje →</button></div>
+  </div>
+
+  <div class="quiz-step" data-step="region">
+    <h2>3. U kom delu Srbije?</h2>
+    <p class="ink2">Možeš izabrati više. Ako ništa ne izabereš, gledamo celu Srbiju.</p>
+    <div class="q-options" data-multi="region">
+      {% for code, name in regions.items() %}<button class="q-opt" data-v="{{ code }}" aria-pressed="false"><b>{{ name }}</b></button>{% endfor %}
+    </div>
+    <div class="cta-row"><button class="btn btn-ghost" data-prev>← Nazad</button><button class="btn btn-primary" data-next>Dalje →</button></div>
+  </div>
+
+  <div class="quiz-step" data-step="budget">
+    <h2>4. Koliko najviše možeš da platiš kvadrat?</h2>
+    <p class="ink2">Opciono. Ostavi prazno ako ne kupuješ stan.</p>
+    <label class="visually-hidden" for="q-budget">Budžet po kvadratu u evrima</label>
+    <input class="search" id="q-budget" type="number" min="0" step="50" inputmode="numeric" placeholder="npr. 1500 (€/m²)" style="max-width:280px">
+    <div class="cta-row" style="margin-top:18px"><button class="btn btn-ghost" data-prev>← Nazad</button><button class="btn btn-primary" data-next>Prikaži rezultate →</button></div>
+  </div>
+
+  <div class="quiz-step" data-step="results">
+    <h2>Tvojih top 10</h2>
+    <div id="q-results"></div>
+    <div class="cta-row" style="margin-top:12px"><button class="btn btn-ghost" data-restart>↺ Počni ponovo</button></div>
+  </div>
+</section>
+{% endblock %}

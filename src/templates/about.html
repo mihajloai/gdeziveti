@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}O podacima — Gde živeti{% endblock %}
+{% block main %}
+<div class="hero">
+  <h1>O podacima</h1>
+  <p class="lead">Sve brojke dolaze iz javnih, zvaničnih izvora i ažuriraju se automatski.</p>
+</div>
+<section class="card">
+  <p class="ink2" style="font-size:14px">Svaki pokazatelj ima svoj period, jer ih institucije objavljuju različitom brzinom. Uvek prikazujemo <b>najnovije podatke koje je izvor objavio</b>. Ako su ti podaci stariji od dve godine, to je označeno žutom oznakom <span class="fresh stale">⚠ stariji podaci</span>.</p>
+  <div class="table-scroll"><table>
+    <thead><tr><th>Pokazatelj</th><th>Šta meri</th><th>Izvor</th><th>Period</th><th>Ažurnost</th></tr></thead>
+    <tbody>
+    {% for g, gname in data.groups.items() %}
+      <tr><td colspan="5" style="background:var(--surface-2);font-weight:700">{{ gname }}</td></tr>
+      {% for k, m in metrics.items() if m.group == g %}
+      <tr><td><b>{{ m.label }}</b></td><td>{{ m.desc }}</td><td>{{ m.source }}</td><td class="num">{{ m.period or 'uskoro' }}</td><td><span class="fresh{% if m.stale %} stale{% endif %}">{% if m.stale %}⚠ {% endif %}{{ m.freshness }}</span></td></tr>
+      {% endfor %}
+    {% endfor %}
+    </tbody>
+  </table></div>
+</section>
+<section class="card">
+  <h2>Kako se računa</h2>
+  <ul class="facts">
+    <li><b>Jedinice:</b> {{ data.units|length }} gradova i opština (Beograd je podeljen na 17 gradskih opština). AP Kosovo i Metohija nije uključena u poređenje jer za nju ne postoje uporedivi zvanični podaci (<a href="#kosovo">objašnjenje</a>).</li>
+    <li><b>Plata</b> se odnosi na mesto rada zaposlenih, ne na mesto stanovanja.</li>
+    <li><b>Pristupačnost</b> = 50 m² × prosečna cena kvadrata ÷ (12 × prosečna neto plata). Evro po srednjem kursu NBS ({{ data.eur_rate }} RSD).</li>
+    <li><b>Promena broja stanovnika</b> nije prikazana za Preševo, Bujanovac i Medveđu, jer popis 2011. u njima nije u potpunosti sproveden pa brojevi nisu uporedivi.</li>
+    <li><b>Cena kvadrata</b> je dostupna samo za mesta sa najmanje 30 prodaja stanova u periodu — RGZ ne objavljuje pouzdane cene za manja mesta. Za Beograd se koriste cene po katastarskim opštinama užeg gradskog područja.</li>
+    <li><b>Nezaposlenost</b> = broj lica na evidenciji NSZ ÷ procenjeni broj stanovnika od 15 do 64 godine. Ovo nije anketna stopa nezaposlenosti, ali dobro pokazuje razlike između opština.</li>
+    <li><b>Medijana Srbije</b> je vrednost „srednje“ opštine — polovina opština ima više, polovina manje.</li>
+    <li><b>Povezanost</b> = 50% vreme vožnje do najbližeg od četiri velika poslovna centra (Beograd, Novi Sad, Niš, Kragujevac; 0 min = 100, 150+ min = 0), 25% do najbližeg uključenja na auto-put (90+ min = 0) i 25% do najbližeg međunarodnog aerodroma – Beograd, Niš ili Morava kod Kraljeva (180+ min = 0). Vreme vožnje je izračunato jednom, po mapi puteva OpenStreetMap, od centra sedišta opštine. Brzi voz Soko za sada staje samo u Beogradu, Novom Sadu (Petrovaradin) i Subotici, pa nije uključen u ocenu.</li>
+    <li><b>Voda</b> se odnosi samo na javni vodovod u sedištu opštine; Batut je poslednji izveštaj objavio za 2022. godinu. Vodovod Beograda je primenjen na gradske opštine koje on snabdeva; Grocka, Mladenovac, Sopot, Obrenovac i Lazarevac imaju svoje ocene.</li>
+    <li><b>Vazduh</b>: sajt Agencije za zaštitu životne sredine nije dostupan automatskim alatima, pa se ovaj podatak ažurira ručno jednom godišnje. „Nije prekomerno zagađen“ znači da postoji merenje i da Agencija vazduh nije ocenila kao prekomerno zagađen; ipak, pojedina merna mesta (npr. Popovac kod Paraćina) beleže mnogo dana sa previše PM10 čestica.</li>
+    <li><b>Vrtići</b>: kada u državnom vrtiću nema mesta, mnoge opštine sufinansiraju boravak u privatnom vrtiću; iznosi i uslovi se razlikuju od opštine do opštine i za to ne postoji zvanična statistika. Zato prikazujemo i udeo dece u privatnim vrtićima.</li>
+    <li><b>Kriminal</b> prati osuđene osobe prema mestu gde je krivično delo izvršeno, pa centralne opštine u koje dolazi mnogo ljudi imaju veće vrednosti. Zato ovaj pokazatelj nije deo kviza.</li>
+    <li><b>Kviz</b> rangira opštine po percentilu za svaki izabrani pokazatelj, ponderisano po važnosti koju si označio.</li>
+  </ul>
+</section>
+<section class="card" id="kosovo">
+  <h2>Zašto nema podataka za Kosovo i Metohiju?</h2>
+  <p>Republički zavod za statistiku navodi: „od 1999. godine ne raspolaže podacima za AP Kosovo i Metohija, tako da oni nisu sadržani u obuhvatu podataka za Republiku Srbiju“. Republički geodetski zavod takođe ne objavljuje cene za ovu teritoriju, a Nacionalna služba za zapošljavanje ima samo evidenciju svoje filijale u Kosovskoj Mitrovici, pa za opštine na Kosovu i Metohiji ne postoje zvanični podaci o platama, cenama stanova i nezaposlenosti koji su uporedivi sa ostatkom Srbije.</p>
+  <p>Podatke za ovu teritoriju objavljuju institucije u Prištini, ali po drugačijoj metodologiji, u evrima, sa drugačijim definicijama i bez podataka za sve opštine, pa ih ne mešamo sa podacima zvaničnih institucija Srbije. Pokrajina je zato prikazana na mapi sivom bojom, kao sastavni deo Srbije za koji trenutno nema uporedivih podataka. Jedini zvanični podatak po opštinama koji imamo je broj nezaposlenih na evidenciji NSZ — <a href="{{ base }}kosovo-i-metohija/{{ ix }}">pogledaj ga ovde</a>.</p>
+</section>
+<section class="card">
+  <h2>Uslovi</h2>
+  <p>Sajt je nekomercijalan i nema reklame. Podaci se preuzimaju iz javnih izvora i mogu sadržati greške izvora ili obrade — za važne odluke proveri originalni izvor.</p>
+</section>
+{% endblock %}

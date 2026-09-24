@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block main %}
+<div class="hero">
+  <h1>Gde se u Srbiji najbolje živi — za tvoj novčanik?</h1>
+  <p class="lead">Plate, cene stanova, povezanost, vrtići, voda, vazduh i još mnogo toga — za svih {{ data.units|length }} opština i gradskih opština. Zvanični podaci, bez oglasa i nagađanja.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="{{ base }}kviz/{{ ix }}">Pronađi mesto za sebe →</a>
+    <a class="btn btn-ghost" href="{{ base }}uporedi/{{ ix }}">Uporedi dva grada</a>
+  </div>
+</div>
+
+<section>
+  <div class="chips" id="group-chips" role="group" aria-label="Tema"></div>
+  <div class="chips" id="metric-chips" role="group" aria-label="Pokazatelj"></div>
+  <p id="metric-note" class="ink2" style="font-size:14px"></p>
+  <div class="grid-2">
+    <div class="card">
+      <div class="map-box" id="map">
+      {% if map %}
+        <svg viewBox="0 0 {{ map.w }} {{ map.h }}" role="img" aria-label="Mapa opština Srbije">
+          {% for p in map.paths %}<path d="{{ p.d }}" data-slug="{{ p.slug }}" data-name="{{ p.name }}"></path>{% endfor %}
+        </svg>
+      {% else %}
+        <div class="map-empty"><div><b>Mapa stiže uskoro</b><br>Granice opština se dodaju u sledećem koraku. Do tada koristi listu desno.</div></div>
+      {% endif %}
+      </div>
+      <div class="legend" id="map-legend"></div>
+      <p class="kosovo-note">AP Kosovo i Metohija je prikazana sivom bojom: Republički zavod za statistiku od 1999. godine ne raspolaže podacima za ovu pokrajinu. <a href="{{ base }}kosovo-i-metohija/{{ ix }}">Zašto i šta ipak imamo →</a></p>
+    </div>
+    <div class="card">
+      <h3 id="rank-title">Rang lista</h3>
+      <label class="visually-hidden" for="rank-search">Pretraži opštinu</label>
+      <input class="search" id="rank-search" type="search" placeholder="Pretraži opštinu…" autocomplete="off">
+      <ol class="rank" id="rank-list"></ol>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Na prvi pogled</h2>
+  <div class="tiles tiles-3">
+  {% for k in ["neto", "cena_m2", "godine_stan", "povezanost", "starost", "prirastaj"] if k in data.order %}{% set m = metrics[k] %}
+    {% set vals = data.units|selectattr('v.' ~ k, 'ne', none)|list %}
+    {% if vals %}
+    {% set best = (vals|sort(attribute='v.' ~ k, reverse=(m.better=='high')))[0] %}
+    <a class="tile" href="{{ base }}opstina/{{ best.slug }}/{{ ix }}" style="text-decoration:none;color:inherit">
+      <div class="label">{{ 'Najviša' if m.better=='high' else 'Najniža' }} — {{ m.label|lower }}</div>
+      <div class="value num">{{ best.v[k]|n(m) }}</div>
+      <div class="sub">{{ best.name }} · medijana Srbije {{ data.serbia[k]|n(m) }}</div>
+    </a>
+    {% endif %}
+  {% endfor %}
+  </div>
+</section>
+{% endblock %}

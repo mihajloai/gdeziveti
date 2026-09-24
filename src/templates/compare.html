@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Uporedi opštine — Gde živeti{% endblock %}
+{% block desc %}Uporedi plate, cene stanova i pristupačnost dve ili tri opštine u Srbiji, jednu pored druge.{% endblock %}
+{% block main %}
+<div class="hero">
+  <h1>Uporedi opštine</h1>
+  <p class="lead">Izaberi dva ili tri mesta i vidi ih jedno pored drugog. Link možeš da pošalješ bilo kome — poređenje se čuva u adresi.</p>
+</div>
+<section class="card">
+  <div class="picker-row" id="pickers"></div>
+  <datalist id="unit-names"></datalist>
+</section>
+<section class="card" id="cmp-out"><p class="muted">Učitavanje…</p></section>
+{% endblock %}

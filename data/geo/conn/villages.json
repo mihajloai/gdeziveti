@@ -1,0 +1,828 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-24T10:39:55Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 295392123,
+  "lat": 45.7067012,
+  "lon": 19.6661210,
+  "tags": {
+    "int_name": "Mali Idjos",
+    "name": "Мали Иђош",
+    "name:cnr": "Mali Iđoš",
+    "name:cnr-Cyrl": "Мали Иђош",
+    "name:en": "Mali Idjos",
+    "name:hu": "Kishegyes",
+    "name:ru": "Мали-Иджёш",
+    "name:sr": "Мали Иђош",
+    "name:sr-Latn": "Mali Iđoš",
+    "name:zh": "小伊焦什",
+    "place": "village",
+    "population": "4118",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q785258",
+    "wikipedia": "sr:Мали Иђош"
+  }
+},
+{
+  "type": "node",
+  "id": 417768417,
+  "lat": 44.2244939,
+  "lon": 19.9482507,
+  "tags": {
+    "name": "Жабари",
+    "name:en": "Zabari",
+    "name:sr": "Жабари",
+    "name:sr-Latn": "Žabari",
+    "place": "village",
+    "population": "365",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q2033593",
+    "wikipedia": "sr:Жабари (Ваљево)"
+  }
+},
+{
+  "type": "node",
+  "id": 417807945,
+  "lat": 44.4679915,
+  "lon": 19.8203527,
+  "tags": {
+    "addr:postcode": "15220",
+    "alt_name": "Коцељњво",
+    "name": "Коцељева",
+    "name:en": "Koceljeva",
+    "name:hr": "Koceljeva",
+    "name:ml": "കോട്സെല്യേവ",
+    "name:ru": "Коцелева",
+    "name:sl": "Koceljeva",
+    "name:sr": "Коцељева",
+    "name:sr-Latn": "Koceljeva",
+    "place": "village",
+    "population": "4007",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q934515",
+    "wikipedia": "sr:Коцељева"
+  }
+},
+{
+  "type": "node",
+  "id": 418754635,
+  "lat": 44.1859802,
+  "lon": 19.9938059,
+  "tags": {
+    "name": "Голубац",
+    "name:en": "Golubac",
+    "name:sr": "Голубац",
+    "name:sr-Latn": "Golubac",
+    "place": "village",
+    "population": "78",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q2733980",
+    "wikipedia": "sr:Голубац (Мионица)"
+  }
+},
+{
+  "type": "node",
+  "id": 431159050,
+  "lat": 44.1880511,
+  "lon": 19.3761034,
+  "tags": {
+    "name": "Љубовија",
+    "name:de": "Ljubovija",
+    "name:en": "Ljubovija",
+    "name:hr": "Ljubovija",
+    "name:ru": "Любовия",
+    "name:sl": "Ljubovija",
+    "name:sr": "Љубовија",
+    "name:sr-Latn": "Ljubovija",
+    "place": "village",
+    "population": "3958",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q1900390",
+    "wikipedia": "sr:Љубовија"
+  }
+},
+{
+  "type": "node",
+  "id": 431159535,
+  "lat": 44.3727760,
+  "lon": 19.6007285,
+  "tags": {
+    "int_name": "Osecina",
+    "name": "Осечина",
+    "name:en": "Osečina",
+    "name:hr": "Osečina",
+    "name:ru": "Осечина",
+    "name:sl": "Osečina",
+    "name:sr": "Осечина",
+    "name:sr-Latn": "Osečina",
+    "place": "village",
+    "population": "2456",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q2590888",
+    "wikipedia": "sr:Осечина (варошица)"
+  }
+},
+{
+  "type": "node",
+  "id": 454622868,
+  "lat": 43.7504753,
+  "lon": 19.7165358,
+  "tags": {
+    "name": "Чајетина",
+    "name:en": "Cajetina",
+    "name:ru": "Чаетина",
+    "name:sr": "Чајетина",
+    "name:sr-Latn": "Čajetina",
+    "place": "village",
+    "population": "3735",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q337497",
+    "wikipedia": "sr:Чајетина"
+  }
+},
+{
+  "type": "node",
+  "id": 475403829,
+  "lat": 44.6531108,
+  "lon": 21.6305205,
+  "tags": {
+    "name": "Голубац",
+    "name:de": "Golubac",
+    "name:el": "Γκόλουμπατς",
+    "name:en": "Golubac",
+    "name:fr": "Golubac",
+    "name:he": "גולובץ",
+    "name:hr": "Golubac",
+    "name:hu": "Galambóc",
+    "name:ro": "Golubăț",
+    "name:ru": "Голубац",
+    "name:sl": "Golubac",
+    "name:sr": "Голубац",
+    "name:sr-Latn": "Golubac",
+    "place": "village",
+    "population": "1445",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q845997",
+    "wikipedia": "en:Golubac"
+  }
+},
+{
+  "type": "node",
+  "id": 512051249,
+  "lat": 45.6678337,
+  "lon": 20.6070532,
+  "tags": {
+    "name": "Нова Црња",
+    "name:en": "Nova Crnja",
+    "name:hu": "Magyarcsernye",
+    "name:sr": "Нова Црња",
+    "name:sr-Latn": "Nova Crnja",
+    "place": "village",
+    "population": "1007",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q266760",
+    "wikipedia": "sr:Нова Црња"
+  }
+},
+{
+  "type": "node",
+  "id": 615294669,
+  "lat": 44.9090756,
+  "lon": 19.9672065,
+  "tags": {
+    "name": "Пећинци",
+    "name:en": "Pecinci",
+    "name:hu": "Pecsince",
+    "name:sr": "Пећинци",
+    "name:sr-Latn": "Pećinci",
+    "old_name:de": "Petschinzi",
+    "place": "village",
+    "population": "2448",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q1070018",
+    "wikipedia": "sr:Пећинци"
+  }
+},
+{
+  "type": "node",
+  "id": 836753313,
+  "lat": 45.2295217,
+  "lon": 21.1225158,
+  "tags": {
+    "name": "Пландиште",
+    "name:de": "Zichydorf",
+    "name:en": "Plandiste",
+    "name:hu": "Zichyfalva",
+    "name:sr": "Пландиште",
+    "name:sr-Latn": "Plandište",
+    "place": "village",
+    "population": "3329",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q775090",
+    "wikipedia": "sr:Пландиште"
+  }
+},
+{
+  "type": "node",
+  "id": 958236834,
+  "lat": 43.8625569,
+  "lon": 21.0945991,
+  "tags": {
+    "name": "Рековац",
+    "name:en": "Rekovac",
+    "name:ru": "Рековац",
+    "name:sr": "Рековац",
+    "name:sr-Latn": "Rekovac",
+    "place": "village",
+    "population": "1283",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q3423988",
+    "wikipedia": "sr:Рековац"
+  }
+},
+{
+  "type": "node",
+  "id": 1001347394,
+  "lat": 43.9265587,
+  "lon": 20.7198412,
+  "tags": {
+    "name": "Кнић",
+    "name:en": "Knic",
+    "name:ru": "Книч",
+    "name:sr": "Кнић",
+    "name:sr-Latn": "Knić",
+    "place": "village",
+    "population": "1942",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q1276528",
+    "wikipedia": "sr:Кнић"
+  }
+},
+{
+  "type": "node",
+  "id": 1001823871,
+  "lat": 44.1545512,
+  "lon": 21.0801314,
+  "tags": {
+    "name": "Баточина",
+    "name:en": "Batocina",
+    "name:ru": "Баточина",
+    "name:sr": "Баточина",
+    "name:sr-Latn": "Batočina",
+    "place": "village",
+    "population": "5105",
+    "population:date": "2022-09-30",
+    "ref:LOCODE": "RSBAO",
+    "source:population": "RZS 2022",
+    "wikidata": "Q810884",
+    "wikipedia": "sr:Баточина"
+  }
+},
+{
+  "type": "node",
+  "id": 1075543747,
+  "lat": 45.3663710,
+  "lon": 20.7723840,
+  "tags": {
+    "alt_name:de": "Petersheim",
+    "name": "Сечањ",
+    "name:de": "Setchan",
+    "name:en": "Secanj",
+    "name:hu": "Torontálszécsány",
+    "name:sr": "Сечањ",
+    "name:sr-Latn": "Sečanj",
+    "place": "village",
+    "population": "1648",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q1084852",
+    "wikipedia": "sr:Сечањ"
+  }
+},
+{
+  "type": "node",
+  "id": 1077210932,
+  "lat": 44.8343025,
+  "lon": 19.4795213,
+  "tags": {
+    "addr:postcode": "15350",
+    "name": "Богатић",
+    "name:ar": "بوغاتيتش",
+    "name:en": "Bogatic",
+    "name:ru": "Богатич",
+    "name:sr": "Богатић",
+    "name:sr-Latn": "Bogatić",
+    "place": "village",
+    "population": "5569",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q833281",
+    "wikipedia": "sr:Богатић"
+  }
+},
+{
+  "type": "node",
+  "id": 1165809314,
+  "lat": 43.0127645,
+  "lon": 21.7214247,
+  "tags": {
+    "name": "Бојник",
+    "name:en": "Bojnik",
+    "name:ru": "Бойник",
+    "name:sr": "Бојник",
+    "name:sr-Latn": "Bojnik",
+    "place": "village",
+    "population": "3087",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q595248",
+    "wikipedia": "sr:Бојник"
+  }
+},
+{
+  "type": "node",
+  "id": 1223609453,
+  "lat": 44.5780350,
+  "lon": 20.4160478,
+  "tags": {
+    "name": "Барајево",
+    "name:en": "Barajevo",
+    "name:ru": "Бараево",
+    "name:sr": "Барајево",
+    "name:sr-Latn": "Barajevo",
+    "place": "village",
+    "population": "8967",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q807231",
+    "wikipedia": "sr:Барајево"
+  }
+},
+{
+  "type": "node",
+  "id": 1305219224,
+  "lat": 43.1980961,
+  "lon": 21.8332818,
+  "tags": {
+    "name": "Дољевац",
+    "name:en": "Doljevac",
+    "name:sr": "Дољевац",
+    "name:sr-Latn": "Doljevac",
+    "place": "village",
+    "population": "1494",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q18535235",
+    "wikipedia": "sr:Дољевац"
+  }
+},
+{
+  "type": "node",
+  "id": 1465008060,
+  "lat": 42.8095195,
+  "lon": 22.2990322,
+  "tags": {
+    "name": "Црна Трава",
+    "name:en": "Crna Trava",
+    "name:ru": "Црна Трава",
+    "name:sr": "Црна Трава",
+    "name:sr-Latn": "Crna Trava",
+    "place": "village",
+    "population": "338",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q523698",
+    "wikipedia": "sr:Црна Трава"
+  }
+},
+{
+  "type": "node",
+  "id": 1599387506,
+  "lat": 42.3101350,
+  "lon": 21.6474324,
+  "tags": {
+    "alt_name:bg": "Прешово",
+    "alt_name:ja": "プレシェヴァ",
+    "alt_name:sq": "Preshevë",
+    "alt_name:tr": "Pireşova;Preşuva",
+    "name": "Прешево",
+    "name:bg": "Прешево",
+    "name:ce": "Прешево",
+    "name:de": "Preševo",
+    "name:el": "Πρέσεβο",
+    "name:en": "Preševo",
+    "name:fa": "پریچو",
+    "name:hr": "Preševo",
+    "name:ja": "プレシェヴォ",
+    "name:ko": "프레셰보",
+    "name:mk": "Прешево",
+    "name:pnb": "پریشیوو",
+    "name:ru": "Прешево",
+    "name:sq": "Presheva",
+    "name:sr": "Прешево",
+    "name:sr-Latn": "Preševo",
+    "name:tr": "Preşova",
+    "name:tt": "Прешево",
+    "name:uk": "Прешево",
+    "name:zh": "普雷舍沃",
+    "place": "village",
+    "population": "14219",
+    "population:date": "2022-09-30",
+    "source": "GNS",
+    "source:population": "RZS 2022",
+    "website": "https://presevo.rs/",
+    "wikidata": "Q145871",
+    "wikipedia": "sr:Прешево"
+  }
+},
+{
+  "type": "node",
+  "id": 1614834392,
+  "lat": 44.1976742,
+  "lon": 21.7851349,
+  "tags": {
+    "name": "Жагубица",
+    "name:en": "Žagubica",
+    "name:ru": "Жагубица",
+    "name:sr": "Жагубица",
+    "name:sr-Latn": "Žagubica",
+    "place": "village",
+    "population": "2110",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q3504354",
+    "wikipedia": "sr:Жагубица"
+  }
+},
+{
+  "type": "node",
+  "id": 1758554920,
+  "lat": 42.3640000,
+  "lon": 22.0831315,
+  "tags": {
+    "addr:postcode": "17525",
+    "name": "Трговиште",
+    "name:en": "Trgoviste",
+    "name:ru": "Трговиште",
+    "name:sr": "Трговиште",
+    "name:sr-Latn": "Trgovište",
+    "place": "village",
+    "population": "1711",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q19937290",
+    "wikipedia": "sr:Трговиште (Трговиште)"
+  }
+},
+{
+  "type": "node",
+  "id": 1806479680,
+  "lat": 43.2235312,
+  "lon": 22.0324274,
+  "tags": {
+    "name": "Гаџин Хан",
+    "name:en": "Gadžin Han",
+    "name:sr": "Гаџин Хан",
+    "name:sr-Latn": "Gadžin Han",
+    "place": "village",
+    "population": "1194",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q18811684",
+    "wikipedia": "sr:Гаџин Хан"
+  }
+},
+{
+  "type": "node",
+  "id": 2131563205,
+  "lat": 44.6158293,
+  "lon": 19.7851041,
+  "tags": {
+    "addr:postcode": "15225",
+    "name": "Владимирци",
+    "name:en": "Vladimirci",
+    "name:ml": "വ്ലാഡിമിർറ്റ്സി",
+    "name:ru": "Владимирци",
+    "name:sr": "Владимирци",
+    "name:sr-Latn": "Vladimirci",
+    "place": "village",
+    "population": "1535",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q676916",
+    "wikipedia": "sr:Владимирци"
+  }
+},
+{
+  "type": "node",
+  "id": 2187025348,
+  "lat": 43.7253546,
+  "lon": 21.3681739,
+  "tags": {
+    "name": "Варварин",
+    "name:en": "Varvarin",
+    "name:ru": "Варварин",
+    "name:sr": "Варварин",
+    "name:sr-Latn": "Varvarin",
+    "place": "village",
+    "population": "1805",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q367214",
+    "wikipedia": "sr:Варварин"
+  }
+},
+{
+  "type": "node",
+  "id": 2251131729,
+  "lat": 43.1889653,
+  "lon": 21.7111439,
+  "tags": {
+    "int_name": "Zitoradja",
+    "name": "Житорађа",
+    "name:en": "Zitoradja",
+    "name:mk": "Житораѓа",
+    "name:ru": "Житораджя",
+    "name:sr": "Житорађа",
+    "name:sr-Latn": "Žitorađa",
+    "place": "village",
+    "population": "2992",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q2292617",
+    "wikipedia": "sr:Житорађа"
+  }
+},
+{
+  "type": "node",
+  "id": 2258265756,
+  "lat": 43.6724063,
+  "lon": 21.5489925,
+  "tags": {
+    "name": "Ражањ",
+    "name:bg": "Ражан",
+    "name:en": "Ražanj",
+    "name:ru": "Ржань",
+    "name:sr": "Ражањ",
+    "name:sr-Latn": "Ražanj",
+    "place": "village",
+    "population": "1138",
+    "population:date": "2022-09-30",
+    "postal_code": "37215",
+    "source:population": "RZS 2022",
+    "wikidata": "Q2477932",
+    "wikipedia": "sr:Ражањ (место)"
+  }
+},
+{
+  "type": "node",
+  "id": 2258266129,
+  "lat": 43.2828198,
+  "lon": 21.7203782,
+  "tags": {
+    "name": "Мерошина",
+    "name:en": "Merosina",
+    "name:ru": "Мерошина",
+    "name:sr": "Мерошина",
+    "name:sr-Latn": "Merošina",
+    "place": "village",
+    "population": "799",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q1922000",
+    "wikipedia": "sr:Мерошина"
+  }
+},
+{
+  "type": "node",
+  "id": 2260480627,
+  "lat": 44.5602570,
+  "lon": 21.2905650,
+  "tags": {
+    "name": "Мало Црниће",
+    "name:en": "Malo Crnice",
+    "name:sr": "Мало Црниће",
+    "name:sr-Latn": "Malo Crniće",
+    "place": "village",
+    "population": "624",
+    "population:date": "2022-09-30",
+    "source": "GNS",
+    "source:population": "RZS 2022",
+    "wikidata": "Q2100669",
+    "wikipedia": "sr:Мало Црниће"
+  }
+},
+{
+  "type": "node",
+  "id": 3413344225,
+  "lat": 44.2026109,
+  "lon": 19.8451835,
+  "tags": {
+    "int_name": "Bogatic",
+    "name": "Богатић",
+    "name:sr": "Богатић",
+    "name:sr-Latn": "Bogatić",
+    "place": "village",
+    "population": "81",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q2585654",
+    "wikipedia": "sr:Богатић (Ваљево)"
+  }
+},
+{
+  "type": "node",
+  "id": 3659118674,
+  "lat": 43.8025458,
+  "lon": 20.7075523,
+  "tags": {
+    "int_name": "Trgoviste",
+    "name": "Трговиште",
+    "name:sh": "Trgovište",
+    "name:sr": "Трговиште",
+    "name:sr-Latn": "Trgovište",
+    "place": "village",
+    "population": "9",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q917298",
+    "wikipedia": "sr:Трговиште (Краљево)"
+  }
+},
+{
+  "type": "node",
+  "id": 4265566832,
+  "lat": 43.5516579,
+  "lon": 22.2884137,
+  "tags": {
+    "name": "Трговиште",
+    "name:en": "Trgovište",
+    "name:sr": "Трговиште",
+    "name:sr-Latn": "Trgovište",
+    "place": "village",
+    "population": "1590",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q2727534",
+    "wikipedia": "sr:Трговиште (Књажевац)"
+  }
+},
+{
+  "type": "node",
+  "id": 5332183287,
+  "lat": 43.2714815,
+  "lon": 20.7612701,
+  "tags": {
+    "int_name": "Cajetina",
+    "name": "Чајетина",
+    "name:sr": "Чајетина",
+    "name:sr-Latn": "Čajetina",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 5578640689,
+  "lat": 43.6894727,
+  "lon": 21.8289888,
+  "tags": {
+    "name": "Трговиште",
+    "name:en": "Trgovište",
+    "name:sr": "Трговиште",
+    "name:sr-Latn": "Trgovište",
+    "place": "village",
+    "population": "211",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q1009747",
+    "wikipedia": "sr:Трговиште (Сокобања)"
+  }
+},
+{
+  "type": "node",
+  "id": 7162443826,
+  "lat": 44.3565446,
+  "lon": 21.2141654,
+  "tags": {
+    "name": "Жабари",
+    "name:en": "Zabari",
+    "name:sr": "Жабари",
+    "name:sr-Latn": "Žabari",
+    "place": "village",
+    "population": "1022",
+    "population:date": "2022-09-30",
+    "source:population": "RZS 2022",
+    "wikidata": "Q3436794",
+    "wikipedia": "sr:Жабари"
+  }
+},
+{
+  "type": "node",
+  "id": 8439454715,
+  "lat": 44.1265340,
+  "lon": 19.9620914,
+  "tags": {
+    "int_name": "Golubac",
+    "name": "Голубац",
+    "name:sr": "Голубац",
+    "name:sr-Latn": "Golubac",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 9036362177,
+  "lat": 43.9129460,
+  "lon": 20.3184436,
+  "tags": {
+    "int_name": "Batocina",
+    "name": "Баточина",
+    "name:sr": "Баточина",
+    "name:sr-Latn": "Batočina",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 12022663747,
+  "lat": 44.1459722,
+  "lon": 19.8426505,
+  "tags": {
+    "int_name": "Plandiste",
+    "name": "Пландиште",
+    "name:sr": "Пландиште",
+    "name:sr-Latn": "Plandište",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 12478301508,
+  "lat": 44.5100985,
+  "lon": 20.3423079,
+  "tags": {
+    "int_name": "Zabari",
+    "name": "Жабари",
+    "name:sr": "Жабари",
+    "name:sr-Latn": "Žabari",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 13391787952,
+  "lat": 44.1156857,
+  "lon": 20.1124118,
+  "tags": {
+    "int_name": "Plandiste",
+    "name": "Пландиште",
+    "name:sr": "Пландиште",
+    "name:sr-Latn": "Plandište",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 13618347386,
+  "lat": 44.5092953,
+  "lon": 19.5124470,
+  "tags": {
+    "int_name": "Plandiste",
+    "name": "Пландиште",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 13619638725,
+  "lat": 44.5598167,
+  "lon": 19.5704188,
+  "tags": {
+    "int_name": "Plandiste",
+    "name": "Пландиште",
+    "place": "locality"
+  }
+}
+
+  ]
+}

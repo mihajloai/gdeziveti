@@ -1,0 +1,162 @@
+naziv,stopa,broj
+Ada,4.4,350
+Aleksandrovac,16.9,2142
+Aleksinac,15.3,3924
+Alibunar,10.7,1089
+Apatin,13.3,1800
+Aranđelovac,8.4,2106
+Arilje,7.9,813
+Babušnica,23.0,1122
+Bajina Bašta,8.6,1199
+Barajevo,6.1,966
+Batočina,20.7,1250
+Bač,16.8,1149
+Bačka Palanka,10.0,2865
+Bačka Topola,8.8,1345
+Bački Petrovac,3.4,237
+Bela Crkva,13.1,1120
+Bela Palanka,27.7,1507
+Beočin,7.3,620
+Bečej,7.6,1407
+Blace,13.1,716
+Bogatić,10.3,1557
+Bojnik,25.0,1354
+Boljevac,7.5,428
+Bor,9.2,2245
+Bosilegrad,34.2,1224
+Brus,16.2,1269
+Bujanovac,11.4,3228
+Crna Trava,21.4,101
+Despotovac,10.0,995
+Dimitrovgrad,17.0,788
+Doljevac,11.5,1119
+Gadžin Han,17.6,518
+Golubac,4.7,166
+Gornji Milanovac,2.6,607
+Grocka,2.8,1490
+Inđija,4.1,1067
+Irig,10.9,584
+Ivanjica,16.0,2636
+Jagodina,11.7,4561
+Kanjiža,6.8,839
+Kikinda,6.2,1831
+Kladovo,12.7,1180
+Knić,8.4,567
+Knjaževac,13.2,1775
+Koceljeva,16.7,1114
+Kosjerić,5.7,328
+Kovačica,13.1,1661
+Kovin,9.4,1602
+Kragujevac,7.9,8273
+Kraljevo,7.6,5046
+Krupanj,11.2,951
+Kruševac,8.9,6044
+Kula,11.5,2472
+Kuršumlija,14.0,1326
+Kučevo,4.4,265
+Lajkovac,5.1,420
+Lapovo,16.1,622
+Lazarevac,3.5,1223
+Lebane,26.2,2862
+Leskovac,14.4,11013
+Ljig,4.5,274
+Ljubovija,17.0,1214
+Loznica,8.0,3519
+Lučani,4.6,447
+Majdanpek,9.9,841
+Mali Iđoš,22.7,1365
+Mali Zvornik,12.7,856
+Malo Crniće,3.3,161
+Medveđa,16.2,607
+Merošina,18.6,1296
+Mionica,4.2,299
+Mladenovac,5.7,1703
+Negotin,8.2,1213
+Niš,9.7,15429
+Nova Crnja,17.5,836
+Nova Varoš,11.9,867
+Novi Beograd,2.8,3579
+Novi Bečej,9.2,1101
+Novi Kneževac,13.2,656
+Novi Pazar,30.5,22032
+Novi Sad,3.2,8011
+Obrenovac,3.3,1428
+Odžaci,9.2,1360
+Opovo,8.3,478
+Osečina,9.6,547
+Palilula (Beograd),2.9,3564
+Pančevo,5.1,3645
+Paraćin,13.5,3608
+Petrovac na Mlavi,5.0,723
+Pećinci,3.3,383
+Pirot,14.6,4298
+Plandište,12.5,656
+Požarevac,4.5,1942
+Požega,5.6,855
+Preševo,14.2,3248
+Priboj,15.9,2142
+Prijepolje,15.7,3054
+Prokuplje,14.2,3254
+Rakovica,2.6,1721
+Rača,10.8,601
+Raška,11.7,1467
+Ražanj,9.9,367
+Rekovac,14.7,619
+Ruma,6.4,1877
+Savski venac,2.3,545
+Senta,7.5,800
+Sečanj,14.3,876
+Sjenica,20.7,3112
+Smederevo,3.2,1899
+Smederevska Palanka,6.4,1596
+Sokobanja,9.7,699
+Sombor,8.5,3612
+Sopot,3.8,438
+Srbobran,11.5,1010
+Sremska Mitrovica,4.1,1840
+Sremski Karlovci,4.4,202
+Stara Pazova,2.1,843
+Stari grad,2.9,788
+Subotica,4.1,3090
+Surdulica,17.3,1796
+Surčin,2.0,608
+Svilajnac,8.1,939
+Svrljig,18.3,1017
+Temerin,5.5,879
+Titel,5.9,512
+Topola,11.2,1249
+Trgovište,22.4,608
+Trstenik,14.6,2947
+Tutin,36.5,7969
+Ub,3.8,604
+Užice,5.1,2131
+Valjevo,4.9,2445
+Varvarin,9.9,814
+Velika Plana,6.9,1482
+Veliko Gradište,4.8,411
+Vladimirci,7.3,616
+Vladičin Han,15.2,1596
+Vlasotince,19.7,3174
+Voždovac,2.3,2600
+Vranje,7.8,3645
+Vračar,2.7,948
+Vrbas,11.8,2637
+Vrnjačka Banja,10.8,1632
+Vršac,7.1,1934
+Zaječar,7.9,2155
+Zemun,2.6,2987
+Zrenjanin,6.8,4336
+Zvezdara,2.7,3164
+Ćićevac,11.8,551
+Ćuprija,10.1,1477
+Čajetina,4.2,397
+Čačak,4.0,2570
+Čoka,8.5,426
+Čukarica,2.3,2527
+Šabac,5.7,3739
+Šid,7.6,1254
+Žabalj,5.1,762
+Žabari,2.2,108
+Žagubica,3.0,148
+Žitište,15.4,1235
+Žitorađa,19.6,1617

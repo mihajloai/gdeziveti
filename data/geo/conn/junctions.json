@@ -1,0 +1,8646 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-24T10:37:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 33088560,
+  "lat": 44.7326152,
+  "lon": 20.3359936,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Ostruznica",
+    "name": "Остружница",
+    "name:sr": "Остружница",
+    "name:sr-Latn": "Ostružnica",
+    "ref": "25",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 33088572,
+  "lat": 44.7366917,
+  "lon": 20.3318793,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 33088946,
+  "lat": 44.7374074,
+  "lon": 20.3363689,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 59732271,
+  "lat": 45.0182039,
+  "lon": 19.5344089,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 71823613,
+  "lat": 44.8879051,
+  "lon": 20.3016194,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 79232739,
+  "lat": 44.8336318,
+  "lon": 20.2810139,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Aerodrom",
+    "mapillary": "175774097787851",
+    "name": "Аеродром",
+    "name:en": "Airport",
+    "name:sr": "Аеродром",
+    "name:sr-Latn": "Aerodrom",
+    "old_ref": "10",
+    "ref": "1",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 90344962,
+  "lat": 44.7243944,
+  "lon": 20.5426615,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "932097524232005",
+    "name": "Бубањ Поток",
+    "name:en": "Bubanj Potok",
+    "name:sr": "Бубањ Поток",
+    "name:sr-Latn": "Bubanj Potok",
+    "old_ref": "24",
+    "ref": "28",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 90346711,
+  "lat": 44.7272991,
+  "lon": 20.5399263,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "334131544991801",
+    "name": "Бубањ Поток",
+    "name:en": "Bubanj Potok",
+    "name:sr": "Бубањ Поток",
+    "name:sr-Latn": "Bubanj Potok",
+    "old_ref": "24",
+    "ref": "28",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 90353010,
+  "lat": 44.7643428,
+  "lon": 20.5278515,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 90353020,
+  "lat": 44.7704483,
+  "lon": 20.5214495,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "776573056557291",
+    "name": "Ласта",
+    "name:en": "Lasta",
+    "name:sr": "Ласта",
+    "name:sr-Latn": "Lasta",
+    "old_ref": "23",
+    "ref": "14",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 90354741,
+  "lat": 44.7739829,
+  "lon": 20.5175583,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "301525854878013",
+    "name": "Ласта",
+    "name:en": "Lasta",
+    "name:sr": "Ласта",
+    "name:sr-Latn": "Lasta",
+    "old_ref": "23",
+    "ref": "14",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 90365529,
+  "lat": 44.7799805,
+  "lon": 20.5050238,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Medakovic",
+    "name": "Медаковић",
+    "name:sr": "Медаковић",
+    "name:sr-Latn": "Medaković",
+    "old_ref": "21",
+    "ref": "12;13"
+  }
+},
+{
+  "type": "node",
+  "id": 90368470,
+  "lat": 44.7812119,
+  "lon": 20.4953977,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Medakovic",
+    "mapillary": "256774839552518",
+    "name": "Медаковић",
+    "name:sr": "Медаковић",
+    "name:sr-Latn": "Medaković",
+    "old_ref": "21",
+    "ref": "12",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 90370960,
+  "lat": 44.7877895,
+  "lon": 20.4730269,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "364362758327901",
+    "name": "Аутокоманда",
+    "name:en": "Autokomanda",
+    "name:sr": "Аутокоманда",
+    "name:sr-Latn": "Autokomanda",
+    "old_ref": "19",
+    "ref": "10",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 90371937,
+  "lat": 44.7847496,
+  "lon": 20.4801239,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "4665078400172493",
+    "name": "Душановац",
+    "name:en": "Dusanovac",
+    "name:sr": "Душановац",
+    "name:sr-Latn": "Dušanovac",
+    "old_ref": "20",
+    "ref": "11"
+  }
+},
+{
+  "type": "node",
+  "id": 90372885,
+  "lat": 44.7843015,
+  "lon": 20.4815086,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "4017250885022636",
+    "name": "Душановац",
+    "name:en": "Dusanovac",
+    "name:sr": "Душановац",
+    "name:sr-Latn": "Dušanovac",
+    "old_ref": "20",
+    "ref": "11",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 90378439,
+  "lat": 44.7966632,
+  "lon": 20.4531531,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "1121613738321914",
+    "name": "Мостар",
+    "name:en": "Mostar",
+    "name:sr": "Мостар",
+    "name:sr-Latn": "Mostar",
+    "old_ref": "17",
+    "ref": "8"
+  }
+},
+{
+  "type": "node",
+  "id": 97769774,
+  "lat": 45.3058798,
+  "lon": 19.8060976,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Нови Сад север",
+    "name:en": "Novi Sad sever",
+    "name:sr": "Нови Сад север",
+    "name:sr-Latn": "Novi Sad sever",
+    "ref": "11",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 123295428,
+  "lat": 44.8318621,
+  "lon": 20.3665445,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "185989726602654",
+    "name": "Змај",
+    "name:en": "Zmaj",
+    "name:sr": "Змај",
+    "name:sr-Latn": "Zmaj",
+    "old_ref": "11",
+    "ref": "2",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 123299648,
+  "lat": 44.8322424,
+  "lon": 20.3634489,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 123691282,
+  "lat": 43.2818703,
+  "lon": 21.8014951,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Мерошина",
+    "name:en": "Merosina",
+    "name:sr": "Мерошина",
+    "name:sr-Latn": "Merošina",
+    "ref": "50",
+    "side": "right",
+    "source:name:mapillary": "FWbNYNS85W8i-LWaw3JuSw",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 123691311,
+  "lat": 43.1955507,
+  "lon": 21.8515109,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Дољевац",
+    "name:en": "Doljevac",
+    "name:sr": "Дољевац",
+    "name:sr-Latn": "Doljevac",
+    "ref": "51",
+    "side": "right",
+    "source:name:mapillary": "7n4laEX2mH34l9wl-9d90Q",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 151235542,
+  "lat": 42.6024985,
+  "lon": 20.9549571,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Korroticë",
+    "name:de": "Korroticë",
+    "name:sq": "Korroticë",
+    "name:sr": "Коратица"
+  }
+},
+{
+  "type": "node",
+  "id": 244323135,
+  "lat": 44.7985718,
+  "lon": 20.4487683,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "319047766274269",
+    "noref": "yes",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 252184706,
+  "lat": 44.7998945,
+  "lon": 20.4462127,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Mostar",
+    "mapillary": "319047766274269",
+    "name": "Мостар",
+    "name:sr": "Мостар",
+    "name:sr-Latn": "Mostar",
+    "old_ref": "17",
+    "ref": "8",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 255329217,
+  "lat": 44.8049342,
+  "lon": 20.4366986,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Sava centar",
+    "mapillary": "294367955701292",
+    "name": "Сава центар",
+    "name:sr": "Сава центар",
+    "name:sr-Latn": "Sava centar",
+    "old_ref": "16",
+    "ref": "7",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 255329279,
+  "lat": 44.8064628,
+  "lon": 20.4334555,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Sava centar",
+    "mapillary": "294367955701292",
+    "name": "Сава центар",
+    "name:sr": "Сава центар",
+    "name:sr-Latn": "Sava centar",
+    "old_ref": "16",
+    "ref": "7",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 255329321,
+  "lat": 44.8082753,
+  "lon": 20.4291880,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Sava centar",
+    "mapillary": "2591253014500953",
+    "name": "Сава центар",
+    "name:sr": "Сава центар",
+    "name:sr-Latn": "Sava centar",
+    "old_ref": "16",
+    "ref": "7",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 257727627,
+  "lat": 44.7928710,
+  "lon": 20.4648781,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Аутокоманда",
+    "name:en": "Autokomanda",
+    "name:sr": "Аутокоманда",
+    "name:sr-Latn": "Autokomanda",
+    "old_ref": "19",
+    "ref": "10",
+    "side": "right",
+    "source:destination:mapillary": "LkWPR-1Y34jTs1S_MzDByw",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 258070876,
+  "lat": 44.7960290,
+  "lon": 20.4550633,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "206624354633784",
+    "name": "Хитна помоћ",
+    "name:en": "Hitna Pomoc",
+    "name:sr": "Хитна помоћ",
+    "name:sr-Latn": "Hitna pomoć",
+    "old_ref": "18",
+    "ref": "9"
+  }
+},
+{
+  "type": "node",
+  "id": 259413570,
+  "lat": 44.8325097,
+  "lon": 20.3597439,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "185989726602654",
+    "name": "Змај",
+    "name:en": "Zmaj",
+    "name:sr": "Змај",
+    "name:sr-Latn": "Zmaj",
+    "old_ref": "11",
+    "ref": "2",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 259413573,
+  "lat": 44.8315052,
+  "lon": 20.3683492,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 259413660,
+  "lat": 44.8312607,
+  "lon": 20.3710060,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 259833773,
+  "lat": 44.8507030,
+  "lon": 20.1859919,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 267685955,
+  "lat": 44.8619757,
+  "lon": 20.5730564,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 280497550,
+  "lat": 46.1869695,
+  "lon": 19.9922668,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Kistelek Mórahalom Röszke",
+    "ref": "173"
+  }
+},
+{
+  "type": "node",
+  "id": 280497847,
+  "lat": 46.1928405,
+  "lon": 19.9990792,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Kisszéksós Mórahalom Röszke",
+    "ref": "173"
+  }
+},
+{
+  "type": "node",
+  "id": 290343228,
+  "lat": 44.8164743,
+  "lon": 20.4115704,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Geneks",
+    "name": "Генекс",
+    "name:en": "Geneks",
+    "name:sr": "Генекс",
+    "name:sr-Latn": "Geneks",
+    "old_ref": "14",
+    "ref": "5",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 290350936,
+  "lat": 44.8144173,
+  "lon": 20.4158096,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Arena",
+    "mapillary": "1145230099309981",
+    "name": "Арена",
+    "name:en": "Arena",
+    "name:sr": "Арена",
+    "name:sr-Latn": "Arena",
+    "old_ref": "15",
+    "ref": "6",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 290350945,
+  "lat": 44.8103426,
+  "lon": 20.4249517,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Arena",
+    "mapillary": "1145230099309981",
+    "name": "Арена",
+    "name:en": "Arena",
+    "name:sr": "Арена",
+    "name:sr-Latn": "Arena",
+    "old_ref": "15",
+    "ref": "6",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 290639576,
+  "lat": 44.8260153,
+  "lon": 20.3907363,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "326954952135107",
+    "name": "Национал",
+    "name:en": "Nacional",
+    "name:sr": "Национал",
+    "name:sr-Latn": "Nacional",
+    "old_ref": "12",
+    "ref": "3",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 290639584,
+  "lat": 44.8273516,
+  "lon": 20.3873045,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "196251612323092",
+    "name": "Национал",
+    "name:en": "Nacional",
+    "name:sr": "Национал",
+    "name:sr-Latn": "Nacional",
+    "old_ref": "12",
+    "ref": "3",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 291188178,
+  "lat": 44.8352760,
+  "lon": 20.2568970,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Beograd",
+    "mapillary": "895336471023066",
+    "name": "Београд",
+    "name:en": "Belgrade",
+    "name:sr": "Београд",
+    "name:sr-Latn": "Beograd",
+    "old_ref": "9",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 291188190,
+  "lat": 44.8364193,
+  "lon": 20.2492659,
+  "tags": {
+    "highway": "motorway_junction",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 293933127,
+  "lat": 45.0482570,
+  "lon": 19.1962672,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 295870962,
+  "lat": 42.8838149,
+  "lon": 22.0713823,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Grdelica",
+    "name": "Грделица",
+    "name:sr": "Грделица",
+    "name:sr-Latn": "Grdelica",
+    "ref": "55"
+  }
+},
+{
+  "type": "node",
+  "id": 295874467,
+  "lat": 44.2416846,
+  "lon": 21.1177118,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Марковац",
+    "name:en": "Markovac",
+    "name:sr": "Марковац",
+    "name:sr-Latn": "Markovac",
+    "ref": "38",
+    "side": "right",
+    "source:name:mapillary": "vwnok1gVbugGiJEJR60eAA",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 295874470,
+  "lat": 44.2082374,
+  "lon": 21.1061298,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 295874481,
+  "lat": 43.9536299,
+  "lon": 21.3656567,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 297440068,
+  "lat": 43.9938982,
+  "lon": 22.8402142,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Рупци",
+    "name:en": "Ruptsi",
+    "ref": "7"
+  }
+},
+{
+  "type": "node",
+  "id": 308969196,
+  "lat": 43.8556545,
+  "lon": 21.4352700,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Параћин",
+    "name:en": "Paracin",
+    "name:sr": "Параћин",
+    "name:sr-Latn": "Paraćin",
+    "ref": "43",
+    "side": "right",
+    "source:name:mapillary": "2y1nUZheUShF4PjdQR_bOQ",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 343621987,
+  "lat": 45.0488925,
+  "lon": 19.0680397,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Lipovac",
+    "ref": "29"
+  }
+},
+{
+  "type": "node",
+  "id": 343622073,
+  "lat": 45.0490625,
+  "lon": 19.0717235,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Lipovac",
+    "ref": "29"
+  }
+},
+{
+  "type": "node",
+  "id": 358534363,
+  "lat": 44.9913843,
+  "lon": 20.2109995,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "305601077727760",
+    "name": "Стара Пазова",
+    "name:en": "Stara Pazova",
+    "name:sk": "Stará Pazova",
+    "name:sr": "Стара Пазова",
+    "name:sr-Latn": "Stara Pazova",
+    "ref": "19",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 358838571,
+  "lat": 45.0708119,
+  "lon": 20.1504439,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Indjija",
+    "mapillary": "511031553425449",
+    "name": "Инђија",
+    "name:en": "Indjija",
+    "name:sr": "Инђија",
+    "name:sr-Latn": "Inđija",
+    "ref": "18",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 359202690,
+  "lat": 44.9433512,
+  "lon": 20.2816837,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "203044238152681",
+    "name": "Нови Бановци",
+    "name:en": "Novi Banovci",
+    "name:sr": "Нови Бановци",
+    "name:sr-Latn": "Novi Banovci",
+    "ref": "21",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 366057028,
+  "lat": 44.6732465,
+  "lon": 20.6033310,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "194564632490134",
+    "name": "Врчин",
+    "name:en": "Vrcin",
+    "name:sr": "Врчин",
+    "name:sr-Latn": "Vrčin",
+    "ref": "30",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 366744006,
+  "lat": 44.5658311,
+  "lon": 20.6658746,
+  "tags": {
+    "destination": "Mladenovac;Aranđelovac;Topola;Sopot",
+    "destination:lang:sr": "Младеновац;Аранђеловац;Топола;Сопот",
+    "destination:lang:sr-Latn": "Mladenovac;Aranđelovac;Topola;Sopot",
+    "destination:ref": "25",
+    "highway": "motorway_junction",
+    "mapillary": "750630365629122",
+    "name": "Мали Пожаревац",
+    "name:en": "Mali Pozarevac",
+    "name:sr": "Мали Пожаревац",
+    "name:sr-Latn": "Mali Požarevac",
+    "ref": "31",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 366744363,
+  "lat": 44.5659668,
+  "lon": 20.6655014,
+  "tags": {
+    "destination": "Mladenovac;Aranđelovac;Topola;Sopot",
+    "destination:lang:sr": "Младеновац;Аранђеловац;Топола;Сопот",
+    "destination:lang:sr-Latn": "Mladenovac;Aranđelovac;Topola;Sopot",
+    "destination:ref": "25",
+    "highway": "motorway_junction",
+    "mapillary": "135242421964674",
+    "name": "Мали Пожаревац",
+    "name:en": "Mali Pozarevac",
+    "name:sr": "Мали Пожаревац",
+    "name:sr-Latn": "Mali Požarevac",
+    "ref": "31",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 367117851,
+  "lat": 44.5839816,
+  "lon": 20.8213763,
+  "tags": {
+    "destination": "Smederevo;Mladenovac;Vodanj",
+    "destination:ref": "155",
+    "highway": "motorway_junction",
+    "mapillary": "398561007799457",
+    "name": "Водањ",
+    "name:en": "Vodanj",
+    "name:sr": "Водањ",
+    "name:sr-Latn": "Vodanj",
+    "ref": "33",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 367117988,
+  "lat": 44.5840682,
+  "lon": 20.8194036,
+  "tags": {
+    "destination": "Smederevo;Mladenovac;Vodanj",
+    "destination:ref": "155",
+    "highway": "motorway_junction",
+    "mapillary": "915794815929945",
+    "name": "Водањ",
+    "name:en": "Vodanj",
+    "name:sr": "Водањ",
+    "name:sr-Latn": "Vodanj",
+    "ref": "33",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 367119016,
+  "lat": 44.5844368,
+  "lon": 20.9646901,
+  "tags": {
+    "destination": "Smederevo;Kovin",
+    "destination:ref": "153",
+    "highway": "motorway_junction",
+    "int_name": "Smederevo",
+    "mapillary": "788012545420661",
+    "name": "Смедерево",
+    "name:sr": "Смедерево",
+    "name:sr-Latn": "Smederevo",
+    "ref": "35",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 367119659,
+  "lat": 44.5760081,
+  "lon": 20.9800691,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "1045758255952278",
+    "name": "Пожаревац",
+    "name:en": "Pozarevac",
+    "name:sr": "Пожаревац",
+    "name:sr-Latn": "Požarevac",
+    "ref": "36",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 367756077,
+  "lat": 44.5476513,
+  "lon": 20.9862714,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 367774861,
+  "lat": 44.3464540,
+  "lon": 21.0778724,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 368369020,
+  "lat": 44.2036884,
+  "lon": 21.1077579,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 368371465,
+  "lat": 44.5818996,
+  "lon": 20.9746813,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Pozarevac",
+    "mapillary": "5493359597401361",
+    "name": "Пожаревац",
+    "name:sr": "Пожаревац",
+    "name:sr-Latn": "Požarevac",
+    "ref": "36",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 369431651,
+  "lat": 45.0353630,
+  "lon": 19.4517338,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 369733530,
+  "lat": 44.0625150,
+  "lon": 21.2067141,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 369867485,
+  "lat": 44.0043334,
+  "lon": 21.2699309,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Јагодина",
+    "name:en": "Jagodina",
+    "name:sr": "Јагодина",
+    "name:sr-Latn": "Jagodina",
+    "ref": "41",
+    "side": "right",
+    "source:name:mapillary": "IBg3OY19GanTa_3xPXxAvA",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 369868450,
+  "lat": 43.9923128,
+  "lon": 21.2736444,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 370315704,
+  "lat": 45.0450622,
+  "lon": 19.0060907,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Odmorište Spačvanska šuma",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 372398923,
+  "lat": 43.7532636,
+  "lon": 21.4432201,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Појате",
+    "name:en": "Pojate",
+    "name:sr": "Појате",
+    "name:sr-Latn": "Pojate",
+    "ref": "44",
+    "side": "right",
+    "source:destination:mapillary": "nyLRdSutGVVqM7OZq1D7Vg",
+    "source:name:mapillary": "F2Y9tanXciiK0KdnhuXJOA",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 381908939,
+  "lat": 43.3668437,
+  "lon": 21.8195448,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Трупале",
+    "name:en": "Trupale",
+    "name:sr": "Трупале",
+    "name:sr-Latn": "Trupale",
+    "ref": "48",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 381921248,
+  "lat": 43.6815528,
+  "lon": 21.5459419,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ражањ",
+    "name:en": "Razanj",
+    "name:sr": "Ражањ",
+    "name:sr-Latn": "Ražanj",
+    "ref": "45",
+    "side": "right",
+    "source:direction:mapillary": "EeacDCgZhvnVLORgdbw_Nw",
+    "source:name:mapillary": "3CDNW694qhaY4joZVJm4Zw",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 382029728,
+  "lat": 43.3535918,
+  "lon": 21.8247618,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Trupale",
+    "name": "Трупале",
+    "name:sr": "Трупале",
+    "name:sr-Latn": "Trupale",
+    "ref": "48",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 382029910,
+  "lat": 43.5217264,
+  "lon": 21.7320107,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Алексинац",
+    "name:en": "Aleksinac",
+    "name:sr": "Алексинац",
+    "name:sr-Latn": "Aleksinac",
+    "ref": "47",
+    "side": "right",
+    "source:destination:mapillary": "WHg5q-ut_Vk6Hw_fBHZwpg",
+    "source:name:mapillary": "JKo_uP_PhZs6RUUaMmkPgQ",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 382975429,
+  "lat": 43.3574205,
+  "lon": 21.8267830,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Trupale",
+    "name": "Трупале",
+    "name:sr": "Трупале",
+    "name:sr-Latn": "Trupale",
+    "ref": "48",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 387253921,
+  "lat": 43.3108573,
+  "lon": 21.8008433,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 387253934,
+  "lat": 43.3271884,
+  "lon": 21.8105213,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ниш југ",
+    "name:en": "Nis jug",
+    "name:sr": "Ниш југ",
+    "name:sr-Latn": "Niš jug",
+    "ref": "49",
+    "side": "right",
+    "source:name:mapillary": "FbpYznpeRM5o9ToAMFgOfA",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 387262353,
+  "lat": 43.0971472,
+  "lon": 21.9351737,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Leskovac centar",
+    "name": "Лесковац центар",
+    "name:sr": "Лесковац центар",
+    "name:sr-Latn": "Leskovac centar",
+    "ref": "53",
+    "side": "right",
+    "source:name:mapillary": "QwrHOufHpWvf6rwp0TsMnw",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 387449343,
+  "lat": 43.0943087,
+  "lon": 21.9374194,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Leskovac centar",
+    "name": "Лесковац центар",
+    "name:sr": "Лесковац центар",
+    "name:sr-Latn": "Leskovac centar",
+    "ref": "53",
+    "side": "right",
+    "source:name:mapillary": "f9XuvJ7Q2qr9gq_lht47bg",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 412108712,
+  "lat": 44.8435697,
+  "lon": 20.2139952,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "1144790422665948",
+    "name": "Добановци",
+    "name:en": "Dobanovci",
+    "name:sr": "Добановци",
+    "name:sr-Latn": "Dobanovci",
+    "name_old": "Угриновци",
+    "old_ref": "7",
+    "ref": "8",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 412108714,
+  "lat": 44.8449476,
+  "lon": 20.2089958,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "2979957278956661",
+    "name": "Добановци",
+    "name:en": "Dobanovci",
+    "name:sr": "Добановци",
+    "name:sr-Latn": "Dobanovci",
+    "old_name": "Угриновци",
+    "old_ref": "7",
+    "ref": "8",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 412108791,
+  "lat": 44.8208501,
+  "lon": 20.4020364,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Tosin bunar",
+    "mapillary": "397007517986887",
+    "name": "Тошин бунар",
+    "name:sr": "Тошин бунар",
+    "name:sr-Latn": "Tošin bunar",
+    "old_ref": "13",
+    "ref": "4",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 433941182,
+  "lat": 44.8725890,
+  "lon": 20.1336060,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "783553752305330",
+    "name": "Шимановци",
+    "name:en": "Simanovci",
+    "name:sr": "Шимановци",
+    "name:sr-Latn": "Šimanovci",
+    "old_ref": "6",
+    "ref": "7",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 433941230,
+  "lat": 44.8769483,
+  "lon": 20.1245955,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "150558366974157",
+    "name": "Шимановци",
+    "name:en": "Simanovci",
+    "name:sr": "Шимановци",
+    "name:sr-Latn": "Šimanovci",
+    "old_ref": "6",
+    "ref": "7",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 457219268,
+  "lat": 42.6738622,
+  "lon": 21.1157516,
+  "tags": {
+    "destination:colour:ref": "#f8f6f2",
+    "destination:ref": "R220",
+    "highway": "motorway_junction",
+    "name": "Obiliq",
+    "name:sq": "Obiliq",
+    "name:sr": "Обилић"
+  }
+},
+{
+  "type": "node",
+  "id": 466373432,
+  "lat": 45.0481596,
+  "lon": 19.2074251,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "319465959522966",
+    "name": "Адашевци",
+    "name:en": "Adasevci",
+    "name:sr": "Адашевци",
+    "name:sr-Latn": "Adaševci",
+    "ref": "2",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 470228627,
+  "lat": 45.0403459,
+  "lon": 19.3925066,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "949495512529895",
+    "name": "Кузмин",
+    "name:en": "Kuzmin",
+    "name:sr": "Кузмин",
+    "name:sr-Latn": "Kuzmin",
+    "ref": "3",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 470230072,
+  "lat": 44.9221106,
+  "lon": 19.9559556,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "485065812708838",
+    "name": "Пећинци",
+    "name:en": "Pecinci",
+    "name:sr": "Пећинци",
+    "name:sr-Latn": "Pećinci",
+    "old_ref": "5",
+    "ref": "6",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 505814743,
+  "lat": 43.3400296,
+  "lon": 21.9354540,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ниш исток",
+    "name:en": "Nis istok",
+    "name:sr": "Ниш исток",
+    "name:sr-Latn": "Niš istok",
+    "ref": "2",
+    "side": "right",
+    "source:name:mapillary": "NU9lvzwbsBfcwPGhovMQrw",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 512045135,
+  "lat": 44.7951457,
+  "lon": 20.4595201,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "522454725594649",
+    "name": "Хитна помоћ",
+    "name:en": "Hitna Pomoc",
+    "name:sr": "Хитна помоћ",
+    "name:sr-Latn": "Hitna pomoć",
+    "old_ref": "18",
+    "ref": "9",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 554507266,
+  "lat": 45.2282508,
+  "lon": 19.8621541,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 554508186,
+  "lat": 45.2285360,
+  "lon": 19.8594333,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 598678293,
+  "lat": 45.1511891,
+  "lon": 20.0827661,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 611710918,
+  "lat": 44.9964042,
+  "lon": 20.2073161,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 614946685,
+  "lat": 44.9204640,
+  "lon": 19.9600768,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 614946695,
+  "lat": 44.9109661,
+  "lon": 19.9857723,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 614946727,
+  "lat": 44.9094645,
+  "lon": 19.9908672,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 614946777,
+  "lat": 44.9248748,
+  "lon": 19.9476448,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "387307435871350",
+    "name": "Пећинци",
+    "name:en": "Pecinci",
+    "name:sr": "Пећинци",
+    "name:sr-Latn": "Pećinci",
+    "old_ref": "5",
+    "ref": "6",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 614946906,
+  "lat": 44.9335141,
+  "lon": 19.9167819,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 614946946,
+  "lat": 44.9438826,
+  "lon": 19.8672120,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 618340667,
+  "lat": 45.1447544,
+  "lon": 20.0845358,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 618340726,
+  "lat": 44.9697395,
+  "lon": 20.2350944,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 618340756,
+  "lat": 44.9434417,
+  "lon": 20.2817799,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "4030311143749776",
+    "name": "Нови Бановци",
+    "name:en": "Novi Banovci",
+    "name:sr": "Нови Бановци",
+    "name:sr-Latn": "Novi Banovci",
+    "ref": "21",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 618340801,
+  "lat": 44.9819949,
+  "lon": 20.2197214,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "1958708080949422",
+    "name": "Стара Пазова",
+    "name:en": "Stara Pazova",
+    "name:sk": "Stará Pazova",
+    "name:sr": "Стара Пазова",
+    "name:sr-Latn": "Stara Pazova",
+    "ref": "19",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 618340912,
+  "lat": 44.9651447,
+  "lon": 20.2425181,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "1574219432787902",
+    "name": "Нова Пазова",
+    "name:en": "Nova Pazova",
+    "name:sr": "Нова Пазова",
+    "name:sr-Latn": "Nova Pazova",
+    "ref": "20",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 644170544,
+  "lat": 42.6219308,
+  "lon": 21.0829402,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Miradi i Epërme",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 673439367,
+  "lat": 44.8241044,
+  "lon": 20.2521640,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Beograd",
+    "name": "Београд",
+    "name:en": "Belgrade",
+    "name:sr": "Београд",
+    "name:sr-Latn": "Beograd",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 691150358,
+  "lat": 44.5843040,
+  "lon": 20.9656336,
+  "tags": {
+    "destination": "Smederevo;Kovin",
+    "destination:ref": "153",
+    "highway": "motorway_junction",
+    "int_name": "Smederevo",
+    "mapillary": "517306639426265",
+    "name": "Смедерево",
+    "name:sr": "Смедерево",
+    "name:sr-Latn": "Smederevo",
+    "ref": "35",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 708238338,
+  "lat": 43.3510630,
+  "lon": 21.8475446,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Nis sever",
+    "name": "Ниш север",
+    "name:sr": "Ниш север",
+    "name:sr-Latn": "Niš sever",
+    "ref": "1",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 797134452,
+  "lat": 45.0475257,
+  "lon": 19.2231318,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 928118262,
+  "lat": 45.6993418,
+  "lon": 21.9236403,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 937856741,
+  "lat": 45.6938489,
+  "lon": 21.9283544,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 951313084,
+  "lat": 46.1532522,
+  "lon": 19.9368636,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "2980081318937583",
+    "name": "Хоргош",
+    "name:en": "Horgos",
+    "name:sr": "Хоргош",
+    "name:sr-Latn": "Horgoš",
+    "ref": "1",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 954738468,
+  "lat": 46.0340535,
+  "lon": 19.7394933,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "469713527476721",
+    "name": "Суботица југ",
+    "name:en": "Subotica jug",
+    "name:sr": "Суботица југ",
+    "name:sr-Latn": "Subotica jug",
+    "ref": "4",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 954932793,
+  "lat": 46.1080789,
+  "lon": 19.7952283,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "298964498395695",
+    "name": "Суботица север",
+    "name:en": "Subotica sever",
+    "name:sr": "Суботица север",
+    "name:sr-Latn": "Subotica sever",
+    "ref": "2",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1027943237,
+  "lat": 42.9951334,
+  "lon": 22.8401130,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1027943353,
+  "lat": 42.9936597,
+  "lon": 22.8437765,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1027944031,
+  "lat": 43.0016342,
+  "lon": 22.8147599,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Градина",
+    "name:en": "Gradina",
+    "name:sr": "Градина",
+    "name:sr-Latn": "Gradina",
+    "ref": "8",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1"
+  }
+},
+{
+  "type": "node",
+  "id": 1028415150,
+  "lat": 46.0557777,
+  "lon": 19.7596479,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "2606072093025446",
+    "name": "Суботица исток",
+    "name:en": "Subotica istok",
+    "name:sr": "Суботица исток",
+    "name:sr-Latn": "Subotica istok",
+    "ref": "3",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1033809910,
+  "lat": 42.2867536,
+  "lon": 21.7077666,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "316985783337961",
+    "name": "Прешево",
+    "name:de": "Preševo",
+    "name:en": "Presevo",
+    "name:sq": "Presheva",
+    "name:sr": "Прешево",
+    "name:sr-Latn": "Preševo",
+    "ref": "61"
+  }
+},
+{
+  "type": "node",
+  "id": 1050150648,
+  "lat": 46.1837443,
+  "lon": 21.2371336,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Arad Vest",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1064166949,
+  "lat": 42.9970110,
+  "lon": 22.8365225,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1069955119,
+  "lat": 45.3071517,
+  "lon": 19.8182753,
+  "tags": {
+    "destination": "Bulevar Evrope",
+    "highway": "motorway_junction",
+    "mapillary": "550239012965786",
+    "name": "Нови Сад север",
+    "name:en": "Novi Sad sever",
+    "name:sr": "Нови Сад север",
+    "name:sr-Latn": "Novi Sad sever",
+    "ref": "11",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1069966175,
+  "lat": 45.3066076,
+  "lon": 19.8263190,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Нови Сад центар",
+    "name:en": "Novi Sad centar",
+    "name:sr": "Нови Сад центар",
+    "name:sr-Latn": "Novi Sad centar",
+    "ref": "12",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1069966205,
+  "lat": 45.3065647,
+  "lon": 19.8310123,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Нови Сад центар",
+    "name:en": "Novi Sad centar",
+    "name:sr": "Нови Сад центар",
+    "name:sr-Latn": "Novi Sad centar",
+    "ref": "12",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1069966303,
+  "lat": 45.3069104,
+  "lon": 19.8342761,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "4575860595776869",
+    "name": "Нови Сад центар",
+    "name:en": "Novi Sad centar",
+    "name:sr": "Нови Сад центар",
+    "name:sr-Latn": "Novi Sad centar",
+    "ref": "12",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1069968401,
+  "lat": 45.3069474,
+  "lon": 19.8298013,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "4575860595776869",
+    "name": "Нови Сад центар",
+    "name:en": "Novi Sad centar",
+    "name:sr": "Нови Сад центар",
+    "name:sr-Latn": "Novi Sad centar",
+    "ref": "12",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1073048899,
+  "lat": 45.6275129,
+  "lon": 19.7069147,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1073050084,
+  "lat": 45.9987908,
+  "lon": 19.7219438,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1074625151,
+  "lat": 45.5541303,
+  "lon": 19.7196818,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "5539780042731291",
+    "name": "Врбас",
+    "name:en": "Vrbas",
+    "name:sr": "Врбас",
+    "name:sr-Latn": "Vrbas",
+    "ref": "9",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1104713972,
+  "lat": 45.0363515,
+  "lon": 19.4483744,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1156735679,
+  "lat": 44.6738844,
+  "lon": 20.5983938,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "802022504023262",
+    "name": "Врчин",
+    "name:en": "Vrcin",
+    "name:sr": "Врчин",
+    "name:sr-Latn": "Vrčin",
+    "ref": "30",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1166175145,
+  "lat": 42.9721689,
+  "lon": 22.0369998,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Leskovac jug",
+    "mapillary": "509090956889176",
+    "name": "Лесковац југ",
+    "name:sr": "Лесковац југ",
+    "name:sr-Latn": "Leskovac jug",
+    "ref": "54",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1199974348,
+  "lat": 44.7054713,
+  "lon": 20.5723640,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "187509596567541",
+    "name": "Траншпед",
+    "name:en": "Transped",
+    "name:sr": "Траншпед",
+    "name:sr-Latn": "Tranšped",
+    "ref": "29",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1224290060,
+  "lat": 42.6252028,
+  "lon": 21.0867452,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 1245053251,
+  "lat": 42.6709177,
+  "lon": 21.1177445,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Obiliq",
+    "name:sq": "Obiliq",
+    "name:sr": "Обилић"
+  }
+},
+{
+  "type": "node",
+  "id": 1245058559,
+  "lat": 42.7169783,
+  "lon": 21.0940931,
+  "tags": {
+    "exit_to": "Podujeva",
+    "highway": "motorway_junction",
+    "name": "Podujevë / Obiliq",
+    "name:sq": "Podujevë / Obiliq",
+    "name:sr": "Подујево - Обилић"
+  }
+},
+{
+  "type": "node",
+  "id": 1296800528,
+  "lat": 44.8337316,
+  "lon": 20.2746758,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Aerodrom",
+    "mapillary": "3078511959097024",
+    "name": "Аеродром",
+    "name:en": "Airport",
+    "name:sr": "Аеродром",
+    "name:sr-Latn": "Aerodrom",
+    "old_ref": "10",
+    "ref": "1",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1308770799,
+  "lat": 42.6655482,
+  "lon": 21.1264329,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Obiliq",
+    "name:sq": "Obiliq",
+    "name:sr": "Обилић"
+  }
+},
+{
+  "type": "node",
+  "id": 1313205366,
+  "lat": 45.8838540,
+  "lon": 22.4131821,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Holdea"
+  }
+},
+{
+  "type": "node",
+  "id": 1313205450,
+  "lat": 45.9455296,
+  "lon": 22.6294017,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ilia"
+  }
+},
+{
+  "type": "node",
+  "id": 1313216037,
+  "lat": 45.7972796,
+  "lon": 21.8519060,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Lugoj, Calafat",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1351877251,
+  "lat": 45.0481408,
+  "lon": 18.9072317,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Spačva",
+    "ref": "28"
+  }
+},
+{
+  "type": "node",
+  "id": 1351877276,
+  "lat": 45.0479838,
+  "lon": 18.9130257,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Spačva",
+    "ref": "28"
+  }
+},
+{
+  "type": "node",
+  "id": 1359177143,
+  "lat": 46.0802080,
+  "lon": 19.7850197,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1359177327,
+  "lat": 46.1037404,
+  "lon": 19.7934138,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "836245757244337",
+    "name": "Суботица север",
+    "name:en": "Subotica sever",
+    "name:sr": "Суботица север",
+    "name:sr-Latn": "Subotica sever",
+    "ref": "2",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1359178228,
+  "lat": 46.1314405,
+  "lon": 19.8687362,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1359178540,
+  "lat": 46.1399494,
+  "lon": 19.9016690,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1359227160,
+  "lat": 46.0571211,
+  "lon": 19.7617629,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "144368187669138",
+    "name": "Суботица исток",
+    "name:en": "Subotica istok",
+    "name:sr": "Суботица исток",
+    "name:sr-Latn": "Subotica istok",
+    "ref": "3",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1362561403,
+  "lat": 45.3652260,
+  "lon": 19.7518690,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1366424543,
+  "lat": 45.8246351,
+  "lon": 19.6871043,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "213046266949240",
+    "name": "Бачка Топола",
+    "name:en": "Backa Topola",
+    "name:sr": "Бачка Топола",
+    "name:sr-Latn": "Bačka Topola",
+    "ref": "6",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1366435316,
+  "lat": 45.3304254,
+  "lon": 19.7778663,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1381506545,
+  "lat": 45.4379173,
+  "lon": 19.7377874,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "2588642028107381",
+    "name": "Сириг",
+    "name:en": "Sirig",
+    "name:sr": "Сириг",
+    "name:sr-Latn": "Sirig",
+    "ref": "10",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1381506782,
+  "lat": 45.4443487,
+  "lon": 19.7368888,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "277446514064317",
+    "name": "Сириг",
+    "name:en": "Sirig",
+    "name:sr": "Сириг",
+    "name:sr-Latn": "Sirig",
+    "ref": "10",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1404515377,
+  "lat": 44.5755688,
+  "lon": 20.8951527,
+  "tags": {
+    "destination": "Smederevo;Smederevska Palanka;Kolari",
+    "destination:ref": "352",
+    "highway": "motorway_junction",
+    "mapillary": "946742076157019",
+    "name": "Колари",
+    "name:en": "Kolari",
+    "name:sr": "Колари",
+    "name:sr-Latn": "Kolari",
+    "ref": "34",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1404515385,
+  "lat": 44.5758226,
+  "lon": 20.6467616,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1404531358,
+  "lat": 43.3827145,
+  "lon": 21.8079740,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1404531371,
+  "lat": 43.5757219,
+  "lon": 21.6691204,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1404531376,
+  "lat": 43.6180238,
+  "lon": 21.5905571,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1412117399,
+  "lat": 46.1834838,
+  "lon": 21.2565126,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Arad Vest",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1425473447,
+  "lat": 43.9539144,
+  "lon": 21.3650753,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1425473477,
+  "lat": 44.3473551,
+  "lon": 21.0773925,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1425473486,
+  "lat": 44.5729350,
+  "lon": 20.6491996,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1425473493,
+  "lat": 44.5752114,
+  "lon": 20.9023899,
+  "tags": {
+    "destination": "Smederevo;Smederevska Palanka;Kolari",
+    "destination:ref": "352",
+    "highway": "motorway_junction",
+    "mapillary": "738427703517735",
+    "name": "Колари",
+    "name:en": "Kolari",
+    "name:sr": "Колари",
+    "name:sr-Latn": "Kolari",
+    "ref": "34",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1430322111,
+  "lat": 45.9954169,
+  "lon": 19.7199078,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1432304522,
+  "lat": 44.9988095,
+  "lon": 19.6565536,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Sremska Mitrovica",
+    "mapillary": "169004718494489",
+    "name": "Сремска Митровица",
+    "name:sr": "Сремска Митровица",
+    "name:sr-Latn": "Sremska Mitrovica",
+    "old_ref": "3",
+    "ref": "4",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1433933350,
+  "lat": 42.4089498,
+  "lon": 20.8540066,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Duhël",
+    "name:sq": "Duhël",
+    "name:sr": "Дуље",
+    "ref": "5"
+  }
+},
+{
+  "type": "node",
+  "id": 1449005242,
+  "lat": 43.0007377,
+  "lon": 22.8216243,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "927258757817094",
+    "noref": "yes",
+    "side": "right",
+    "traffic_sign:forward": "RS:II-30[80]"
+  }
+},
+{
+  "type": "node",
+  "id": 1449467937,
+  "lat": 43.0010720,
+  "lon": 22.8183529,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1458036248,
+  "lat": 45.0484835,
+  "lon": 19.1886660,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1460397191,
+  "lat": 45.0481396,
+  "lon": 19.2029869,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "319465959522966",
+    "name": "Адашевци",
+    "name:en": "Adasevci",
+    "name:sr": "Адашевци",
+    "name:sr-Latn": "Adaševci",
+    "ref": "2",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1471228525,
+  "lat": 42.6720326,
+  "lon": 22.0667482,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1476657971,
+  "lat": 42.2484671,
+  "lon": 20.7136041,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Prizren veri",
+    "name:de": "Prizren Nord",
+    "name:en": "Prizren north",
+    "name:sq": "Prizren veri",
+    "name:sr": "Призрен север",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 1478081741,
+  "lat": 43.2812084,
+  "lon": 21.8018847,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Мерошина",
+    "name:en": "Merosina",
+    "name:sr": "Мерошина",
+    "name:sr-Latn": "Merošina",
+    "ref": "50",
+    "side": "right",
+    "source:name:mapillary": "njoZUZJHE2DVGTfqPbELJg",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1480248206,
+  "lat": 42.5999758,
+  "lon": 21.0236012,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Bardh i Madh"
+  }
+},
+{
+  "type": "node",
+  "id": 1480248362,
+  "lat": 42.5782244,
+  "lon": 20.8939562,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Komoran",
+    "name:sq": "Komoran",
+    "name:sr": "Коморан"
+  }
+},
+{
+  "type": "node",
+  "id": 1480248464,
+  "lat": 42.5985167,
+  "lon": 21.0200036,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Harilaq"
+  }
+},
+{
+  "type": "node",
+  "id": 1480248588,
+  "lat": 42.5660185,
+  "lon": 20.8319607,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Malishevë",
+    "name:sq": "Malishevë",
+    "name:sr": "Малошево",
+    "name:sr-Latn": "Mališevo"
+  }
+},
+{
+  "type": "node",
+  "id": 1480261904,
+  "lat": 42.5661445,
+  "lon": 20.8320122,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Malishevë",
+    "name:sq": "Malishevë",
+    "name:sr": "Малошево",
+    "name:sr-Latn": "Mališevo"
+  }
+},
+{
+  "type": "node",
+  "id": 1485684269,
+  "lat": 44.8227925,
+  "lon": 20.3975330,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Tosin bunar",
+    "mapillary": "521884038982410",
+    "name": "Тошин бунар",
+    "name:sr": "Тошин бунар",
+    "name:sr-Latn": "Tošin bunar",
+    "old_ref": "13",
+    "ref": "4",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 1494618103,
+  "lat": 42.3636116,
+  "lon": 20.8102534,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Suharekë",
+    "name:de": "Suhareka",
+    "name:sq": "Suharekë",
+    "name:sr": "Сува Река",
+    "ref": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 1495810370,
+  "lat": 45.0440012,
+  "lon": 19.1381336,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Batrovci",
+    "name": "Батровци",
+    "name:sr": "Батровци",
+    "name:sr-Latn": "Batrovci",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 1554628674,
+  "lat": 46.1267084,
+  "lon": 21.3145250,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Arad Sud",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1554803007,
+  "lat": 46.1290601,
+  "lon": 21.3122140,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Arad Sud",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1555765501,
+  "lat": 46.1864007,
+  "lon": 21.2396898,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Arad Vest",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1564434365,
+  "lat": 45.5553608,
+  "lon": 19.7199133,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "4075394935879971",
+    "name": "Врбас",
+    "name:en": "Vrbas",
+    "name:sr": "Врбас",
+    "name:sr-Latn": "Vrbas",
+    "ref": "9",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1598958813,
+  "lat": 45.0987132,
+  "lon": 20.1152801,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "848553072536619",
+    "name": "Марадик",
+    "name:en": "Maradik",
+    "name:sr": "Марадик",
+    "name:sr-Latn": "Maradik",
+    "ref": "17",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1607758196,
+  "lat": 44.1512767,
+  "lon": 21.1130782,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Баточина",
+    "name:en": "Batocina",
+    "name:sr": "Баточина",
+    "name:sr-Latn": "Batočina",
+    "ref": "40",
+    "side": "right",
+    "source:name:mapillary": "p8E4fdm8DN--jvEhvES6JA",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1608719878,
+  "lat": 45.3025087,
+  "lon": 19.8645667,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "315628543377836",
+    "name": "Нови Сад исток",
+    "name:en": "Novi Sad istok",
+    "name:sr": "Нови Сад исток",
+    "name:sr-Latn": "Novi Sad istok",
+    "ref": "13",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1608720270,
+  "lat": 45.3031257,
+  "lon": 19.8618422,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "570125481057572",
+    "name": "Нови Сад исток",
+    "name:en": "Novi Sad istok",
+    "name:sr": "Нови Сад исток",
+    "name:sr-Latn": "Novi Sad istok",
+    "ref": "13",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1608720755,
+  "lat": 45.3036579,
+  "lon": 19.8615149,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "315628543377836",
+    "name": "Нови Сад исток",
+    "name:en": "Novi Sad istok",
+    "name:sr": "Нови Сад исток",
+    "name:sr-Latn": "Novi Sad istok",
+    "ref": "13",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1614758184,
+  "lat": 44.2335051,
+  "lon": 20.2545986,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "487470306011466",
+    "name": "Љиг",
+    "name:en": "Ljig",
+    "name:sr": "Љиг",
+    "name:sr-Latn": "Ljig",
+    "ref": "4",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1614758347,
+  "lat": 44.3566475,
+  "lon": 20.1316752,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "750257285666460",
+    "name": "Лајковац",
+    "name:en": "Lajkovac",
+    "name:sr": "Лајковац",
+    "name:sr-Latn": "Lajkovac",
+    "ref": "3",
+    "side": "right",
+    "traffic_sign": "RSlll82.1_od",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 1614758557,
+  "lat": 44.4559218,
+  "lon": 20.1248530,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "210559964076840",
+    "name": "Уб",
+    "name:en": "Ub",
+    "name:sr": "Уб",
+    "name:sr-Latn": "Ub",
+    "ref": "2",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1615608334,
+  "lat": 44.0424977,
+  "lon": 20.3774795,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Таково",
+    "name:en": "Takovo",
+    "name:sr": "Таково",
+    "name:sr-Latn": "Takovo",
+    "ref": "5"
+  }
+},
+{
+  "type": "node",
+  "id": 1615848106,
+  "lat": 44.3597511,
+  "lon": 20.1249524,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Лајковац",
+    "name:en": "Lajkovac",
+    "name:sr": "Лајковац",
+    "name:sr-Latn": "Lajkovac",
+    "ref": "3",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 1615848145,
+  "lat": 44.4578646,
+  "lon": 20.1237857,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "818359325779622",
+    "name": "Уб",
+    "name:en": "Ub",
+    "name:sr": "Уб",
+    "name:sr-Latn": "Ub",
+    "ref": "2",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1616945037,
+  "lat": 44.0459912,
+  "lon": 20.3784282,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Таково",
+    "name:en": "Takovo",
+    "name:sr": "Таково",
+    "name:sr-Latn": "Takovo",
+    "ref": "5"
+  }
+},
+{
+  "type": "node",
+  "id": 1616945204,
+  "lat": 44.2342866,
+  "lon": 20.2548427,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "802386780407397",
+    "name": "Љиг",
+    "name:en": "Ljig",
+    "name:sr": "Љиг",
+    "name:sr-Latn": "Ljig",
+    "ref": "4",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1628524952,
+  "lat": 44.8314369,
+  "lon": 20.2513494,
+  "tags": {
+    "highway": "motorway_junction",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1628525161,
+  "lat": 44.8389817,
+  "lon": 20.2500424,
+  "tags": {
+    "highway": "motorway_junction",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1639768428,
+  "lat": 43.1951063,
+  "lon": 21.8523746,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Дољевац",
+    "name:en": "Doljevac",
+    "name:sr": "Дољевац",
+    "name:sr-Latn": "Doljevac",
+    "ref": "51",
+    "side": "right",
+    "source:name:mapillary": "27IOKYbA-NW-YlpjyZUdTw",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1640078349,
+  "lat": 44.7856827,
+  "lon": 20.4780986,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1688838788,
+  "lat": 44.7166831,
+  "lon": 20.5325125,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Bubanj Potok",
+    "name": "Бубањ Поток",
+    "name:sr": "Бубањ Поток",
+    "name:sr-Latn": "Bubanj Potok",
+    "ref": "28"
+  }
+},
+{
+  "type": "node",
+  "id": 1714545245,
+  "lat": 43.3489144,
+  "lon": 21.8565059,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Nis sever",
+    "name": "Ниш север",
+    "name:sr": "Ниш север",
+    "name:sr-Latn": "Niš sever",
+    "ref": "1",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1727871946,
+  "lat": 43.0019014,
+  "lon": 22.8118899,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Градина",
+    "name:en": "Gradina",
+    "name:sr": "Градина",
+    "name:sr-Latn": "Gradina",
+    "ref": "8",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1"
+  }
+},
+{
+  "type": "node",
+  "id": 1727895812,
+  "lat": 42.4052552,
+  "lon": 20.8590808,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Duhël",
+    "name:sq": "Duhël",
+    "name:sr": "Дуље",
+    "ref": "5"
+  }
+},
+{
+  "type": "node",
+  "id": 1734338466,
+  "lat": 42.4630487,
+  "lon": 20.8065713,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Malishevë",
+    "name:de": "Malisheva",
+    "name:sq": "Malishevë",
+    "name:sr": "Малишево",
+    "ref": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 1740696494,
+  "lat": 44.7143959,
+  "lon": 20.4084660,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Orlovaca",
+    "name": "Орловача",
+    "name:sr": "Орловача",
+    "name:sr-Latn": "Orlovača",
+    "ref": "26",
+    "side": "right",
+    "traffic_sign": "RSlll82.1_od"
+  }
+},
+{
+  "type": "node",
+  "id": 1741732046,
+  "lat": 44.8878904,
+  "lon": 20.3012162,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 1741732086,
+  "lat": 44.8910116,
+  "lon": 20.2962474,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "282545246650623",
+    "name": "Батајница",
+    "name:en": "Batajnica",
+    "name:sr": "Батајница",
+    "name:sr-Latn": "Batajnica",
+    "ref": "22",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1741732094,
+  "lat": 44.8415573,
+  "lon": 20.2499646,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Beograd",
+    "mapillary": "736839976983976",
+    "name": "Београд",
+    "name:en": "Belgrade",
+    "name:sr": "Београд",
+    "name:sr-Latn": "Beograd",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1741732104,
+  "lat": 44.8915380,
+  "lon": 20.2965392,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "332764371857648",
+    "name": "Батајница",
+    "name:en": "Batajnica",
+    "name:sr": "Батајница",
+    "name:sr-Latn": "Batajnica",
+    "ref": "22",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1741732258,
+  "lat": 44.8014685,
+  "lon": 20.2547439,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Сурчин",
+    "name:en": "Surcin",
+    "name:sr": "Сурчин",
+    "name:sr-Latn": "Surčin",
+    "ref": "24",
+    "side": "right",
+    "source:ref:mapillary": "lqEgplPt0u2Xd6toJ-9bTQ",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1741732345,
+  "lat": 44.7716344,
+  "lon": 20.2737639,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Surcin jug",
+    "name": "Сурчин југ",
+    "name:en": "Surčin south",
+    "name:sr": "Сурчин југ",
+    "name:sr-Latn": "Surčin jug",
+    "ref": "24.1",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1741732360,
+  "lat": 44.8331118,
+  "lon": 20.2513029,
+  "tags": {
+    "highway": "motorway_junction",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1741732364,
+  "lat": 44.8355186,
+  "lon": 20.2504186,
+  "tags": {
+    "highway": "motorway_junction",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1741732409,
+  "lat": 44.8062657,
+  "lon": 20.2539754,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "1195174377602659",
+    "name": "Сурчин",
+    "name:en": "Surcin",
+    "name:sr": "Сурчин",
+    "name:sr-Latn": "Surčin",
+    "ref": "24",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1745443512,
+  "lat": 45.4480640,
+  "lon": 22.2237078,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1749774970,
+  "lat": 42.2930586,
+  "lon": 21.7095390,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "836756753927953",
+    "name": "Прешево",
+    "name:de": "Preševo",
+    "name:en": "Presevo",
+    "name:sq": "Presheva",
+    "name:sr": "Прешево",
+    "name:sr-Latn": "Preševo",
+    "ref": "61"
+  }
+},
+{
+  "type": "node",
+  "id": 1750875077,
+  "lat": 44.9990071,
+  "lon": 19.6456927,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Sremska Mitrovica",
+    "mapillary": "2852675498315180",
+    "name": "Сремска Митровица",
+    "name:sr": "Сремска Митровица",
+    "name:sr-Latn": "Sremska Mitrovica",
+    "old_ref": "3",
+    "ref": "4",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1751725630,
+  "lat": 44.0041848,
+  "lon": 21.2701039,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Јагодина",
+    "name:en": "Jagodina",
+    "name:sr": "Јагодина",
+    "name:sr-Latn": "Jagodina",
+    "ref": "41",
+    "side": "right",
+    "source:name:mapillary": "5_0mnjFGbVCB9wXEBHodIg",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1763597555,
+  "lat": 45.0577929,
+  "lon": 18.8111267,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Odmorište Bošnjaci",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1763597574,
+  "lat": 45.0562673,
+  "lon": 18.8150134,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Odmorište Bošnjaci",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1763604496,
+  "lat": 45.0446853,
+  "lon": 19.0003817,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Odmorište Spačvanska šuma",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1788921587,
+  "lat": 42.4691345,
+  "lon": 20.8044856,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Malishevë",
+    "name:de": "Malisheva",
+    "name:sq": "Malishevë",
+    "name:sr": "Малишево",
+    "ref": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 1810829976,
+  "lat": 44.3412525,
+  "lon": 21.0820795,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "321243936146063",
+    "name": "Велика Плана",
+    "name:en": "Velika Plana",
+    "name:sr": "Велика Плана",
+    "name:sr-Latn": "Velika Plana",
+    "ref": "37",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1850358607,
+  "lat": 45.0398238,
+  "lon": 19.3833737,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "514108023105625",
+    "name": "Кузмин",
+    "name:en": "Kuzmin",
+    "name:sr": "Кузмин",
+    "name:sr-Latn": "Kuzmin",
+    "ref": "3",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1858646277,
+  "lat": 45.1349327,
+  "lon": 20.0880490,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "538363150935257",
+    "name": "Бешка",
+    "name:en": "Beska",
+    "name:sr": "Бешка",
+    "name:sr-Latn": "Beška",
+    "ref": "16",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1858647360,
+  "lat": 45.1388322,
+  "lon": 20.0863069,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "774519050099497",
+    "name": "Бешка",
+    "name:en": "Beska",
+    "name:sr": "Бешка",
+    "name:sr-Latn": "Beška",
+    "ref": "16",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1858787656,
+  "lat": 45.0700758,
+  "lon": 20.1516126,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Indjija",
+    "mapillary": "897965740765124",
+    "name": "Инђија",
+    "name:en": "Indjija",
+    "name:sr": "Инђија",
+    "name:sr-Latn": "Inđija",
+    "ref": "18",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1902687538,
+  "lat": 42.8599002,
+  "lon": 23.0369396,
+  "tags": {
+    "alt_name": "Сливица Запад",
+    "alt_name:en": "Slivnitsa Zapad",
+    "highway": "motorway_junction",
+    "name": "Сливница 1",
+    "name:en": "Slivnitsa 1",
+    "ref": "26"
+  }
+},
+{
+  "type": "node",
+  "id": 1902687624,
+  "lat": 42.8826925,
+  "lon": 22.9950362,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Алдомировско блато",
+    "name:en": "Aldomirovtsi marsh",
+    "ref": "21"
+  }
+},
+{
+  "type": "node",
+  "id": 1902687670,
+  "lat": 42.9209179,
+  "lon": 22.9374874,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1902687686,
+  "lat": 42.9231089,
+  "lon": 22.9366971,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1902687703,
+  "lat": 42.9315942,
+  "lon": 22.9250800,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Драгоман - Запад",
+    "name:en": "Dragoman - West",
+    "ref": "13"
+  }
+},
+{
+  "type": "node",
+  "id": 1914051373,
+  "lat": 45.8879777,
+  "lon": 19.6991451,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1914158948,
+  "lat": 45.2185104,
+  "lon": 20.0620651,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1914159276,
+  "lat": 45.2430583,
+  "lon": 20.0340736,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "795316824710100",
+    "name": "Ковиљ",
+    "name:en": "Kovilj",
+    "name:sr": "Ковиљ",
+    "name:sr-Latn": "Kovilj",
+    "ref": "15",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1914159304,
+  "lat": 45.2438526,
+  "lon": 20.0325220,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "542682520058923",
+    "name": "Ковиљ",
+    "name:en": "Kovilj",
+    "name:sr": "Ковиљ",
+    "name:sr-Latn": "Kovilj",
+    "ref": "15",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 1939883924,
+  "lat": 45.0406236,
+  "lon": 19.2652519,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1960911524,
+  "lat": 44.0057860,
+  "lon": 22.8523575,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Брегово",
+    "name:en": "Bregovo",
+    "ref": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 1961921258,
+  "lat": 44.0054276,
+  "lon": 22.8519399,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Брегово",
+    "name:en": "Bregovo",
+    "ref": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 1965340340,
+  "lat": 42.3311774,
+  "lon": 23.0994436,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Дупница - Север",
+    "name:en": "Dupnitsa - North",
+    "ref": "51"
+  }
+},
+{
+  "type": "node",
+  "id": 1965340492,
+  "lat": 42.3394594,
+  "lon": 23.0969261,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Дупница - Север",
+    "name:en": "Dupnitsa - North",
+    "ref": "51"
+  }
+},
+{
+  "type": "node",
+  "id": 1969288011,
+  "lat": 43.9858328,
+  "lon": 22.8396377,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Новоселци",
+    "name:en": "Novoseltsi",
+    "ref": "8"
+  }
+},
+{
+  "type": "node",
+  "id": 1969297466,
+  "lat": 43.9895333,
+  "lon": 22.8391995,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Новоселци",
+    "name:en": "Novoseltsi",
+    "ref": "8"
+  }
+},
+{
+  "type": "node",
+  "id": 1979132231,
+  "lat": 45.8045221,
+  "lon": 21.4049059,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Timișoara Est, Aeroport Timișoara"
+  }
+},
+{
+  "type": "node",
+  "id": 1979132265,
+  "lat": 45.7967101,
+  "lon": 21.8490476,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Lugoj, Calafat",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1990012516,
+  "lat": 43.2349679,
+  "lon": 22.3153366,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Bela Palanka",
+    "name": "Бела Паланка",
+    "name:sr": "Бела Паланка",
+    "name:sr-Latn": "Bela Palanka",
+    "ref": "4",
+    "side": "right",
+    "source:name:mapillary": "hcMcIprlMfUuE-cDNoPiCg",
+    "traffic_sign:forward": "RS:III-82.1"
+  }
+},
+{
+  "type": "node",
+  "id": 1990112094,
+  "lat": 44.7365608,
+  "lon": 19.4672705,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 2012904836,
+  "lat": 42.5527501,
+  "lon": 20.8153151,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Arllat",
+    "name:sq": "Arllat",
+    "ref": "7"
+  }
+},
+{
+  "type": "node",
+  "id": 2013637065,
+  "lat": 42.5801987,
+  "lon": 20.8975082,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Komoran",
+    "name:de": "Komoran",
+    "name:sq": "Komoran",
+    "name:sr": "Коморан"
+  }
+},
+{
+  "type": "node",
+  "id": 2032861638,
+  "lat": 42.3627606,
+  "lon": 20.8096917,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Suharekë",
+    "name:de": "Suhareka",
+    "name:sq": "Suharekë",
+    "name:sr": "Сува Река",
+    "ref": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 2036918736,
+  "lat": 42.5507462,
+  "lon": 20.8095396,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 2036918841,
+  "lat": 42.5599087,
+  "lon": 20.8247463,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2045419529,
+  "lat": 45.8597314,
+  "lon": 21.3165118,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Timișoara Nord, Lipova",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2045419769,
+  "lat": 45.8757066,
+  "lon": 21.2882693,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Centura Timișoara"
+  }
+},
+{
+  "type": "node",
+  "id": 2045419809,
+  "lat": 45.8578002,
+  "lon": 21.3214538,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Timișoara Nord, Lipova",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2052814448,
+  "lat": 42.6000803,
+  "lon": 21.0318701,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Aeroporti",
+    "name:de": "Flughafen",
+    "name:en": "Airport",
+    "name:sq": "Aeroporti",
+    "name:sr": "Аеродром"
+  }
+},
+{
+  "type": "node",
+  "id": 2052814458,
+  "lat": 42.6003867,
+  "lon": 21.0257626,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Aeroporti",
+    "name:de": "Flughafen",
+    "name:en": "Airport",
+    "name:sq": "Aeroporti",
+    "name:sr": "Аеродром"
+  }
+},
+{
+  "type": "node",
+  "id": 2078064257,
+  "lat": 45.7786301,
+  "lon": 21.3179445,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 2078064324,
+  "lat": 45.7788714,
+  "lon": 21.3230018,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 2078089900,
+  "lat": 45.7795848,
+  "lon": 21.3176504,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 2078549669,
+  "lat": 45.8506751,
+  "lon": 23.0413288,
+  "tags": {
+    "destination": "Orăștie;Hațeg;Simeria",
+    "highway": "motorway_junction",
+    "name": "Simeria, Hațeg",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2083641846,
+  "lat": 45.9104424,
+  "lon": 22.8860272,
+  "tags": {
+    "destination": "Oradea; Deva",
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2085901406,
+  "lat": 44.8088610,
+  "lon": 20.4281987,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2103463756,
+  "lat": 44.7771923,
+  "lon": 20.5121503,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2103463770,
+  "lat": 44.7814359,
+  "lon": 20.4931306,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2168877052,
+  "lat": 43.0001771,
+  "lon": 22.8257237,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2168895761,
+  "lat": 42.9963577,
+  "lon": 22.8385875,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2168895774,
+  "lat": 42.9961424,
+  "lon": 22.8390823,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2168905581,
+  "lat": 42.9964184,
+  "lon": 22.8384376,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2168942863,
+  "lat": 42.9953032,
+  "lon": 22.8399354,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2188978525,
+  "lat": 42.5761535,
+  "lon": 20.8683555,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Llapushnik",
+    "name:sq": "Llapushnik",
+    "name:sr": "Лапушник"
+  }
+},
+{
+  "type": "node",
+  "id": 2205556972,
+  "lat": 44.0591594,
+  "lon": 20.9778357,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Јовановац",
+    "name:en": "Jovanovac",
+    "name:sr": "Јовановац",
+    "name:sr-Latn": "Jovanovac",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 2252664052,
+  "lat": 42.6022990,
+  "lon": 21.0389500,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Henc"
+  }
+},
+{
+  "type": "node",
+  "id": 2252664094,
+  "lat": 42.6045033,
+  "lon": 21.0461035,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Henc"
+  }
+},
+{
+  "type": "node",
+  "id": 2254666275,
+  "lat": 44.5750867,
+  "lon": 20.7454564,
+  "tags": {
+    "destination": "Umčari;Grocka",
+    "destination:ref": "351",
+    "highway": "motorway_junction",
+    "mapillary": "461384815093304",
+    "name": "Умчари",
+    "name:en": "Umcari",
+    "name:sr": "Умчари",
+    "name:sr-Latn": "Umčari",
+    "ref": "32",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2254666329,
+  "lat": 44.5751914,
+  "lon": 20.7459079,
+  "tags": {
+    "destination": "Umčari;Grocka",
+    "destination:ref": "351",
+    "highway": "motorway_junction",
+    "mapillary": "251922730046305",
+    "name": "Умчари",
+    "name:en": "Umcari",
+    "name:sr": "Умчари",
+    "name:sr-Latn": "Umčari",
+    "ref": "32",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2254771798,
+  "lat": 44.5677744,
+  "lon": 20.6976060,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2254771800,
+  "lat": 44.5671150,
+  "lon": 20.6949136,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2267235613,
+  "lat": 42.6026743,
+  "lon": 20.9495346,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Korroticë",
+    "name:sq": "Korroticë",
+    "name:sr": "Коретица"
+  }
+},
+{
+  "type": "node",
+  "id": 2269259974,
+  "lat": 45.3042475,
+  "lon": 19.8581959,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "570125481057572",
+    "name": "Нови Сад исток",
+    "name:en": "Novi Sad istok",
+    "name:sr": "Нови Сад исток",
+    "name:sr-Latn": "Novi Sad istok",
+    "ref": "13",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2277274402,
+  "lat": 45.8496695,
+  "lon": 23.0463023,
+  "tags": {
+    "destination": "Orăștie;Hațeg;Simeria",
+    "highway": "motorway_junction",
+    "name": "Simeria, Hațeg",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2286879597,
+  "lat": 45.4539121,
+  "lon": 19.7343986,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2295142760,
+  "lat": 45.9603578,
+  "lon": 21.2855920,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Orțișoara, Seceani",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2295142827,
+  "lat": 45.9647277,
+  "lon": 21.2860210,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Orțișoara, Seceani",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2312107839,
+  "lat": 42.5980938,
+  "lon": 21.0065313,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Bardh i Madh"
+  }
+},
+{
+  "type": "node",
+  "id": 2312107861,
+  "lat": 42.5983887,
+  "lon": 21.0120601,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Harilaq"
+  }
+},
+{
+  "type": "node",
+  "id": 2312126880,
+  "lat": 42.5913687,
+  "lon": 20.9207467,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Zabel i Epërm"
+  }
+},
+{
+  "type": "node",
+  "id": 2312126938,
+  "lat": 42.5934221,
+  "lon": 20.9246606,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2317744703,
+  "lat": 42.6086018,
+  "lon": 21.0587890,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Vragoli"
+  }
+},
+{
+  "type": "node",
+  "id": 2317744741,
+  "lat": 42.6097904,
+  "lon": 21.0643713,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Miradi"
+  }
+},
+{
+  "type": "node",
+  "id": 2321343282,
+  "lat": 45.2757533,
+  "lon": 19.9240173,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2321350251,
+  "lat": 45.2767059,
+  "lon": 19.9194816,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2327147864,
+  "lat": 45.0068249,
+  "lon": 20.2011282,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2328088950,
+  "lat": 45.4135573,
+  "lon": 19.7366974,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2328619511,
+  "lat": 45.5096441,
+  "lon": 19.7249258,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2328708152,
+  "lat": 45.6387894,
+  "lon": 19.7117351,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "520914592621910",
+    "name": "Фекетић",
+    "name:en": "Feketic",
+    "name:sr": "Фекетић",
+    "name:sr-Latn": "Feketić",
+    "ref": "8",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2328708297,
+  "lat": 45.6477812,
+  "lon": 19.7181450,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "206005561096868",
+    "name": "Фекетић",
+    "name:en": "Feketic",
+    "name:sr": "Фекетић",
+    "name:sr-Latn": "Feketić",
+    "ref": "8",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2329313941,
+  "lat": 45.7934513,
+  "lon": 19.6940231,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2329329815,
+  "lat": 45.8232184,
+  "lon": 19.6868143,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "310134077332894",
+    "name": "Бачка Топола",
+    "name:en": "Backa Topola",
+    "name:sr": "Бачка Топола",
+    "name:sr-Latn": "Bačka Topola",
+    "ref": "6",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2329369017,
+  "lat": 45.9366114,
+  "lon": 19.7099411,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Cantavir",
+    "mapillary": "2872920913027171",
+    "name": "Чантавир",
+    "name:sr": "Чантавир",
+    "name:sr-Latn": "Čantavir",
+    "ref": "5",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2330673737,
+  "lat": 45.8008134,
+  "lon": 21.4111746,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 2363546080,
+  "lat": 45.9066339,
+  "lon": 22.8760945,
+  "tags": {
+    "destination": "Oradea; Brad; A1",
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2376328154,
+  "lat": 45.8449400,
+  "lon": 23.0445288,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 2398000191,
+  "lat": 44.0162541,
+  "lon": 22.8801510,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ново село",
+    "name:en": "Novo selo",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 2398000229,
+  "lat": 44.0164081,
+  "lon": 22.8861305,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ново село",
+    "name:en": "Novo selo",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 2402737719,
+  "lat": 43.9376607,
+  "lon": 21.3889285,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Cuprija",
+    "name": "Ћуприја",
+    "name:sr": "Ћуприја",
+    "name:sr-Latn": "Ćuprija",
+    "ref": "42",
+    "side": "right",
+    "source:name:mapillary": "XAJ9aMH4qH0TOQIM2PzSLw",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2430929828,
+  "lat": 44.1844584,
+  "lon": 21.1110361,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Лапово",
+    "name:en": "Lapovo",
+    "name:sr": "Лапово",
+    "name:sr-Latn": "Lapovo",
+    "ref": "39",
+    "side": "right",
+    "source:name:mapillary": "YTacY1OpmfdsW3wJiuyICg",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2430929893,
+  "lat": 44.1863560,
+  "lon": 21.1113900,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Лапово",
+    "name:en": "Lapovo",
+    "name:sr": "Лапово",
+    "name:sr-Latn": "Lapovo",
+    "ref": "39",
+    "side": "right",
+    "source:name:mapillary": "Vr3rdn4nxeOv7QO9LheXTA",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2430929908,
+  "lat": 44.2356724,
+  "lon": 21.1182583,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Марковац",
+    "name:en": "Markovac",
+    "name:sr": "Марковац",
+    "name:sr-Latn": "Markovac",
+    "ref": "38",
+    "side": "right",
+    "source:name:mapillary": "xTUp27ctQyx2BBE11iDJ3A",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2430929948,
+  "lat": 44.2372962,
+  "lon": 21.1182775,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2432112663,
+  "lat": 43.9345403,
+  "lon": 21.3902749,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Cuprija",
+    "name": "Ћуприја",
+    "name:sr": "Ћуприја",
+    "name:sr-Latn": "Ćuprija",
+    "ref": "42",
+    "side": "right",
+    "source:name:mapillary": "PBARpMACw2novkO8TGSKgA",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2432112740,
+  "lat": 43.9396462,
+  "lon": 21.3875042,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2483532382,
+  "lat": 44.1518597,
+  "lon": 21.1124401,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Баточина",
+    "name:en": "Batocina",
+    "name:sr": "Баточина",
+    "name:sr-Latn": "Batočina",
+    "ref": "40",
+    "side": "right",
+    "source:name:mapillary": "IExPUyctnO72z7BlXcr0Xw",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2483881792,
+  "lat": 44.8394193,
+  "lon": 20.2311092,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Beograd",
+    "name": "Београд",
+    "name:en": "Belgrade",
+    "name:sr": "Београд",
+    "name:sr-Latn": "Beograd",
+    "old_ref": "9",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2493858214,
+  "lat": 44.1206966,
+  "lon": 21.0130079,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2505111140,
+  "lat": 42.7177557,
+  "lon": 21.0925705,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Obiliq / Podujevë",
+    "name:sq": "Obiliq / Podujevë",
+    "name:sr": "Обилић / Подујево"
+  }
+},
+{
+  "type": "node",
+  "id": 2507305851,
+  "lat": 42.3603967,
+  "lon": 21.1852066,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 2532331189,
+  "lat": 42.4682623,
+  "lon": 21.8139162,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Bujanovac sever",
+    "mapillary": "467958317819441",
+    "name": "Бујановац север",
+    "name:sr": "Бујановац север",
+    "name:sr-Latn": "Bujanovac sever",
+    "ref": "59",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2533304298,
+  "lat": 45.2864222,
+  "lon": 19.8937496,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "930302937789298",
+    "name": "Нови Сад",
+    "name:en": "Novi Sad",
+    "name:sr": "Нови Сад",
+    "name:sr-Latn": "Novi Sad",
+    "ref": "13;12;11",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2572631523,
+  "lat": 45.0019567,
+  "lon": 19.6212160,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2572631528,
+  "lat": 45.0015631,
+  "lon": 19.6239826,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2572874620,
+  "lat": 42.5921445,
+  "lon": 22.0110990,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2583761220,
+  "lat": 43.2347620,
+  "lon": 22.3126919,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Bela Palanka",
+    "name": "Бела Паланка",
+    "name:sr": "Бела Паланка",
+    "name:sr-Latn": "Bela Palanka",
+    "ref": "4",
+    "source:name:mapillary": "DtVAn6ekEI4hF71hwej0ew"
+  }
+},
+{
+  "type": "node",
+  "id": 2583761533,
+  "lat": 43.2585787,
+  "lon": 22.2076962,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2589669468,
+  "lat": 43.1514574,
+  "lon": 21.8948849,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "1365376910501960",
+    "name": "Брестовац",
+    "name:en": "Brestovac",
+    "name:sr": "Брестовац",
+    "name:sr-Latn": "Brestovac",
+    "ref": "52",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2589669483,
+  "lat": 43.1522127,
+  "lon": 21.8941279,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Брестовац",
+    "name:en": "Brestovac",
+    "name:sr": "Брестовац",
+    "name:sr-Latn": "Brestovac",
+    "ref": "52",
+    "side": "right",
+    "source:name:mapillary": "mZ4-1PyWXOP7zSBeXFJ3Qg",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2590926458,
+  "lat": 45.9448530,
+  "lon": 22.6277356,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ilia"
+  }
+},
+{
+  "type": "node",
+  "id": 2590944413,
+  "lat": 45.9166363,
+  "lon": 22.5184346,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Dobra"
+  }
+},
+{
+  "type": "node",
+  "id": 2590944452,
+  "lat": 45.9174558,
+  "lon": 22.5188743,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Dobra"
+  }
+},
+{
+  "type": "node",
+  "id": 2591006754,
+  "lat": 45.9196367,
+  "lon": 22.8722692,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Deva, Șoimuș"
+  }
+},
+{
+  "type": "node",
+  "id": 2591018941,
+  "lat": 45.8606091,
+  "lon": 22.2474850,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Făget, Margina",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2591018942,
+  "lat": 45.8590635,
+  "lon": 22.2455785,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Făget, Margina",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2593612189,
+  "lat": 45.8010260,
+  "lon": 21.6553106,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Buziaș, Lipova"
+  }
+},
+{
+  "type": "node",
+  "id": 2603566469,
+  "lat": 45.7942777,
+  "lon": 21.8537768,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2603568446,
+  "lat": 45.7219551,
+  "lon": 21.8978244,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Lugoj Nord"
+  }
+},
+{
+  "type": "node",
+  "id": 2611894396,
+  "lat": 45.8127794,
+  "lon": 22.0719134,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Traian Vuia",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2611917263,
+  "lat": 45.7751748,
+  "lon": 21.8565683,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Balinț",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2611919110,
+  "lat": 45.7809893,
+  "lon": 21.8540341,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Balinț",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2614934517,
+  "lat": 45.8048422,
+  "lon": 21.4144860,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Timișoara Est, Aeroport Timișoara",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2628607184,
+  "lat": 44.8342816,
+  "lon": 20.3112915,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2628607202,
+  "lat": 44.8343787,
+  "lon": 20.3107087,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2629117279,
+  "lat": 44.8357478,
+  "lon": 20.2541526,
+  "tags": {
+    "highway": "motorway_junction",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2629316984,
+  "lat": 44.8356035,
+  "lon": 20.2520837,
+  "tags": {
+    "highway": "motorway_junction",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2630579793,
+  "lat": 44.8365410,
+  "lon": 20.2465622,
+  "tags": {
+    "highway": "motorway_junction",
+    "ref": "23",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82;RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 2631206276,
+  "lat": 44.8342794,
+  "lon": 20.2675747,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2633070974,
+  "lat": 44.8307880,
+  "lon": 20.3741106,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2634159280,
+  "lat": 44.8335985,
+  "lon": 20.3475755,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2634179299,
+  "lat": 44.8345762,
+  "lon": 20.3201097,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2634179402,
+  "lat": 44.8335556,
+  "lon": 20.3495657,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2636069951,
+  "lat": 42.9118983,
+  "lon": 22.9425919,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2694535362,
+  "lat": 44.0709709,
+  "lon": 20.9958507,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Каповац",
+    "name:en": "Kapovac",
+    "name:sr": "Каповац",
+    "name:sr-Latn": "Kapovac",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 2717103245,
+  "lat": 43.3420488,
+  "lon": 21.9265715,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2719375981,
+  "lat": 43.5228873,
+  "lon": 21.7301972,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Алексинац",
+    "name:en": "Aleksinac",
+    "name:sr": "Алексинац",
+    "name:sr-Latn": "Aleksinac",
+    "ref": "47",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 2727223728,
+  "lat": 42.5504671,
+  "lon": 21.9363310,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2798304520,
+  "lat": 43.7493013,
+  "lon": 21.4526765,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2819050514,
+  "lat": 42.8665426,
+  "lon": 23.0251239,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2870370487,
+  "lat": 42.6777913,
+  "lon": 21.1094324,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Prishtinë veriperëndim",
+    "name:de": "Pristina Nordwest",
+    "name:en": "Pristina northwest",
+    "name:sq": "Prishtinë veriperëndim",
+    "name:sr": "Приштина северозапад",
+    "ref": "10"
+  }
+},
+{
+  "type": "node",
+  "id": 2870370538,
+  "lat": 42.6229348,
+  "lon": 21.0842640,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Fushë Kosovë",
+    "name:sq": "Fushë Kosovë",
+    "name:sr": "Косово Поље",
+    "name:sr-Latn": "Kosovo Polje"
+  }
+},
+{
+  "type": "node",
+  "id": 2870371402,
+  "lat": 42.7320987,
+  "lon": 21.1425243,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Prishtinë veri",
+    "name:en": "Pristina north",
+    "name:sq": "Prishtinë veri",
+    "name:sr-Latn": "Priština sever",
+    "ref": "11"
+  }
+},
+{
+  "type": "node",
+  "id": 2870373101,
+  "lat": 42.6810990,
+  "lon": 21.1062819,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Prishtinë veriperëndim",
+    "name:de": "Pristina Nordwest",
+    "name:en": "Pristina northwest",
+    "name:sq": "Prishtinë veriperëndim",
+    "name:sr": "Приштина северозапад",
+    "ref": "10"
+  }
+},
+{
+  "type": "node",
+  "id": 2870892125,
+  "lat": 44.4046171,
+  "lon": 20.0944162,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2880116477,
+  "lat": 44.9756133,
+  "lon": 19.7471510,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2880116812,
+  "lat": 44.9797277,
+  "lon": 19.7303751,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2880145373,
+  "lat": 44.9590692,
+  "lon": 19.8200347,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2924037052,
+  "lat": 43.8850895,
+  "lon": 21.4001528,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2929179746,
+  "lat": 46.1781047,
+  "lon": 21.1193954,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Pecica",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2929179747,
+  "lat": 46.1793618,
+  "lon": 21.1168547,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Pecica",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2962471966,
+  "lat": 43.0206023,
+  "lon": 22.7425645,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Димитровград",
+    "name:en": "Dimitrovgrad",
+    "name:sr": "Димитровград",
+    "name:sr-Latn": "Dimitrovgrad",
+    "ref": "7",
+    "side": "right",
+    "source:traffic_sign:mapillary": "SnED0XN3IVSKp6sZ9Zrm3A",
+    "traffic_sign:forward": "RS:III-82.1"
+  }
+},
+{
+  "type": "node",
+  "id": 2988475719,
+  "lat": 43.3125690,
+  "lon": 21.8013583,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3043284082,
+  "lat": 44.4707355,
+  "lon": 21.0385819,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3049064583,
+  "lat": 43.6890510,
+  "lon": 21.5448724,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ражањ",
+    "name:en": "Razanj",
+    "name:sr": "Ражањ",
+    "name:sr-Latn": "Ražanj",
+    "ref": "45",
+    "side": "right",
+    "source:direction:mapillary": "cYg6kGIDJrpxaxLs59N-DQ",
+    "source:name:mapillary": "Kcl5xpC1Zdr0ADtoOtCCqA",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 3063477534,
+  "lat": 43.2299993,
+  "lon": 22.4355886,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3066515513,
+  "lat": 42.5965990,
+  "lon": 22.0184714,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3078138609,
+  "lat": 45.2251149,
+  "lon": 19.8704490,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 3084493764,
+  "lat": 43.3179269,
+  "lon": 22.0151793,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Малча",
+    "name:en": "Malca",
+    "name:sr": "Малча",
+    "name:sr-Latn": "Malča",
+    "ref": "3",
+    "side": "right",
+    "source:name:mapillary": "U0FIz0IjxGLc_TAzc4QbAg",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 3084493769,
+  "lat": 43.3273401,
+  "lon": 21.8104463,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "463735944691371",
+    "name": "Ниш југ",
+    "name:en": "Nis jug",
+    "name:sr": "Ниш југ",
+    "name:sr-Latn": "Niš jug",
+    "ref": "49",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 3111217240,
+  "lat": 44.1424822,
+  "lon": 21.0279125,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Градац",
+    "name:en": "Gradac",
+    "name:sr": "Градац",
+    "name:sr-Latn": "Gradac",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 3111217254,
+  "lat": 44.1455362,
+  "lon": 21.0300430,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Градац",
+    "name:en": "Gradac",
+    "name:sr": "Градац",
+    "name:sr-Latn": "Gradac",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 3143584945,
+  "lat": 44.0711268,
+  "lon": 20.9958431,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Каповац",
+    "name:en": "Kapovac",
+    "name:sr": "Каповац",
+    "name:sr-Latn": "Kapovac",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 3143647093,
+  "lat": 44.1494605,
+  "lon": 21.1144047,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3266983144,
+  "lat": 44.5831382,
+  "lon": 20.8119412,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3303708612,
+  "lat": 44.6241204,
+  "lon": 20.6382680,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3393625879,
+  "lat": 44.2498978,
+  "lon": 21.1135323,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3438561497,
+  "lat": 42.6178810,
+  "lon": 21.0775834,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Miradi i Epërme"
+  }
+},
+{
+  "type": "node",
+  "id": 3481159470,
+  "lat": 45.8009339,
+  "lon": 21.6596132,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Buziaș, Lipova"
+  }
+},
+{
+  "type": "node",
+  "id": 3596572347,
+  "lat": 43.3168210,
+  "lon": 22.0208301,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Малча",
+    "name:en": "Malca",
+    "name:sr": "Малча",
+    "name:sr-Latn": "Malča",
+    "ref": "3",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 3600517122,
+  "lat": 44.8080426,
+  "lon": 19.6796798,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Sabac",
+    "name": "Шабац",
+    "name:sr": "Шабац",
+    "name:sr-Latn": "Šabac"
+  }
+},
+{
+  "type": "node",
+  "id": 3600526383,
+  "lat": 44.8079347,
+  "lon": 19.6825320,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Sabac",
+    "name": "Шабац",
+    "name:sr": "Шабац",
+    "name:sr-Latn": "Šabac"
+  }
+},
+{
+  "type": "node",
+  "id": 3602616307,
+  "lat": 44.7143838,
+  "lon": 19.3761626,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 3607289819,
+  "lat": 43.0540275,
+  "lon": 22.6974454,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3607620557,
+  "lat": 43.0007483,
+  "lon": 22.8208812,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3607620558,
+  "lat": 43.0004243,
+  "lon": 22.8240734,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3608643106,
+  "lat": 44.7186335,
+  "lon": 20.4956174,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Avala",
+    "name": "Авала",
+    "name:sr": "Авала",
+    "name:sr-Latn": "Avala",
+    "ref": "27",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 3608643117,
+  "lat": 44.7164609,
+  "lon": 20.4892781,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Avala",
+    "name": "Авала",
+    "name:sr": "Авала",
+    "name:sr-Latn": "Avala",
+    "ref": "27",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 3612675693,
+  "lat": 42.4507598,
+  "lon": 21.7820052,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "151354723621154",
+    "name": "Бујановац југ",
+    "name:en": "Bujanovac jug",
+    "name:sr": "Бујановац југ",
+    "name:sr-Latn": "Bujanovac jug",
+    "ref": "60",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 3614818836,
+  "lat": 42.8840166,
+  "lon": 22.0702873,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Grdelica",
+    "name": "Грделица",
+    "name:sr": "Грделица",
+    "name:sr-Latn": "Grdelica",
+    "ref": "55",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 3654591080,
+  "lat": 45.7957450,
+  "lon": 21.4169337,
+  "tags": {
+    "direction": "65;245",
+    "highway": "motorway_junction",
+    "maxspeed": "30;100",
+    "noref": "yes",
+    "traffic_sign": "maxspeed"
+  }
+},
+{
+  "type": "node",
+  "id": 3654591085,
+  "lat": 45.7963086,
+  "lon": 21.4145523,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 3697011553,
+  "lat": 43.3784219,
+  "lon": 21.8116262,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3711893387,
+  "lat": 45.2250563,
+  "lon": 19.8782731,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 3759123889,
+  "lat": 42.6246038,
+  "lon": 21.1165478,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Prishtinë jug",
+    "name:de": "Pristina Süd",
+    "name:en": "Pristina south",
+    "name:sq": "Prishtinë jug",
+    "name:sr": "Приштина југ",
+    "name:sr-Latn": "Priština jug",
+    "ref": "9"
+  }
+},
+{
+  "type": "node",
+  "id": 3759123921,
+  "lat": 42.6199144,
+  "lon": 21.1094243,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Prishtinë jug",
+    "name:de": "Pristina Süd",
+    "name:en": "Pristina south",
+    "name:sq": "Prishtinë jug",
+    "name:sr": "Приштина југ",
+    "name:sr-Latn": "Priština jug",
+    "ref": "9"
+  }
+},
+{
+  "type": "node",
+  "id": 3759123939,
+  "lat": 42.6185733,
+  "lon": 21.1153775,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 3759123961,
+  "lat": 42.6196667,
+  "lon": 21.1144927,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 3759123975,
+  "lat": 42.6202832,
+  "lon": 21.1158398,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 3759123988,
+  "lat": 42.6140350,
+  "lon": 21.1145566,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Prishtinë jug",
+    "name:de": "Pristina Süd",
+    "name:en": "Pristina south",
+    "name:sq": "Prishtinë jug",
+    "name:sr": "Приштина југ",
+    "name:sr-Latn": "Priština jug",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 3759123996,
+  "lat": 42.6193991,
+  "lon": 21.1164910,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 3759333691,
+  "lat": 42.6228633,
+  "lon": 21.0880953,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Fushë Kosovë",
+    "name:sq": "Fushë Kosovë",
+    "name:sr": "Косово Поље",
+    "name:sr-Latn": "Kosovo Polje",
+    "ref": "8"
+  }
+},
+{
+  "type": "node",
+  "id": 3759334302,
+  "lat": 42.6249926,
+  "lon": 21.0863819,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Fushë Kosovë",
+    "name:sq": "Fushë Kosovë",
+    "name:sr": "Косово Поље",
+    "name:sr-Latn": "Kosovo Polje"
+  }
+},
+{
+  "type": "node",
+  "id": 3764645781,
+  "lat": 45.0191158,
+  "lon": 19.5172709,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3779013364,
+  "lat": 42.2198983,
+  "lon": 21.7026888,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Табановце",
+    "name:en": "Tabanovce",
+    "name:mk": "Табановце",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 3779013365,
+  "lat": 42.2288211,
+  "lon": 21.7036245,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Табановце",
+    "name:en": "Tabanovce",
+    "name:mk": "Табановце",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 3799491736,
+  "lat": 42.2627191,
+  "lon": 23.0700047,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Дупница - Юг",
+    "name:en": "Dupnitsa - South",
+    "ref": "59"
+  }
+},
+{
+  "type": "node",
+  "id": 3799728812,
+  "lat": 42.2652439,
+  "lon": 23.0687932,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Дупница - Юг",
+    "name:en": "Dupnitsa - South",
+    "ref": "59"
+  }
+},
+{
+  "type": "node",
+  "id": 3799728828,
+  "lat": 42.3097073,
+  "lon": 23.0961478,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3842081976,
+  "lat": 44.7652971,
+  "lon": 20.5260572,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3930684236,
+  "lat": 44.6172378,
+  "lon": 20.6404269,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3935492920,
+  "lat": 42.5448882,
+  "lon": 21.9316700,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "324337469090433",
+    "name": "Врање",
+    "name:en": "Vranje",
+    "name:sr": "Врање",
+    "name:sr-Latn": "Vranje",
+    "ref": "58",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 3937836108,
+  "lat": 42.5465088,
+  "lon": 21.9325861,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "927642064635704",
+    "name": "Врање",
+    "name:en": "Vranje",
+    "name:sr": "Врање",
+    "name:sr-Latn": "Vranje",
+    "ref": "58",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 3961437380,
+  "lat": 42.4700724,
+  "lon": 21.8153628,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Bujanovac sever",
+    "name": "Бујановац север",
+    "name:sr": "Бујановац север",
+    "name:sr-Latn": "Bujanovac sever",
+    "ref": "59",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 3968271932,
+  "lat": 45.8136848,
+  "lon": 22.0680525,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Traian Vuia",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4020696047,
+  "lat": 42.5155268,
+  "lon": 21.8910903,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4148190915,
+  "lat": 43.9235215,
+  "lon": 20.3991069,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Preljina",
+    "name": "Прељина",
+    "name:sr": "Прељина",
+    "name:sr-Latn": "Preljina",
+    "ref": "6",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 4171037792,
+  "lat": 44.8106277,
+  "lon": 20.2536728,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4234151704,
+  "lat": 42.5999433,
+  "lon": 19.3944752,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Pelev Brijeg",
+    "name:sr": "Пелев Бријег",
+    "name:sr-Latn": "Pelev Brijeg",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 4234151724,
+  "lat": 42.6449510,
+  "lon": 19.4602427,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Veruša",
+    "name:sr": "Веруша",
+    "name:sr-Latn": "Veruša",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 4336931437,
+  "lat": 43.1926268,
+  "lon": 22.5630400,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Пирот-запад",
+    "name:en": "Pirot-zapad",
+    "name:sr": "Пирот-запад",
+    "name:sr-Latn": "Pirot-zapad",
+    "ref": "5",
+    "source:name:mapillary": "pawpxBmPURc1UxgRDqxdGw"
+  }
+},
+{
+  "type": "node",
+  "id": 4421966497,
+  "lat": 43.1197734,
+  "lon": 22.6208496,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Пирот-исток",
+    "name:en": "Pirot-istok",
+    "name:sr": "Пирот-исток",
+    "name:sr-Latn": "Pirot-istok",
+    "ref": "6",
+    "side": "right",
+    "source:name:mapillary": "RbMGHb5ASgfgoerm8b0jmg",
+    "traffic_sign:forward": "RS:III-82.1"
+  }
+},
+{
+  "type": "node",
+  "id": 4421966500,
+  "lat": 43.1198284,
+  "lon": 22.6210901,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Пирот-исток",
+    "name:en": "Pirot-istok",
+    "name:sr": "Пирот-исток",
+    "name:sr-Latn": "Pirot-istok",
+    "ref": "6",
+    "side": "right",
+    "source:name:mapillary": "83vGXjFdJkWrUf45CoQnnw",
+    "traffic_sign:forward": "RS:III-82.1"
+  }
+},
+{
+  "type": "node",
+  "id": 4422058134,
+  "lat": 43.1888834,
+  "lon": 22.5649103,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Пирот-запад",
+    "name:en": "Pirot-zapad",
+    "name:sr": "Пирот-запад",
+    "name:sr-Latn": "Pirot-zapad",
+    "ref": "5",
+    "source:name:mapillary": "KP5ymZ13AiajaH0MP6Dd2A"
+  }
+},
+{
+  "type": "node",
+  "id": 4429261781,
+  "lat": 42.5440875,
+  "lon": 21.1328430,
+  "tags": {
+    "exit_to": "Lipjan",
+    "highway": "motorway_junction",
+    "name": "Lipjan",
+    "name:de": "Lipjan",
+    "name:sq": "Lipjan",
+    "name:sr": "Липљан",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 4429263190,
+  "lat": 42.5474870,
+  "lon": 21.1312776,
+  "tags": {
+    "exit_to": "Lipjan",
+    "highway": "motorway_junction",
+    "name": "Lipjan",
+    "name:de": "Lipjan",
+    "name:sq": "Lipjan",
+    "name:sr": "Липљан",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 4519469940,
+  "lat": 42.5753428,
+  "lon": 20.7218881,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Caraviku",
+    "name:sq": "Caraviku",
+    "name:sr": "Церовик",
+    "name:sr-Latn": "Cerovik"
+  }
+},
+{
+  "type": "node",
+  "id": 4580123660,
+  "lat": 42.4606510,
+  "lon": 21.1796911,
+  "tags": {
+    "exit_to": "Gadime;Babush",
+    "highway": "motorway_junction",
+    "name": "Babush",
+    "name:de": "Babush",
+    "name:sq": "Babush",
+    "name:sr": "Бабуш",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 4698165061,
+  "lat": 42.9664009,
+  "lon": 22.8703335,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4786483481,
+  "lat": 44.5540679,
+  "lon": 20.9843991,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4789954588,
+  "lat": 42.9637901,
+  "lon": 22.8820764,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4818297504,
+  "lat": 44.7746905,
+  "lon": 20.2785623,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Surcin jug",
+    "name": "Сурчин југ",
+    "name:en": "Surčin south",
+    "name:sr": "Сурчин југ",
+    "name:sr-Latn": "Surčin jug",
+    "ref": "24.1"
+  }
+},
+{
+  "type": "node",
+  "id": 4818433983,
+  "lat": 44.7740211,
+  "lon": 20.2770140,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Surcin jug",
+    "name": "Сурчин југ",
+    "name:en": "Surčin south",
+    "name:sr": "Сурчин југ",
+    "name:sr-Latn": "Surčin jug",
+    "ref": "24.1"
+  }
+},
+{
+  "type": "node",
+  "id": 4839160163,
+  "lat": 42.3691011,
+  "lon": 21.2056303,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ferizaj",
+    "name:sq": "Ferizaj",
+    "name:sr": "Uroševac",
+    "ref": "4",
+    "source:name:mapillary": "9q-O-UxdKO--nCmvouZajg"
+  }
+},
+{
+  "type": "node",
+  "id": 4839160166,
+  "lat": 42.3679785,
+  "lon": 21.2051918,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Bibaj",
+    "name:sq": "Bibaj",
+    "name:sr": "Биба",
+    "ref": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 4841632337,
+  "lat": 42.8159414,
+  "lon": 22.1198103,
+  "tags": {
+    "destination": "Predejane",
+    "destination:ref": "258",
+    "highway": "motorway_junction",
+    "mapillary": "795210134754560",
+    "name": "Предејане",
+    "name:en": "Predejane",
+    "name:sr": "Предејане",
+    "name:sr-Latn": "Predejane",
+    "ref": "56",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 4841632674,
+  "lat": 42.7016215,
+  "lon": 22.0753379,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Vladicin Han",
+    "mapillary": "490686002355186",
+    "name": "Владичин Хан",
+    "name:sr": "Владичин Хан",
+    "name:sr-Latn": "Vladičin Han",
+    "ref": "57",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 4841632675,
+  "lat": 42.7059259,
+  "lon": 22.0734664,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Vladicin Han",
+    "mapillary": "485576069380042",
+    "name": "Владичин Хан",
+    "name:sr": "Владичин Хан",
+    "name:sr-Latn": "Vladičin Han",
+    "ref": "57",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 4841633069,
+  "lat": 42.6736871,
+  "lon": 22.0670123,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4841735397,
+  "lat": 42.4246449,
+  "lon": 21.7405155,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes",
+    "side": "right",
+    "source:traffic_sign:mapillary": "62Oj3DdsioOY-kl5SrdIjw",
+    "traffic_sign:2:forward": "RS:IV-8.2",
+    "traffic_sign:forward": "RS:III-38"
+  }
+},
+{
+  "type": "node",
+  "id": 4864584696,
+  "lat": 42.5667802,
+  "lon": 20.7495977,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Mleqan",
+    "name:sq": "Mleqan",
+    "name:sr": "Млечане"
+  }
+},
+{
+  "type": "node",
+  "id": 4866827385,
+  "lat": 42.5674967,
+  "lon": 20.7451685,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Mleqan"
+  }
+},
+{
+  "type": "node",
+  "id": 4866827393,
+  "lat": 42.5618010,
+  "lon": 20.7734091,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 4939118677,
+  "lat": 44.7790912,
+  "lon": 20.2837704,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4959804430,
+  "lat": 42.2511728,
+  "lon": 20.7187070,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Prizren veri",
+    "name:de": "Prizren Nord",
+    "name:en": "Prizren north",
+    "name:sq": "Prizren veri",
+    "name:sr": "Призрен север",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 4972265359,
+  "lat": 42.2784950,
+  "lon": 21.2111449,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Doganaj",
+    "name:de": "Doganaj",
+    "name:sq": "Doganaj",
+    "ref": "5"
+  }
+},
+{
+  "type": "node",
+  "id": 4972265384,
+  "lat": 42.2753334,
+  "lon": 21.2124279,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Doganaj",
+    "name:de": "Doganaj",
+    "name:sq": "Doganaj",
+    "ref": "5"
+  }
+},
+{
+  "type": "node",
+  "id": 4972265393,
+  "lat": 42.4634378,
+  "lon": 21.1784874,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Babush",
+    "name:de": "Babush",
+    "name:sq": "Babush",
+    "name:sr": "Бабуш",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 5052434175,
+  "lat": 46.0297697,
+  "lon": 19.7375406,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "972686063269078",
+    "name": "Суботица југ",
+    "name:en": "Subotica jug",
+    "name:sr": "Суботица југ",
+    "name:sr-Latn": "Subotica jug",
+    "ref": "4",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 5054503359,
+  "lat": 42.7509243,
+  "lon": 19.5434010,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Mateševo",
+    "name:sr": "Матешево",
+    "name:sr-Latn": "Mateševo",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 5054503390,
+  "lat": 42.6418070,
+  "lon": 19.4561501,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Veruša",
+    "name:sr": "Веруша",
+    "name:sr-Latn": "Veruša",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 5054504225,
+  "lat": 42.5951424,
+  "lon": 19.3927319,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Pelev Brijeg",
+    "name:sr": "Пелев Бријег",
+    "name:sr-Latn": "Pelev Brijeg",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 5062929519,
+  "lat": 44.9700166,
+  "lon": 20.2344172,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "1091465711347361",
+    "name": "Нова Пазова",
+    "name:en": "Nova Pazova",
+    "name:sr": "Нова Пазова",
+    "name:sr-Latn": "Nova Pazova",
+    "ref": "20",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 5109758494,
+  "lat": 43.1369719,
+  "lon": 22.5695778,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5109758503,
+  "lat": 43.1346300,
+  "lon": 22.5715224,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5181992672,
+  "lat": 42.8211849,
+  "lon": 22.1214022,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Predejane",
+    "name": "Предејане",
+    "name:sr": "Предејане",
+    "name:sr-Latn": "Predejane",
+    "ref": "56",
+    "side": "right",
+    "source:name:mapillary": "BNC7zFEB5xFhMSq0PHxDeA",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 5200885716,
+  "lat": 42.5751088,
+  "lon": 20.7224565,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Caraviku",
+    "name:sq": "Caraviku",
+    "name:sr": "Церовик",
+    "name:sr-Latn": "Cerovik"
+  }
+},
+{
+  "type": "node",
+  "id": 5215952400,
+  "lat": 42.4469812,
+  "lon": 21.7760398,
+  "tags": {
+    "destination": "Bujanovac",
+    "destination:ref": "41",
+    "highway": "motorway_junction",
+    "mapillary": "1386952668356654",
+    "name": "Бујановац југ",
+    "name:en": "Bujanovac jug",
+    "name:sr": "Бујановац југ",
+    "name:sr-Latn": "Bujanovac jug",
+    "ref": "60",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 5217611209,
+  "lat": 43.0713645,
+  "lon": 22.6752207,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5251999589,
+  "lat": 44.4103792,
+  "lon": 21.0564425,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5253768112,
+  "lat": 44.4822269,
+  "lon": 21.0325331,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5297516550,
+  "lat": 44.6947566,
+  "lon": 20.5833378,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5297546086,
+  "lat": 44.6900033,
+  "lon": 20.5843946,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5470219683,
+  "lat": 44.4078677,
+  "lon": 20.0952540,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5486385487,
+  "lat": 44.3405464,
+  "lon": 21.0828144,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "2891033221152024",
+    "name": "Велика Плана",
+    "name:en": "Velika Plana",
+    "name:sr": "Велика Плана",
+    "name:sr-Latn": "Velika Plana",
+    "ref": "37",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 5499103252,
+  "lat": 43.8575415,
+  "lon": 21.4359757,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Параћин",
+    "name:en": "Paracin",
+    "name:sr": "Параћин",
+    "name:sr-Latn": "Paraćin",
+    "ref": "43",
+    "side": "right",
+    "source:name:mapillary": "0jJUAMth88wc1DHuejXeRQ",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 5501006345,
+  "lat": 43.7529113,
+  "lon": 21.4438178,
+  "tags": {
+    "destination:ref": "23",
+    "highway": "motorway_junction",
+    "name": "Појате",
+    "name:en": "Pojate",
+    "name:sr": "Појате",
+    "name:sr-Latn": "Pojate",
+    "ref": "44",
+    "side": "right",
+    "source:name:mapillary": "zgCqHVUSmZ0xznCXBRZp2w",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 5501006402,
+  "lat": 43.7501972,
+  "lon": 21.4446809,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Појате",
+    "name:en": "Pojate",
+    "name:sr": "Појате",
+    "name:sr-Latn": "Pojate",
+    "ref": "44"
+  }
+},
+{
+  "type": "node",
+  "id": 5501006839,
+  "lat": 43.7514640,
+  "lon": 21.4456953,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5507832043,
+  "lat": 43.7995965,
+  "lon": 21.4327893,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5520305384,
+  "lat": 42.4156451,
+  "lon": 21.7347014,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5521679679,
+  "lat": 43.5484343,
+  "lon": 21.6877783,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Aleksinacki Rudnik",
+    "name": "Алексиначки Рудник",
+    "name:sr": "Алексиначки Рудник",
+    "name:sr-Latn": "Aleksinački Rudnik",
+    "ref": "46",
+    "side": "right",
+    "source:direction:mapillary": "oayXboOxnLUFOXekUs_siQ",
+    "source:name:mapillary": "86ewLB3maFg5PnD9V1u3Hw",
+    "traffic_sign:2:forward": "RS:IX-5",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 5521741032,
+  "lat": 43.5538734,
+  "lon": 21.6841786,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Aleksinacki Rudnik",
+    "name": "Алексиначки Рудник",
+    "name:sr": "Алексиначки Рудник",
+    "name:sr-Latn": "Aleksinački Rudnik",
+    "ref": "46",
+    "side": "right",
+    "source:destination:mapillary": "eRjLNKHNt6eVBncF-k4Xyw",
+    "source:name:mapillary": "T5QUx8B51Tx_Z9QMTwqLEw",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 5521922589,
+  "lat": 43.6404286,
+  "lon": 21.5575380,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5573719585,
+  "lat": 43.2280772,
+  "lon": 22.4326323,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5694400647,
+  "lat": 45.0406596,
+  "lon": 19.3684687,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5695698366,
+  "lat": 44.9622890,
+  "lon": 19.8104793,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Ruma",
+    "name": "Рума",
+    "name:sr": "Рума",
+    "name:sr-Latn": "Ruma",
+    "ref": "5"
+  }
+},
+{
+  "type": "node",
+  "id": 5695772150,
+  "lat": 44.8775442,
+  "lon": 20.1236473,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5695772184,
+  "lat": 44.8805091,
+  "lon": 20.1173609,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5763290788,
+  "lat": 45.4260827,
+  "lon": 19.7371812,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6124779714,
+  "lat": 43.6091886,
+  "lon": 21.3322748,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Krusevac-istok",
+    "name": "Крушевац-исток",
+    "name:sr": "Крушевац-исток",
+    "name:sr-Latn": "Kruševac-istok",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 6227953144,
+  "lat": 45.4432271,
+  "lon": 22.2289264,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6293399850,
+  "lat": 42.3498928,
+  "lon": 21.7225420,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6293399865,
+  "lat": 42.2440894,
+  "lon": 21.7023381,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6319152801,
+  "lat": 45.0450716,
+  "lon": 19.1614290,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6326488236,
+  "lat": 43.5295523,
+  "lon": 21.7099137,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6326488966,
+  "lat": 43.5303604,
+  "lon": 21.7046755,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6348051048,
+  "lat": 45.0408707,
+  "lon": 19.3633305,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6370411804,
+  "lat": 44.7800066,
+  "lon": 20.5043363,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Konjarnik",
+    "mapillary": "4270269539652745",
+    "name": "Коњарник",
+    "name:sr": "Коњарник",
+    "name:sr-Latn": "Konjarnik",
+    "old_ref": "22",
+    "ref": "13",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 6370543904,
+  "lat": 46.1648439,
+  "lon": 19.9554782,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6370543908,
+  "lat": 46.1662881,
+  "lon": 19.9609606,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6370551406,
+  "lat": 46.1519502,
+  "lon": 19.9358578,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "511423683218404",
+    "name": "Хоргош",
+    "name:en": "Horgos",
+    "name:sr": "Хоргош",
+    "name:sr-Latn": "Horgoš",
+    "ref": "1",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 6370594552,
+  "lat": 45.9662269,
+  "lon": 19.7108661,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6370594553,
+  "lat": 45.9686021,
+  "lon": 19.7106991,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6370600192,
+  "lat": 45.9337441,
+  "lon": 19.7093037,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Cantavir",
+    "mapillary": "1059673678192018",
+    "name": "Чантавир",
+    "name:sr": "Чантавир",
+    "name:sr-Latn": "Čantavir",
+    "ref": "5",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 6370626386,
+  "lat": 45.7937824,
+  "lon": 19.6937055,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6370632563,
+  "lat": 45.6774473,
+  "lon": 19.7286123,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6370707141,
+  "lat": 45.3267073,
+  "lon": 19.7826930,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6370709594,
+  "lat": 45.3147975,
+  "lon": 19.7972720,
+  "tags": {
+    "highway": "motorway_junction",
+    "mapillary": "794904217835366",
+    "name": "Нови Сад",
+    "name:en": "Novi Sad",
+    "name:sr": "Нови Сад",
+    "name:sr-Latn": "Novi Sad",
+    "ref": "11;12;13",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 6377767233,
+  "lat": 44.7037475,
+  "lon": 20.5754769,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Траншпед",
+    "name:en": "Transped",
+    "name:sr": "Траншпед",
+    "name:sr-Latn": "Tranšped",
+    "ref": "29",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 6378332884,
+  "lat": 44.8179810,
+  "lon": 20.4080138,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Генекс",
+    "name:en": "Geneks",
+    "name:sr": "Генекс",
+    "name:sr-Latn": "Geneks",
+    "old_ref": "14",
+    "ref": "5",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82.1",
+    "traffic_sign:type": "old"
+  }
+},
+{
+  "type": "node",
+  "id": 6385557019,
+  "lat": 43.3392550,
+  "lon": 21.9377401,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ниш исток",
+    "name:en": "Nis istok",
+    "name:sr": "Ниш исток",
+    "name:sr-Latn": "Niš istok",
+    "ref": "2",
+    "side": "right",
+    "source:name:mapillary": "tzKB9aBK4q_bL1kVcTkRGg",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 6400682614,
+  "lat": 46.1414092,
+  "lon": 19.9068001,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6400790608,
+  "lat": 42.9667695,
+  "lon": 22.0382711,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Leskovac jug",
+    "name": "Лесковац југ",
+    "name:sr": "Лесковац југ",
+    "name:sr-Latn": "Leskovac jug",
+    "ref": "54",
+    "side": "right",
+    "source:name:mapillary": "a38OaIynN0fz1lAzvGJmUw",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 6418327562,
+  "lat": 45.8892526,
+  "lon": 21.2782994,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Centura Timișoara"
+  }
+},
+{
+  "type": "node",
+  "id": 6421362509,
+  "lat": 43.6090119,
+  "lon": 21.3102063,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Krusevac-zapad",
+    "name": "Крушевац-запад",
+    "name:sr": "Крушевац-запад",
+    "name:sr-Latn": "Kruševac-zapad",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 6421362580,
+  "lat": 43.6098523,
+  "lon": 21.3398366,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Krusevac-istok",
+    "name": "Крушевац-исток",
+    "name:sr": "Крушевац-исток",
+    "name:sr-Latn": "Kruševac-istok",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 6441322756,
+  "lat": 42.3074857,
+  "lon": 23.0952685,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6485921926,
+  "lat": 44.7675950,
+  "lon": 20.2784633,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Surcin jug",
+    "name": "Сурчин југ",
+    "name:en": "Surčin south",
+    "name:sr": "Сурчин југ",
+    "name:sr-Latn": "Surčin jug",
+    "ref": "24.1",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 6497948326,
+  "lat": 44.1669115,
+  "lon": 20.3143333,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6497948621,
+  "lat": 44.1554765,
+  "lon": 20.3223798,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6512301909,
+  "lat": 44.9191348,
+  "lon": 20.3047119,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6521601886,
+  "lat": 42.9446605,
+  "lon": 22.9033882,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6521677702,
+  "lat": 42.8584558,
+  "lon": 23.0421538,
+  "tags": {
+    "alt_name": "Сливица Запад",
+    "alt_name:en": "Slivnitsa Zapad",
+    "highway": "motorway_junction",
+    "name": "Сливница 1",
+    "name:en": "Slivnitsa 1",
+    "ref": "26"
+  }
+},
+{
+  "type": "node",
+  "id": 6523800756,
+  "lat": 42.3497442,
+  "lon": 21.7223704,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 6534365528,
+  "lat": 42.8406126,
+  "lon": 20.9825728,
+  "tags": {
+    "destination": "Vushtrri",
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 6562950117,
+  "lat": 44.0693793,
+  "lon": 20.3784262,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6562950184,
+  "lat": 44.0754113,
+  "lon": 20.3768304,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6591061610,
+  "lat": 42.5150434,
+  "lon": 19.3289182,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Odmorište Gornje Mrke"
+  }
+},
+{
+  "type": "node",
+  "id": 6591813123,
+  "lat": 43.9197814,
+  "lon": 20.3907725,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Прељина",
+    "name:en": "Preljina",
+    "name:sr": "Прељина",
+    "name:sr-Latn": "Preljina",
+    "ref": "6",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 6610246786,
+  "lat": 44.7315520,
+  "lon": 20.3389945,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Ostruznica",
+    "name": "Остружница",
+    "name:sr": "Остружница",
+    "name:sr-Latn": "Ostružnica",
+    "ref": "25",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 6716234271,
+  "lat": 44.6543637,
+  "lon": 20.2340905,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Обреновац",
+    "name:en": "Obrenovac",
+    "name:sr": "Обреновац",
+    "name:sr-Latn": "Obrenovac",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 6716270848,
+  "lat": 44.6508965,
+  "lon": 20.2304072,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Обреновац",
+    "name:en": "Obrenovac",
+    "name:sr": "Обреновац",
+    "name:sr-Latn": "Obrenovac",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 6721298032,
+  "lat": 44.7678822,
+  "lon": 20.2501175,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Jakovo",
+    "name": "Јаково",
+    "name:sr": "Јаково",
+    "name:sr-Latn": "Jakovo",
+    "ref": "1/1"
+  }
+},
+{
+  "type": "node",
+  "id": 6743274414,
+  "lat": 44.2401588,
+  "lon": 20.2610059,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6743274492,
+  "lat": 44.2446713,
+  "lon": 20.2652240,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6759721503,
+  "lat": 44.0903727,
+  "lon": 21.0060914,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Prnjavor",
+    "name": "Прњавор",
+    "name:sr": "Прњавор",
+    "name:sr-Latn": "Prnjavor",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6800037471,
+  "lat": 42.6190432,
+  "lon": 21.1226033,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Prishtinë jug",
+    "name:de": "Pristina Süd",
+    "name:en": "Pristina south",
+    "name:sq": "Prishtinë jug",
+    "name:sr": "Приштина југ",
+    "name:sr-Latn": "Priština jug",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 6878390808,
+  "lat": 42.8482019,
+  "lon": 23.0781019,
+  "tags": {
+    "alt_name": "Сливница Изток",
+    "alt_name:en": "Slivnitsa Iztok",
+    "highway": "motorway_junction",
+    "name": "Сливница 2",
+    "name:en": "Slivnitsa 2",
+    "ref": "29"
+  }
+},
+{
+  "type": "node",
+  "id": 6961531097,
+  "lat": 43.2596904,
+  "lon": 22.2118852,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6984441451,
+  "lat": 43.2527285,
+  "lon": 22.1674562,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6985986421,
+  "lat": 43.2523688,
+  "lon": 22.1686211,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6997348331,
+  "lat": 44.9645566,
+  "lon": 19.8012154,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Ruma",
+    "name": "Рума",
+    "name:sr": "Рума",
+    "name:sr-Latn": "Ruma",
+    "ref": "5"
+  }
+},
+{
+  "type": "node",
+  "id": 7066207283,
+  "lat": 44.7631975,
+  "lon": 20.2457012,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Jakovo",
+    "name": "Јаково",
+    "name:sr": "Јаково",
+    "name:sr-Latn": "Jakovo",
+    "ref": "1/1"
+  }
+},
+{
+  "type": "node",
+  "id": 7088439732,
+  "lat": 43.0216898,
+  "lon": 22.7365292,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7096930172,
+  "lat": 44.6386932,
+  "lon": 22.6984554,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7499361200,
+  "lat": 42.3533596,
+  "lon": 21.3420552,
+  "tags": {
+    "addr:city": "Viti",
+    "description": "Street Crossing",
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 7671111482,
+  "lat": 42.8550415,
+  "lon": 23.0527254,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7832966713,
+  "lat": 43.8203143,
+  "lon": 20.1013542,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Prilipac",
+    "name": "Прилипац",
+    "name:sr": "Прилипац",
+    "name:sr-Latn": "Prilipac",
+    "ref": "9"
+  }
+},
+{
+  "type": "node",
+  "id": 7833102143,
+  "lat": 43.8211697,
+  "lon": 20.0894511,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Pozega",
+    "name": "Пожега",
+    "name:sr": "Пожега",
+    "name:sr-Latn": "Požega",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 7833175821,
+  "lat": 43.8406806,
+  "lon": 20.1552869,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Lucani",
+    "name": "Лучани",
+    "name:sr": "Лучани",
+    "name:sr-Latn": "Lučani",
+    "ref": "8"
+  }
+},
+{
+  "type": "node",
+  "id": 7833175848,
+  "lat": 43.8401962,
+  "lon": 20.1539172,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Lucani",
+    "name": "Лучани",
+    "name:sr": "Лучани",
+    "name:sr-Latn": "Lučani",
+    "ref": "8",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 7834665854,
+  "lat": 43.9021240,
+  "lon": 20.2607147,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Pakovrace",
+    "name": "Паковраће",
+    "name:sr": "Паковраће",
+    "name:sr-Latn": "Pakovraće",
+    "ref": "7",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 7834692189,
+  "lat": 43.9011256,
+  "lon": 20.2673224,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Pakovrace",
+    "name": "Паковраће",
+    "name:sr": "Паковраће",
+    "name:sr-Latn": "Pakovraće",
+    "ref": "7",
+    "side": "right",
+    "traffic_sign:forward": "RS:III-82"
+  }
+},
+{
+  "type": "node",
+  "id": 7835721409,
+  "lat": 43.9016701,
+  "lon": 20.4106769,
+  "tags": {
+    "construction": "motorway_junction",
+    "highway": "motorway_junction",
+    "int_name": "Preljina jug",
+    "name": "Прељина југ",
+    "name:sr": "Прељина југ",
+    "name:sr-Latn": "Preljina jug",
+    "ref": "12"
+  }
+},
+{
+  "type": "node",
+  "id": 7835738641,
+  "lat": 43.9016238,
+  "lon": 20.4108995,
+  "tags": {
+    "construction": "motorway_junction",
+    "highway": "motorway_junction",
+    "int_name": "Preljina jug",
+    "name": "Прељина југ",
+    "name:sr": "Прељина југ",
+    "name:sr-Latn": "Preljina jug",
+    "ref": "12"
+  }
+},
+{
+  "type": "node",
+  "id": 7837549174,
+  "lat": 43.7649157,
+  "lon": 20.6573201,
+  "tags": {
+    "construction": "motorway_junction",
+    "highway": "motorway_junction",
+    "int_name": "Adrani",
+    "name": "Адрани",
+    "name:sr": "Адрани",
+    "name:sr-Latn": "Adrani",
+    "ref": "10"
+  }
+},
+{
+  "type": "node",
+  "id": 7837555594,
+  "lat": 43.7652478,
+  "lon": 20.6567822,
+  "tags": {
+    "construction": "motorway_junction",
+    "highway": "motorway_junction",
+    "int_name": "Adrani",
+    "name": "Адрани",
+    "name:sr": "Адрани",
+    "name:sr-Latn": "Adrani",
+    "ref": "10"
+  }
+},
+{
+  "type": "node",
+  "id": 7840803831,
+  "lat": 43.7029877,
+  "lon": 20.7805201,
+  "tags": {
+    "construction": "motorway_junction",
+    "highway": "motorway_junction",
+    "int_name": "Vrba",
+    "name": "Врба",
+    "name:sr": "Врба",
+    "name:sr-Latn": "Vrba",
+    "ref": "8"
+  }
+},
+{
+  "type": "node",
+  "id": 7840803846,
+  "lat": 43.7049867,
+  "lon": 20.7733674,
+  "tags": {
+    "construction": "motorway_junction",
+    "highway": "motorway_junction",
+    "int_name": "Vrba",
+    "name": "Врба",
+    "name:sr": "Врба",
+    "name:sr-Latn": "Vrba",
+    "ref": "8"
+  }
+},
+{
+  "type": "node",
+  "id": 7846574168,
+  "lat": 43.6520971,
+  "lon": 20.9181554,
+  "tags": {
+    "construction": "motorway_junction",
+    "highway": "motorway_junction",
+    "int_name": "Vrnjacka Banja",
+    "name": "Врњачка Бања",
+    "name:sr": "Врњачка Бања",
+    "name:sr-Latn": "Vrnjačka Banja",
+    "ref": "7"
+  }
+},
+{
+  "type": "node",
+  "id": 7846574245,
+  "lat": 43.6530410,
+  "lon": 20.9159061,
+  "tags": {
+    "construction": "motorway_junction",
+    "highway": "motorway_junction",
+    "int_name": "Vrnjacka Banja",
+    "name": "Врњачка Бања",
+    "name:sr": "Врњачка Бања",
+    "name:sr-Latn": "Vrnjačka Banja",
+    "ref": "7"
+  }
+},
+{
+  "type": "node",
+  "id": 7846715891,
+  "lat": 43.6234980,
+  "lon": 21.0223996,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Trstenik",
+    "name": "Трстеник",
+    "name:sr": "Трстеник",
+    "name:sr-Latn": "Trstenik",
+    "ref": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 7846715909,
+  "lat": 43.6213448,
+  "lon": 21.0294030,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Trstenik",
+    "name": "Трстеник",
+    "name:sr": "Трстеник",
+    "name:sr-Latn": "Trstenik",
+    "ref": "6"
+  }
+},
+{
+  "type": "node",
+  "id": 7847157174,
+  "lat": 43.6125501,
+  "lon": 21.1651047,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Velika Drenova",
+    "name": "Велика Дренова",
+    "name:sr": "Велика Дренова",
+    "name:sr-Latn": "Velika Drenova",
+    "ref": "5"
+  }
+},
+{
+  "type": "node",
+  "id": 7847185906,
+  "lat": 43.6109385,
+  "lon": 21.1724888,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Velika Drenova",
+    "name": "Велика Дренова",
+    "name:sr": "Велика Дренова",
+    "name:sr-Latn": "Velika Drenova",
+    "ref": "5"
+  }
+},
+{
+  "type": "node",
+  "id": 7881776846,
+  "lat": 43.7252347,
+  "lon": 21.4268346,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Cicevac",
+    "name": "Ћићевац",
+    "name:sr": "Ћићевац",
+    "name:sr-Latn": "Ćićevac",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 7881776852,
+  "lat": 43.7264948,
+  "lon": 21.4273565,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Cicevac",
+    "name": "Ћићевац",
+    "name:sr": "Ћићевац",
+    "name:sr-Latn": "Ćićevac",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 7888095010,
+  "lat": 44.2981526,
+  "lon": 20.0367867,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Divci",
+    "name": "Дивци",
+    "name:sr": "Дивци",
+    "name:sr-Latn": "Divci",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 7888138676,
+  "lat": 44.2943897,
+  "lon": 20.0235094,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Divci",
+    "name": "Дивци",
+    "name:sr": "Дивци",
+    "name:sr-Latn": "Divci",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 7946177209,
+  "lat": 42.8485640,
+  "lon": 23.0777676,
+  "tags": {
+    "alt_name": "Сливница Изток",
+    "alt_name:en": "Slivnitsa Iztok",
+    "highway": "motorway_junction",
+    "name": "Сливница 2",
+    "name:en": "Slivnitsa 2",
+    "ref": "29"
+  }
+},
+{
+  "type": "node",
+  "id": 7946181503,
+  "lat": 42.9638768,
+  "lon": 22.8793896,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7985336099,
+  "lat": 42.8264956,
+  "lon": 23.0989220,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7985373409,
+  "lat": 42.8299389,
+  "lon": 23.0957512,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7985373416,
+  "lat": 42.8315057,
+  "lon": 23.0940886,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7985427468,
+  "lat": 42.8621402,
+  "lon": 23.0322384,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7985456043,
+  "lat": 42.8773292,
+  "lon": 23.0186436,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7985469701,
+  "lat": 42.8819763,
+  "lon": 23.0003387,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Алдомировско блато",
+    "name:en": "Aldomirovtsi marsh",
+    "ref": "21"
+  }
+},
+{
+  "type": "node",
+  "id": 7985480487,
+  "lat": 42.8891047,
+  "lon": 22.9820487,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8043937705,
+  "lat": 42.8396716,
+  "lon": 20.9836766,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 8079460569,
+  "lat": 42.9068631,
+  "lon": 22.9459370,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8375516490,
+  "lat": 42.7519527,
+  "lon": 19.5440811,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Mateševo",
+    "name:sr": "Матешево",
+    "name:sr-Latn": "Mateševo",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 8381258859,
+  "lat": 42.9299717,
+  "lon": 22.9312239,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Драгоман - Запад",
+    "name:en": "Dragoman - West",
+    "ref": "13"
+  }
+},
+{
+  "type": "node",
+  "id": 8465495796,
+  "lat": 42.5551802,
+  "lon": 20.8183459,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Arllat",
+    "name:sq": "Arllat",
+    "ref": "7"
+  }
+},
+{
+  "type": "node",
+  "id": 8474029552,
+  "lat": 43.9770742,
+  "lon": 22.8385699,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Видин",
+    "name:en": "Vidin",
+    "proposed:ref": "10"
+  }
+},
+{
+  "type": "node",
+  "id": 8474029784,
+  "lat": 43.9009917,
+  "lon": 22.7785040,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Дунавци",
+    "name:en": "Dunavtsi",
+    "proposed:ref": "20"
+  }
+},
+{
+  "type": "node",
+  "id": 8474029866,
+  "lat": 43.8269819,
+  "lon": 22.7495682,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Кула",
+    "name:en": "Kula",
+    "proposed:ref": "30"
+  }
+},
+{
+  "type": "node",
+  "id": 8474029869,
+  "lat": 43.9759957,
+  "lon": 22.8379163,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Видин",
+    "name:en": "Vidin",
+    "proposed:ref": "10"
+  }
+},
+{
+  "type": "node",
+  "id": 8474030021,
+  "lat": 43.9000280,
+  "lon": 22.7781638,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Дунавци",
+    "name:en": "Dunavtsi",
+    "proposed:ref": "20"
+  }
+},
+{
+  "type": "node",
+  "id": 8474030089,
+  "lat": 43.8251366,
+  "lon": 22.7481685,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Кула",
+    "name:en": "Kula",
+    "proposed:ref": "30"
+  }
+},
+{
+  "type": "node",
+  "id": 8475827130,
+  "lat": 43.7717825,
+  "lon": 22.7368876,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Макреш",
+    "name:en": "Makresh",
+    "ref": "36"
+  }
+},
+{
+  "type": "node",
+  "id": 8475827138,
+  "lat": 43.7771928,
+  "lon": 22.7373139,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Макреш",
+    "name:en": "Makresh",
+    "ref": "36"
+  }
+},
+{
+  "type": "node",
+  "id": 8475827180,
+  "lat": 43.6334827,
+  "lon": 22.8221382,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ружинци",
+    "name:en": "Ruzhintsi",
+    "proposed:ref": "59"
+  }
+},
+{
+  "type": "node",
+  "id": 8475827437,
+  "lat": 43.4972321,
+  "lon": 23.0495932,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Винище",
+    "name:en": "Vinishte",
+    "proposed:ref": "85"
+  }
+},
+{
+  "type": "node",
+  "id": 8475827495,
+  "lat": 43.5570208,
+  "lon": 22.9381635,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Белотинци",
+    "name:en": "Belotintsi",
+    "proposed:ref": "73"
+  }
+},
+{
+  "type": "node",
+  "id": 8475827656,
+  "lat": 43.6946723,
+  "lon": 22.7257019,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Бела",
+    "name:en": "Bela",
+    "proposed:ref": "46"
+  }
+},
+{
+  "type": "node",
+  "id": 8475827755,
+  "lat": 43.7937388,
+  "lon": 22.7405800,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Видин",
+    "name:en": "Vidin",
+    "note": "Eтапна връзка до завършване на участъка Видин - Макреш",
+    "ref": "34"
+  }
+},
+{
+  "type": "node",
+  "id": 8475827838,
+  "lat": 43.6975848,
+  "lon": 22.7267204,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Бела",
+    "name:en": "Bela",
+    "ref": "46"
+  }
+},
+{
+  "type": "node",
+  "id": 8478892977,
+  "lat": 44.7128885,
+  "lon": 20.4207954,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Orlovaca",
+    "name": "Орловача",
+    "name:sr": "Орловача",
+    "name:sr-Latn": "Orlovača",
+    "ref": "26",
+    "side": "right",
+    "traffic_sign": "RSlll82.1_od"
+  }
+},
+{
+  "type": "node",
+  "id": 8829958555,
+  "lat": 44.9519246,
+  "lon": 19.3562869,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Bosut",
+    "name": "Босут",
+    "name:sr": "Босут",
+    "name:sr-Latn": "Bosut",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 8829995121,
+  "lat": 44.9571338,
+  "lon": 19.3572923,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Bosut",
+    "name": "Босут",
+    "name:sr": "Босут",
+    "name:sr-Latn": "Bosut",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 8846548671,
+  "lat": 42.9933501,
+  "lon": 22.8451049,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8846548704,
+  "lat": 42.9935652,
+  "lon": 22.8439093,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9001628105,
+  "lat": 42.9167128,
+  "lon": 22.9394906,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Драгоман - Изток",
+    "name:en": "Dragoman - East",
+    "ref": "14"
+  }
+},
+{
+  "type": "node",
+  "id": 9001679440,
+  "lat": 42.9649106,
+  "lon": 22.8761000,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9008460868,
+  "lat": 42.9204954,
+  "lon": 22.9375105,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Драгоман - Изток",
+    "name:en": "Dragoman - East",
+    "ref": "14"
+  }
+},
+{
+  "type": "node",
+  "id": 9074912604,
+  "lat": 44.8641390,
+  "lon": 19.7772311,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Hrtkovci",
+    "name": "Хртковци",
+    "name:sr": "Хртковци",
+    "name:sr-Latn": "Hrtkovci",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 9076374713,
+  "lat": 44.8606003,
+  "lon": 19.7727498,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Hrtkovci",
+    "name": "Хртковци",
+    "name:sr": "Хртковци",
+    "name:sr-Latn": "Hrtkovci",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 9077542417,
+  "lat": 44.9594699,
+  "lon": 19.8042515,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Ruma",
+    "name": "Рума",
+    "name:sr": "Рума",
+    "name:sr-Latn": "Ruma",
+    "ref": "5"
+  }
+},
+{
+  "type": "node",
+  "id": 9091758251,
+  "lat": 42.9954882,
+  "lon": 22.8384062,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9134262029,
+  "lat": 42.9592143,
+  "lon": 22.9015625,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Турмашка махала",
+    "name:en": "Turmashka mahala",
+    "ref": "8"
+  }
+},
+{
+  "type": "node",
+  "id": 9134388113,
+  "lat": 42.9258229,
+  "lon": 22.9363294,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9135568044,
+  "lat": 43.2912764,
+  "lon": 21.7400566,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Merosina istok",
+    "name": "Мерошина исток",
+    "name:sr": "Мерошина исток",
+    "name:sr-Latn": "Merošina istok",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 9135568073,
+  "lat": 43.2912949,
+  "lon": 21.7411563,
+  "tags": {
+    "constituency": "motorway_junction",
+    "highway": "motorway_junction",
+    "int_name": "Merosina istok",
+    "name": "Мерошина исток",
+    "name:sr": "Мерошина исток",
+    "name:sr-Latn": "Merošina istok",
+    "ref": "1"
+  }
+},
+{
+  "type": "node",
+  "id": 9188374623,
+  "lat": 44.7809466,
+  "lon": 20.2849203,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9190286336,
+  "lat": 42.5129265,
+  "lon": 19.3242665,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Odmorište Gornje Mrke"
+  }
+},
+{
+  "type": "node",
+  "id": 9197863207,
+  "lat": 42.8929249,
+  "lon": 22.9745238,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9242421594,
+  "lat": 42.9739257,
+  "lon": 22.8491079,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9257825339,
+  "lat": 42.9914088,
+  "lon": 22.8494404,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Калотина",
+    "name:en": "Kalotina",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 9666833699,
+  "lat": 42.9909714,
+  "lon": 22.8498996,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Калотина",
+    "name:en": "Kalotina",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 9666833707,
+  "lat": 42.9917936,
+  "lon": 22.8500039,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Калотина",
+    "name:en": "Kalotina",
+    "ref": "2"
+  }
+},
+{
+  "type": "node",
+  "id": 10087140209,
+  "lat": 44.7795739,
+  "lon": 19.1650528,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Bijeljina",
+    "name:bs": "Bijeljina",
+    "name:hr": "Bijeljina",
+    "name:sr": "Бијељина",
+    "name:sr-Latn": "Bijeljina"
+  }
+},
+{
+  "type": "node",
+  "id": 10087140216,
+  "lat": 44.7812963,
+  "lon": 19.1704532,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Bijeljina",
+    "name:bs": "Bijeljina",
+    "name:hr": "Bijeljina",
+    "name:sr": "Бијељина",
+    "name:sr-Latn": "Bijeljina"
+  }
+},
+{
+  "type": "node",
+  "id": 10132679900,
+  "lat": 43.4965479,
+  "lon": 23.0578599,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Винище",
+    "name:en": "Vinishte",
+    "proposed:ref": "85"
+  }
+},
+{
+  "type": "node",
+  "id": 10132683064,
+  "lat": 43.5501430,
+  "lon": 22.9475101,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Белотинци",
+    "name:en": "Belotintsi",
+    "proposed:ref": "73"
+  }
+},
+{
+  "type": "node",
+  "id": 10132683171,
+  "lat": 43.6321762,
+  "lon": 22.8282710,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Ружинци",
+    "name:en": "Ruzhintsi",
+    "proposed:ref": "59"
+  }
+},
+{
+  "type": "node",
+  "id": 10141190982,
+  "lat": 44.7849295,
+  "lon": 19.6523848,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 10141191072,
+  "lat": 44.7839264,
+  "lon": 19.6502642,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 10141233799,
+  "lat": 44.7358116,
+  "lon": 19.4595194,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 10141281367,
+  "lat": 44.7141967,
+  "lon": 19.3745687,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 10170057624,
+  "lat": 42.9052999,
+  "lon": 22.9467354,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10232952728,
+  "lat": 44.7171895,
+  "lon": 20.5558240,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Bubanj Potok",
+    "name": "Бубањ Поток",
+    "name:sr": "Бубањ Поток",
+    "name:sr-Latn": "Bubanj Potok",
+    "ref": "28"
+  }
+},
+{
+  "type": "node",
+  "id": 10641913160,
+  "lat": 42.3161937,
+  "lon": 21.2082114,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Viti"
+  }
+},
+{
+  "type": "node",
+  "id": 10756762780,
+  "lat": 42.9594849,
+  "lon": 22.8995344,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10758608055,
+  "lat": 42.9310751,
+  "lon": 22.9273063,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10758608059,
+  "lat": 42.9344742,
+  "lon": 22.9181414,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10758884641,
+  "lat": 42.9704762,
+  "lon": 22.8593218,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11081787225,
+  "lat": 42.9255526,
+  "lon": 22.9362732,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11088788329,
+  "lat": 42.9146798,
+  "lon": 22.9405996,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11088819636,
+  "lat": 42.9620267,
+  "lon": 22.8934211,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11233681403,
+  "lat": 44.0584688,
+  "lon": 20.9744861,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Јовановац",
+    "name:en": "Jovanovac",
+    "name:sr": "Јовановац",
+    "name:sr-Latn": "Jovanovac",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 11233681435,
+  "lat": 44.0588497,
+  "lon": 20.9776254,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Јовановац",
+    "name:en": "Jovanovac",
+    "name:sr": "Јовановац",
+    "name:sr-Latn": "Jovanovac",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 11237119529,
+  "lat": 44.0606852,
+  "lon": 20.9318908,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Милановац",
+    "name:en": "Milanovac",
+    "name:sr": "Милановац",
+    "name:sr-Latn": "Milanovac",
+    "note": "name might be incorrect",
+    "ref": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 11314038528,
+  "lat": 43.6091580,
+  "lon": 21.3104311,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Krusevac-zapad",
+    "name": "Крушевац-запад",
+    "name:sr": "Крушевац-запад",
+    "name:sr-Latn": "Kruševac-zapad",
+    "ref": "3"
+  }
+},
+{
+  "type": "node",
+  "id": 12373824741,
+  "lat": 43.5911583,
+  "lon": 21.2324139,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Kosevi",
+    "name": "Кошеви",
+    "name:sr": "Кошеви",
+    "name:sr-Latn": "Koševi",
+    "ref": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12373824767,
+  "lat": 43.5914932,
+  "lon": 21.2315699,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Kosevi",
+    "name": "Кошеви",
+    "name:sr": "Кошеви",
+    "name:sr-Latn": "Koševi",
+    "ref": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 12850429486,
+  "lat": 43.9322869,
+  "lon": 22.8078191,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 12850472125,
+  "lat": 43.9293767,
+  "lon": 22.8073363,
+  "tags": {
+    "highway": "motorway_junction"
+  }
+},
+{
+  "type": "node",
+  "id": 13051892848,
+  "lat": 44.8616909,
+  "lon": 19.2482177,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Brodac"
+  }
+},
+{
+  "type": "node",
+  "id": 13051892893,
+  "lat": 44.8562700,
+  "lon": 19.2512020,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Brodac"
+  }
+},
+{
+  "type": "node",
+  "id": 13208631611,
+  "lat": 42.8521961,
+  "lon": 23.0602167,
+  "tags": {
+    "highway": "motorway_junction",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13307453439,
+  "lat": 46.1740694,
+  "lon": 21.2807628,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Arad Centru, Aeroport Arad, Zona Industrială Nord",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13307453450,
+  "lat": 46.1739171,
+  "lon": 21.2809612,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Arad Centru, Aeroport Arad, Zona Industrială Nord",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13307453535,
+  "lat": 46.1420221,
+  "lon": 21.3059759,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Sânnicolau Mare, Zădăreni, Arad",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13307453537,
+  "lat": 46.1411661,
+  "lon": 21.3067060,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Sânnicolau Mare, Zădăreni, Arad",
+    "noref": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13634012868,
+  "lat": 44.7537170,
+  "lon": 20.2985721,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Ekspo",
+    "name": "Експо",
+    "name:sr": "Експо",
+    "name:sr-Latn": "Ekspo",
+    "ref": "24.2"
+  }
+},
+{
+  "type": "node",
+  "id": 13634012876,
+  "lat": 44.7510791,
+  "lon": 20.3034821,
+  "tags": {
+    "highway": "motorway_junction",
+    "int_name": "Ekspo",
+    "name": "Експо",
+    "name:sr": "Експо",
+    "name:sr-Latn": "Ekspo",
+    "ref": "24.2"
+  }
+},
+{
+  "type": "node",
+  "id": 14054523357,
+  "lat": 44.0625075,
+  "lon": 20.9277620,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Милановац",
+    "name:en": "Milanovac",
+    "name:sr": "Милановац",
+    "name:sr-Latn": "Milanovac",
+    "note": "name might be incorrect",
+    "ref": "4"
+  }
+},
+{
+  "type": "node",
+  "id": 14105381404,
+  "lat": 44.8588976,
+  "lon": 19.2490677,
+  "tags": {
+    "highway": "motorway_junction",
+    "name": "Brodac"
+  }
+}
+
+  ]
+}
