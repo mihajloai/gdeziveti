@@ -1,69 +1,67 @@
 naziv,kategorija,pm10_dani,merno_mesto,napomena
-Barajevo,meri_se,,,
-Voždovac,meri_se,,,
-Vračar,meri_se,57,,
-Grocka,meri_se,,,
-Zvezdara,meri_se,34,Zeleno brdo,
-Zemun,meri_se,,,
-Lazarevac,meri_se,,,
-Mladenovac,meri_se,,,
-Novi Beograd,meri_se,54,,
-Obrenovac,meri_se,89,Obrenovac centar,
-Palilula (Beograd),meri_se,,,
-Rakovica,meri_se,,,
-Savski venac,meri_se,69,Mostar,
-Sopot,meri_se,,,
-Stari grad,meri_se,58,,
-Surčin,meri_se,,,
-Čukarica,meri_se,,,
-Sombor,meri_se,,,
-Kula,meri_se,,,
-Odžaci,meri_se,,,
-Pančevo,meri_se,64,"Narodna bašta, lokalni monitoring",
-Bela Crkva,meri_se,,,
-Vršac,meri_se,,,
-Kovin,meri_se,,,
-Novi Sad,meri_se,33,Rumenačka,
-Bačka Palanka,meri_se,,,
-Beočin,meri_se,42,centar,
-Kikinda,meri_se,,,
-Kanjiža,meri_se,,,
-Novi Kneževac,meri_se,,,
-Senta,meri_se,,,
-Čoka,meri_se,,,
-Subotica,meri_se,,,
-Zrenjanin,meri_se,,,
-Sremska Mitrovica,meri_se,,,
-Ruma,meri_se,,,
-Stara Pazova,meri_se,,,
-Užice,prekomerno,117,,
-Arilje,meri_se,,,
-Kosjerić,prekomerno,113,,
-Priboj,meri_se,,,
-Čajetina,meri_se,,,
-Valjevo,prekomerno,132,,
-Šabac,meri_se,134,lokalni monitoring,
-Čačak,meri_se,63,,
-Gornji Milanovac,meri_se,,,
+Voždovac,prekomerno,132,Leštane,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Novi Beograd,prekomerno,135,Novi Beograd GZZJZ,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Obrenovac,prekomerno,109,Obrenovac centar,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Mladenovac,prekomerno,106,JKP Mladenovac,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Zemun,prekomerno,92,JP „Pošta Srbije“,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Palilula (Beograd),prekomerno,88,KCS Borča,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Lazarevac,prekomerno,79,Lazarevac,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Surčin,prekomerno,74,KCS Surčin,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Savski venac,prekomerno,68,Mostar,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Vračar,prekomerno,62,KCS Vračar,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Stari grad,prekomerno,58,Stari grad,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Sopot,prekomerno,55,DZ Sopot,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Rakovica,prekomerno,45,Resnik,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Čukarica,prekomerno,37,Banovo brdo,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Grocka,prekomerno,34,Vinča,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Zvezdara,prekomerno,34,Zeleno brdo,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Barajevo,prekomerno,16,Barajevo,"aglomeracija Beograd (cela teritorija grada); uzrok: azot-dioksid, PM10 i PM2.5; arsen i benzo(a)piren iznad ciljnih vrednosti"
+Novi Sad,prekomerno,49,Neoplanta,aglomeracija; uzrok: PM10
+Niš,prekomerno,80,O.Š. „Sveti Sava“,aglomeracija; uzrok: PM10 i PM2.5
+Pančevo,prekomerno,63,Strelište,aglomeracija; uzrok: PM10
+Smederevo,prekomerno,128,Radinac,aglomeracija; uzrok: PM10 i PM2.5; benzo(a)piren iznad ciljne vrednosti
+Bor,prekomerno,84,Brezonik,aglomeracija; uzrok: PM10 i olovo; arsen i kadmijum iznad ciljnih vrednosti
+Kosjerić,prekomerno,101,,aglomeracija; uzrok: PM10 i PM2.5
+Užice,prekomerno,115,,aglomeracija; uzrok: PM10 i PM2.5
+Novi Pazar,prekomerno,129,,uzrok: PM10 i PM2.5
+Valjevo,prekomerno,146,,uzrok: PM10 i PM2.5
+Kraljevo,prekomerno,91,,uzrok: PM10 i PM2.5
+Kruševac,prekomerno,95,Trg Kosturnica,uzrok: PM10 i PM2.5
+Paraćin,prekomerno,173,Popovac,uzrok: PM10
+Zaječar,prekomerno,127,,uzrok: PM10
+Loznica,prekomerno,112,,uzrok: PM10
+Šabac,prekomerno,110,Čavić,uzrok: PM10
+Subotica,prekomerno,70,APV,uzrok: PM10
+Čačak,prekomerno,63,,uzrok: PM10
+Kragujevac,prekomerno,63,,uzrok: PM10
+Požarevac,prekomerno,59,NIS Petrol,uzrok: PM10 (i Kostolac)
+Pirot,prekomerno,56,,uzrok: PM10
+Beočin,prekomerno,42,centar,uzrok: PM10
+Sombor,prekomerno,41,APV,uzrok: PM10
+Zrenjanin,prekomerno,36,Zrenjanin 2 APV,uzrok: PM10
+Ćuprija,meri_se,68,Slavija,manje od 90% podataka
+Vršac,meri_se,26,Vojnički trg,
+Sremska Mitrovica,meri_se,31,ZZJZ,
+Kula,meri_se,14,Dečji vrtić „Kolibri“,
 Jagodina,meri_se,,,
-Paraćin,meri_se,174,Popovac,
-Ćuprija,meri_se,,,
-Kruševac,prekomerno,,,
-Trstenik,meri_se,,,
-Kraljevo,prekomerno,78,,
-Novi Pazar,prekomerno,128,,
-Kragujevac,meri_se,63,,
-Bor,meri_se,26,gradski park,"visoke koncentracije teških metala (arsen, kadmijum) u PM10"
-Negotin,meri_se,,,
-Požarevac,meri_se,,,
-Boljevac,meri_se,,,
-Sokobanja,meri_se,,,
-Leskovac,meri_se,,,
-Niš,prekomerno,80,,
 Aleksinac,meri_se,,,
-Pirot,meri_se,55,,
-Dimitrovgrad,meri_se,,,
-Smederevo,prekomerno,88,Radinac,
-Vranje,meri_se,,,
-Bosilegrad,meri_se,,,
+Arilje,meri_se,,,
+Bačka Palanka,meri_se,,,
+Bela Crkva,meri_se,,,
 Blace,meri_se,,,
+Bosilegrad,meri_se,,,
+Boljevac,meri_se,,,
+Veliko Gradište,meri_se,,,
+Vranje,meri_se,,,
+Gornji Milanovac,meri_se,,,
+Dimitrovgrad,meri_se,,,
+Kikinda,meri_se,,,
+Kovin,meri_se,,,
+Leskovac,meri_se,,,
+Negotin,meri_se,,,
+Stara Pazova,meri_se,,,
+Priboj,meri_se,,,
+Ruma,meri_se,,,
+Sokobanja,meri_se,,,
+Trstenik,meri_se,,,
+Čajetina,meri_se,,,

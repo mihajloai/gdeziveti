@@ -80,8 +80,8 @@ METRICS = {
     },
     "vazduh": {
         "group": "sredina", "type": "cat", "label": "Kvalitet vazduha", "short": "Vazduh", "better": "high",
-        "desc": "„Prekomerno zagađen“ je zvanična ocena Agencije za zaštitu životne sredine iz godišnjeg izveštaja. „Previše dana sa zagađenjem“ znači da je na mernom mestu više od 35 dana u godini (koliko zakon dozvoljava) bilo previše suspendovanih čestica PM10. Većina manjih opština nema mernu stanicu.",
-        "source": "Agencija za zaštitu životne sredine (SEPA)",
+        "desc": "„Prekomerno zagađen“ je zvanična ocena (III kategorija kvaliteta vazduha) iz godišnjeg izveštaja Agencije za zaštitu životne sredine. Za aglomeracije (Beograd, Novi Sad, Niš, Pančevo, Smederevo, Bor, Kosjerić, Užice) ocena važi za celu teritoriju grada ili opštine. Broj dana je za najgore merno mesto u opštini: zakon dozvoljava najviše 35 dana godišnje sa previše suspendovanih čestica PM10. „Previše dana sa zagađenjem“ znači da mesto nije zvanično ocenjeno kao prekomerno zagađeno, ali stanica beleži više od 35 takvih dana. Većina manjih opština nema mernu stanicu.",
+        "source": "Agencija za zaštitu životne sredine (SEPA), Godišnji izveštaj o stanju kvaliteta vazduha u RS",
         "levels": [
             {"code": "meri_se", "label": "U granicama", "color": "var(--st-good)", "score": 0.9},
             {"code": "cesto", "label": "Previše dana sa zagađenjem (PM10)", "color": "var(--st-serious)", "score": 0.4},
