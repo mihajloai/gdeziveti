@@ -77,7 +77,7 @@
     if (v === null || v === undefined || Number.isNaN(v)) return "—";
     const d = m && m.decimals ? nf1.format(v) : nf0.format(v);
     const sign = m && m.signed && v > 0 ? "+" : "";
-    return sign + d + (m && m.unit ? " " + m.unit : "");
+    return sign + d + (m && m.unit ? (m.unit[0] === "/" ? "" : "\u00a0") + m.unit : "");
   }
   function esc(s) { return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
 
