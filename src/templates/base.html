@@ -10,7 +10,9 @@
 <meta property="og:title" content="{{ self.title() }}">
 <meta property="og:description" content="{{ self.desc() }}">
 <meta property="og:type" content="website">
-<script defer src="https://cloud.umami.is/script.js" data-website-id="8450e827-0043-45fd-9976-fc65b39bbc11" data-domains="gdeziveti.rs,www.gdeziveti.rs"></script>
+<script>/* ?ne-brojim = ne broji moje posete na ovom uređaju, ?brojim = ponovo broji */
+try { var q = location.search; if (/[?&]ne-brojim\b/.test(q)) localStorage.setItem("umami.disabled", "1"); else if (/[?&]brojim\b/.test(q)) localStorage.removeItem("umami.disabled"); } catch (e) {}</script>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="8450e827-0043-45fd-9976-fc65b39bbc11" data-domains="gdeziveti.rs,www.gdeziveti.rs" data-exclude-search="true"></script>
 </head>
 <body data-page="{{ page }}">
 <header class="top">
