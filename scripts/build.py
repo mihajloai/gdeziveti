@@ -333,6 +333,10 @@ def main():
     env.filters["n"] = fmt_num
     env.globals["detail"] = detail_text
     env.globals["level_of"] = level_of
+    # cache-busting: a new version of app.js/app.css gets a new URL, so phones never mix old and new files
+    import hashlib
+    env.globals["data_v"] = hashlib.md5((DIST / "assets" / "data.json").read_bytes()).hexdigest()[:8]
+    env.globals["asset_v"] = hashlib.md5(b"".join((ROOT / "src" / "assets" / f).read_bytes() for f in ("app.js", "app.css"))).hexdigest()[:8]
     rk = ranks(data)
     ctx = {"ix": ix, "base": base, "data": data, "map": mp, "regions": REGIONS, "metrics": data["metrics"], "ranks": rk,
            "unverified": [k for k in data["order"] if not data["metrics"][k].get("verified", True)]}

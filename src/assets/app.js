@@ -163,7 +163,7 @@
   const IX = document.documentElement.dataset.ix || "";
   let dataPromise = null;
   function loadData() {
-    if (!dataPromise) dataPromise = fetch(BASE + "assets/data.json").then((r) => r.json());
+    if (!dataPromise) dataPromise = fetch(BASE + "assets/data.json?v=" + (document.documentElement.dataset.v || "")).then((r) => r.json());
     return dataPromise;
   }
   const isCat = (m) => m.type === "cat";

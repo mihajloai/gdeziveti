@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="sr-Latn" data-base="{{ base }}" data-ix="{{ ix }}">
+<html lang="sr-Latn" data-base="{{ base }}" data-ix="{{ ix }}" data-v="{{ data_v }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% block title %}Gde živeti{% endblock %}</title>
 <meta name="description" content="{% block desc %}Plate, cene stanova i pristupačnost u svih 161 opština Srbije — mapa, poređenje i kviz „Gde da živim?“. Besplatno, na osnovu zvaničnih podataka.{% endblock %}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2C10 2 5.5 6.6 5.5 12.4 5.5 20 16 30 16 30s10.5-10 10.5-17.6C26.5 6.6 22 2 16 2z' fill='%23256abf'/%3E%3Ccircle cx='16' cy='12.5' r='4.2' fill='white'/%3E%3C/svg%3E">
-<link rel="stylesheet" href="{{ base }}assets/app.css">
+<link rel="stylesheet" href="{{ base }}assets/app.css?v={{ asset_v }}">
 <meta property="og:title" content="{{ self.title() }}">
 <meta property="og:description" content="{{ self.desc() }}">
 <meta property="og:type" content="website">
@@ -38,6 +38,6 @@
     <p>Poslednje ažuriranje: <span class="num">{{ data.updated }}</span></p>
   </div>
 </footer>
-<script src="{{ base }}assets/app.js" defer></script>
+<script src="{{ base }}assets/app.js?v={{ asset_v }}" defer></script>
 </body>
 </html>
