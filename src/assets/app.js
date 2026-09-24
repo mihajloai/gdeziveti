@@ -79,6 +79,83 @@
     const sign = m && m.signed && v > 0 ? "+" : "";
     return sign + d + (m && m.unit ? (m.unit[0] === "/" ? "" : "\u00a0") + m.unit : "");
   }
+  /* ---------- search: latin/cyrillic, with or without diacritics ---------- */
+  const LAT_OF = { "љ": "lj", "Љ": "Lj", "њ": "nj", "Њ": "Nj", "џ": "dž", "Џ": "Dž" };
+  Object.keys(SINGLE).forEach((l) => { LAT_OF[SINGLE[l]] = l; });
+  function norm(s) {
+    return Array.from(String(s), (ch) => (LAT_OF[ch] !== undefined ? LAT_OF[ch] : ch)).join("")
+      .toLowerCase().replace(/đ/g, "dj").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  }
+  /** -1 = no match, lower = better (name starts with query, a word starts with it, contains it). */
+  function matchScore(name, q) {
+    if (!q) return 0;
+    const n = norm(name), nd = n.replace(/dj/g, "d");
+    for (const x of [n, nd]) { if (x.startsWith(q)) return 0; }
+    for (const x of [n, nd]) { if (x.split(/[\s\-–()]+/).some((w) => w.startsWith(q))) return 1; }
+    for (const x of [n, nd]) { if (x.includes(q)) return 2; }
+    return -1;
+  }
+  const byNameSr = (a, b) => a.name.localeCompare(b.name, "sr");
+
+  /** Autocomplete list under an <input> (works on phones, unlike <datalist>). */
+  function combo(input, units, getCurrent, onPick) {
+    const wrap = input.parentNode; wrap.classList.add("combo");
+    const box = document.createElement("div");
+    box.className = "combo-list"; box.id = input.id + "-list"; box.setAttribute("role", "listbox"); box.hidden = true;
+    wrap.appendChild(box);
+    input.setAttribute("role", "combobox"); input.setAttribute("aria-autocomplete", "list");
+    input.setAttribute("aria-controls", box.id); input.setAttribute("aria-expanded", "false");
+    let items = [], active = -1;
+    function open(q) {
+      q = norm(q.trim());
+      items = q
+        ? units.map((u) => [matchScore(u.name, q), u]).filter((x) => x[0] >= 0).sort((a, b) => a[0] - b[0] || byNameSr(a[1], b[1])).map((x) => x[1])
+        : units.slice().sort(byNameSr);
+      active = q && items.length ? 0 : -1;
+      paint();
+      box.hidden = false; input.setAttribute("aria-expanded", "true");
+    }
+    function paint() {
+      render(box, items.length
+        ? items.map((u, i) => `<div class="combo-opt" role="option" id="${box.id}-${i}" data-i="${i}" aria-selected="${i === active}"><span>${esc(u.name)}</span><span class="muted">${esc(u.district || "")}</span></div>`).join("")
+        : `<div class="combo-empty muted">Nema opštine sa tim imenom</div>`);
+      if (active >= 0) { input.setAttribute("aria-activedescendant", `${box.id}-${active}`); const el = box.children[active]; if (el) el.scrollIntoView({ block: "nearest" }); }
+      else input.removeAttribute("aria-activedescendant");
+    }
+    function close() { box.hidden = true; input.setAttribute("aria-expanded", "false"); }
+    function pick(u) {
+      input.value = u ? t(u.name) : "";
+      close(); onPick(u);
+    }
+    input.addEventListener("focus", () => { open(""); try { input.select(); } catch (e) { /* ignore */ } });
+    input.addEventListener("input", () => open(input.value));
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        e.preventDefault(); if (box.hidden) open(input.value);
+        if (!items.length) return;
+        active = (active + (e.key === "ArrowDown" ? 1 : -1) + items.length) % items.length; paint();
+      } else if (e.key === "Enter") {
+        if (!box.hidden && active >= 0) { e.preventDefault(); pick(items[active]); input.blur(); }
+      } else if (e.key === "Escape") { close(); }
+    });
+    // keep focus in the input while choosing with a mouse; touch taps arrive as click
+    box.addEventListener("mousedown", (e) => e.preventDefault());
+    box.addEventListener("click", (e) => {
+      const o = e.target.closest(".combo-opt"); if (!o) return;
+      pick(items[Number(o.dataset.i)]); input.blur();
+    });
+    input.addEventListener("blur", () => {
+      setTimeout(() => {
+        if (box.hidden) return;
+        const q = norm(input.value.trim());
+        const exact = q && units.find((u) => norm(u.name) === q);
+        if (!q) pick(null);
+        else if (exact) pick(exact);
+        else { const cur = getCurrent(); input.value = cur ? t(cur.name) : ""; close(); }
+      }, 180);
+    });
+  }
+
   function esc(s) { return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
 
   /* ---------- data ---------- */
@@ -157,7 +234,6 @@
   /* ================= PAGE: home (map + ranking) ================= */
   function initHome(data) {
     const groupsEl = document.getElementById("group-chips");
-    const chipsEl = document.getElementById("metric-chips");
     const listEl = document.getElementById("rank-list");
     const searchEl = document.getElementById("rank-search");
     const legendEl = document.getElementById("map-legend");
@@ -172,30 +248,22 @@
     const bySlug = Object.fromEntries(data.units.map((u) => [u.slug, u]));
 
     function drawChips() {
-      const g = groupOf(key);
-      render(groupsEl, groups.map((x) => `<button class="chip" data-g="${x}" aria-pressed="${x === g}">${esc(data.groups[x])}</button>`).join(""));
-      const inGroup = keys.filter((k) => groupOf(k) === g);
-      chipsEl.hidden = inGroup.length < 2;
-      render(chipsEl, inGroup.map((k) => `<button class="chip chip-sub" data-k="${k}" aria-pressed="${k === key}">${esc(data.metrics[k].short)}</button>`).join(""));
+      render(groupsEl, groups.map((g) => `<div class="chip-group" role="group" aria-label="${esc(data.groups[g])}"><span class="chip-glabel">${esc(data.groups[g])}</span>${keys.filter((k) => groupOf(k) === g).map((k) => `<button class="chip" data-k="${k}" aria-pressed="${k === key}">${esc(data.metrics[k].short)}</button>`).join("")}</div>`).join(""));
     }
     function select(k) {
       key = k;
       const u = new URL(location.href); u.searchParams.set("m", key); history.replaceState(null, "", u);
       drawChips(); draw();
     }
-    groupsEl.addEventListener("click", (e) => {
-      const b = e.target.closest(".chip"); if (!b) return;
-      select(keys.find((k) => groupOf(k) === b.dataset.g));
-    });
-    chipsEl.addEventListener("click", (e) => { const b = e.target.closest(".chip"); if (b) select(b.dataset.k); });
+    groupsEl.addEventListener("click", (e) => { const b = e.target.closest(".chip[data-k]"); if (b) select(b.dataset.k); });
 
-    function draw() {
+    let draw = function () {
       const m = data.metrics[key];
       const { rank, n, sorted } = rankOf(data, key);
       render(noteEl, noteHtml(m));
       const nd = `<span class="nd"><i></i>${esc(m.nodata_label || "nema podataka")}</span>`;
-      const q = (searchEl.value || "").trim().toLowerCase();
-      const match = (u) => !q || u.name.toLowerCase().includes(q) || toCyr(u.name).toLowerCase().includes(q);
+      const q = norm((searchEl.value || "").trim());
+      const match = (u) => matchScore(u.name, q) >= 0;
 
       if (isCat(m)) {
         render(titleEl, esc(m.label));
@@ -254,32 +322,68 @@
         return `<li><a href="${BASE}opstina/${u.slug}/${IX}" data-slug="${u.slug}"><span class="pos num">${rank[u.slug]}.</span><span><span>${esc(u.name)}</span><div class="bar" style="width:${w}%;background:${bc}"></div></span><span class="val num">${fmt(u.v[key], m)}</span></a></li>`;
       }).join("") || `<li class="muted" style="padding:10px">Nema rezultata.</li>`);
       listEl.dataset.n = n;
+    };
+    searchEl.addEventListener("input", () => draw());
+
+    /** Text shown for one municipality on the map (mouse tooltip or touch card). */
+    function infoHtml(slug, name) {
+      const u = bySlug[slug]; const m = data.metrics[key];
+      if (!u) {
+        return `<b>${esc(name || "")}</b><span class="muted">${slug !== "kim" ? "nema podataka" : "RZS od 1999. ne raspolaže podacima za AP Kosovo i Metohija."}</span>`;
+      }
+      const { rank, n } = rankOf(data, key);
+      const det = detailText(key, u);
+      return `<b>${esc(u.name)}</b>${esc(m.short)}: <strong class="num">${esc(valueText(data, key, u))}</strong>${!isCat(m) && rank[u.slug] ? `<br><span class="muted">${rank[u.slug]}. od ${n}</span>` : ""}${det ? `<br><span class="muted" style="font-size:13px">${esc(det)}</span>` : ""}`;
     }
-    searchEl.addEventListener("input", draw);
+    function highlight(slug) {
+      if (!svg) return;
+      svg.querySelectorAll("path.hl").forEach((x) => x.classList.remove("hl"));
+      if (!slug) return;
+      const p = svg.querySelector(`path[data-slug="${slug}"]`);
+      if (p) { p.classList.add("hl"); p.parentNode.appendChild(p); }
+    }
+
+    // Touch: first tap shows a card with the value, the button in the card opens the page.
+    let sheet = null, sheetSlug = null, sheetName = "";
+    function openSheet(slug, name) {
+      if (!sheet) {
+        sheet = document.createElement("div"); sheet.className = "map-sheet"; sheet.setAttribute("role", "dialog"); sheet.setAttribute("aria-live", "polite");
+        document.body.appendChild(sheet);
+        sheet.addEventListener("click", (e) => { if (e.target.closest(".sheet-close")) closeSheet(); });
+      }
+      sheetSlug = slug; sheetName = name;
+      const href = slug === "kim" ? `${BASE}kosovo-i-metohija/${IX}` : (bySlug[slug] ? `${BASE}opstina/${slug}/${IX}` : null);
+      render(sheet, `<button class="sheet-close" type="button" aria-label="Zatvori">×</button><div class="sheet-body">${infoHtml(slug, name)}</div>${href ? `<a class="btn btn-primary sheet-go" href="${href}">${slug === "kim" ? "Podaci NSZ za KiM" : "Otvori stranicu opštine"} →</a>` : ""}`);
+      sheet.classList.add("show");
+      highlight(slug);
+    }
+    function closeSheet() { if (sheet) sheet.classList.remove("show"); sheetSlug = null; highlight(null); }
+    const redraw = draw;
+    draw = function () { redraw(); if (sheetSlug) openSheet(sheetSlug, sheetName); };
 
     if (svg) {
-      svg.addEventListener("mousemove", (e) => {
+      let pointer = "mouse";
+      svg.addEventListener("pointerdown", (e) => { pointer = e.pointerType || "mouse"; });
+      svg.addEventListener("pointermove", (e) => {
+        if (e.pointerType && e.pointerType !== "mouse") return;
         const p = e.target.closest("path[data-slug]");
         if (!p) { tip(null); return; }
-        const u = bySlug[p.dataset.slug]; const m = data.metrics[key];
-        if (!u) {
-          tip(`<b>${esc(p.dataset.name || "")}</b><span class="muted">${p.dataset.slug !== "kim" ? "nema podataka" : "RZS od 1999. ne raspolaže podacima za AP Kosovo i Metohija.<br>Klikni za podatke NSZ o nezaposlenima."}</span>`, e);
-          return;
-        }
-        const { rank, n } = rankOf(data, key);
-        const det = detailText(key, u);
-        tip(`<b>${esc(u.name)}</b>${esc(m.short)}: <strong class="num">${esc(valueText(data, key, u))}</strong>${!isCat(m) && rank[u.slug] ? `<br><span class="muted">${rank[u.slug]}. od ${n}</span>` : ""}${det ? `<br><span class="muted" style="font-size:13px">${esc(det)}</span>` : ""}`, e);
+        tip(infoHtml(p.dataset.slug, p.dataset.name) + (p.dataset.slug === "kim" ? `<br><span class="muted">Klikni za podatke NSZ o nezaposlenima.</span>` : ""), e);
       });
       svg.addEventListener("mouseleave", () => tip(null));
       svg.addEventListener("click", (e) => {
         const p = e.target.closest("path[data-slug]");
+        if (pointer !== "mouse") {
+          tip(null);
+          if (p) openSheet(p.dataset.slug, p.dataset.name); else closeSheet();
+          return;
+        }
         if (p && p.dataset.slug === "kim") location.href = `${BASE}kosovo-i-metohija/${IX}`;
         else if (p && bySlug[p.dataset.slug]) location.href = `${BASE}opstina/${p.dataset.slug}/${IX}`;
       });
       listEl.addEventListener("mouseover", (e) => {
         const a = e.target.closest("a[data-slug]");
-        svg.querySelectorAll("path.hl").forEach((x) => x.classList.remove("hl"));
-        if (a) { const p = svg.querySelector(`path[data-slug="${a.dataset.slug}"]`); if (p) { p.classList.add("hl"); p.parentNode.appendChild(p); } }
+        highlight(a ? a.dataset.slug : null);
       });
     }
     drawChips();
@@ -291,22 +395,21 @@
   function initCompare(data) {
     const pickers = document.getElementById("pickers");
     const out = document.getElementById("cmp-out");
-    const list = document.getElementById("unit-names");
-    const byName = {}; const bySlug = {};
-    data.units.forEach((u) => { byName[u.name.toLowerCase()] = u; byName[toCyr(u.name).toLowerCase()] = u; bySlug[u.slug] = u; });
-    list.innerHTML = data.units.map((u) => `<option value="${esc(t(u.name))}">`).join("");
+    const bySlug = {};
+    data.units.forEach((u) => { bySlug[u.slug] = u; });
     const params = (new URLSearchParams(location.search).get("o") || "").split(",").filter((s) => bySlug[s]);
     const sel = [params[0] || null, params[1] || null, params[2] || null];
     if (!sel[0] && !sel[1]) { sel[0] = "novi-sad"; sel[1] = "nis"; }
 
-    render(pickers, [0, 1, 2].map((i) => `<div class="picker"><label for="p${i}"><span class="dot" style="background:${COLORS[i]}"></span>${i === 2 ? "Treće mesto (opciono)" : (i === 0 ? "Prvo mesto" : "Drugo mesto")}</label><input class="search" id="p${i}" list="unit-names" placeholder="Upiši opštinu…" autocomplete="off" value="${sel[i] ? esc(t(bySlug[sel[i]].name)) : ""}"></div>`).join(""));
-    pickers.addEventListener("change", (e) => {
-      const i = Number(e.target.id.slice(1));
-      const u = byName[e.target.value.trim().toLowerCase()];
-      sel[i] = u ? u.slug : null;
-      if (!u) e.target.value = "";
-      const url = new URL(location.href); url.searchParams.set("o", sel.filter(Boolean).join(",")); history.replaceState(null, "", url);
-      draw();
+    render(pickers, [0, 1, 2].map((i) => `<div class="picker"><label for="p${i}"><span class="dot" style="background:${COLORS[i]}"></span>${i === 2 ? "Treće mesto (opciono)" : (i === 0 ? "Prvo mesto" : "Drugo mesto")}</label><input class="search" id="p${i}" type="text" placeholder="Upiši prva slova ili izaberi…" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" enterkeyhint="done" value="${sel[i] ? esc(t(bySlug[sel[i]].name)) : ""}"></div>`).join(""));
+    [0, 1, 2].forEach((i) => {
+      combo(document.getElementById("p" + i), data.units, () => (sel[i] ? bySlug[sel[i]] : null), (u) => {
+        const next = u ? u.slug : null;
+        if (next === sel[i]) return;
+        sel[i] = next;
+        const url = new URL(location.href); url.searchParams.set("o", sel.filter(Boolean).join(",")); history.replaceState(null, "", url);
+        draw();
+      });
     });
 
     document.addEventListener("gz:script", () => {

@@ -249,3 +249,44 @@ footer a { color: var(--ink-2); }
 .tiles-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 @media (max-width: 760px) { .tiles-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 460px) { .tiles-3 { grid-template-columns: 1fr; } }
+
+/* metric chips grouped by theme (all visible at once) */
+.chips-grouped { gap: 10px 18px; }
+.chip-group { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.chip-glabel { font-size: 12px; font-weight: 650; letter-spacing: .03em; text-transform: uppercase; color: var(--muted); margin-right: 2px; }
+@media (max-width: 640px) {
+  .chips-grouped { gap: 8px 14px; }
+  .chip-group { gap: 5px; }
+  .chip-glabel { font-size: 11px; }
+  .chips-grouped .chip { padding: 6px 11px; font-size: 13.5px; }
+}
+
+/* autocomplete (compare) */
+.combo { position: relative; }
+.combo-list { position: absolute; left: 0; right: 0; top: calc(100% + 4px); z-index: 40; max-height: min(320px, 50vh); overflow-y: auto; -webkit-overflow-scrolling: touch;
+  background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; box-shadow: 0 8px 28px rgba(0,0,0,.16); padding: 4px; }
+.combo-opt { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 10px 10px; border-radius: 7px; cursor: pointer; font-size: 15px; }
+.combo-opt .muted { font-size: 12px; text-align: right; }
+.combo-opt:hover, .combo-opt[aria-selected="true"] { background: var(--accent-wash); color: var(--accent-ink); }
+.combo-empty { padding: 10px; font-size: 14px; }
+
+/* touch: card with municipality info on the map */
+.map-sheet { position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom)); z-index: 60; max-width: 480px; margin: 0 auto;
+  background: var(--surface); color: var(--ink); border: 1px solid var(--ring); border-radius: 14px; box-shadow: 0 10px 36px rgba(0,0,0,.22);
+  padding: 14px 16px; font-size: 15px; transform: translateY(140%); transition: transform .18s ease; }
+.map-sheet.show { transform: none; }
+.map-sheet b { display: block; font-size: 17px; margin: 0 30px 3px 0; }
+.sheet-close { position: absolute; top: 6px; right: 6px; width: 36px; height: 36px; border: 0; background: transparent; color: var(--ink-2); font-size: 24px; line-height: 1; border-radius: 8px; cursor: pointer; }
+.sheet-close:hover { background: var(--surface-2); }
+.sheet-go { margin-top: 12px; width: 100%; justify-content: center; }
+
+/* header nav: all four links fit on a phone */
+.nav-short { display: none; }
+@media (max-width: 440px) { .nav-long { display: none; } .nav-short { display: inline; } }
+@media (max-width: 640px) {
+  .nav { gap: 0; justify-content: space-between; }
+  .nav a { padding: 7px 8px; font-size: 14px; }
+}
+@media (max-width: 370px) {
+  .nav a { padding: 7px 5px; font-size: 13px; }
+}
